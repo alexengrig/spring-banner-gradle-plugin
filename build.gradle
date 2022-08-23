@@ -1,0 +1,39 @@
+plugins {
+    id 'java-gradle-plugin'
+    id 'maven-publish'
+    id 'com.gradle.plugin-publish' version '0.15.0'
+}
+
+group 'dev.alexengrig.gradle'
+version "${springBannerPluginVersion}"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "com.github.dtmo.jfiglet:jfiglet:${jfigletVersion}"
+}
+
+//test {
+//    useJUnitPlatform()
+//}
+
+gradlePlugin {
+    plugins {
+        springBannerPlugin {
+            id = 'dev.alexengrig.spring-banner'
+            displayName = "Spring Banner Gradle Plugin"
+            description = "Spring Banner Generator"
+            implementationClass = "dev.alexengrig.gradle.spring.banner.SpringBannerPlugin"
+        }
+    }
+}
+
+publishing {
+    repositories {
+        maven {
+            url "build/repository"
+        }
+    }
+}
