@@ -1,0 +1,10 @@
+pluginManagement {
+    repositories {
+        maven {
+            url '../build/repository'
+        }
+        mavenCentral()
+    }
+}
+
+rootProject.name = 'demo'
