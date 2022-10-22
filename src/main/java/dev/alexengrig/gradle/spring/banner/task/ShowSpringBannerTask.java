@@ -45,7 +45,7 @@ public class ShowSpringBannerTask extends DefaultTask {
      * @since 0.1.0
      */
     @TaskAction
-    public void render() {
+    public void display() {
         String text = extension.getTextValue(project);
         String caption = extension.getCaptionValue();
         String font = extension.getFontValue();

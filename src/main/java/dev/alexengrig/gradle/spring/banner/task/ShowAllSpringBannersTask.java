@@ -47,7 +47,7 @@ public class ShowAllSpringBannersTask extends DefaultTask {
      * @since 0.1.0
      */
     @TaskAction
-    public void render() {
+    public void display() {
         String text = extension.getTextValue(project);
         String separator = extension.getSeparatorValue();
         StringJoiner joiner = new StringJoiner(separator);

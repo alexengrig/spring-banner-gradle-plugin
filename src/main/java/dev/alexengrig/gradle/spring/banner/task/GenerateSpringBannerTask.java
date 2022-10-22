@@ -49,7 +49,7 @@ public class GenerateSpringBannerTask extends DefaultTask {
     }
 
     @TaskAction
-    public void render() {
+    public void generate() {
         Path path = Objects.requireNonNull(project.getExtensions()
                         .getByType(SourceSetContainer.class)
                         .getByName(SourceSet.MAIN_SOURCE_SET_NAME)

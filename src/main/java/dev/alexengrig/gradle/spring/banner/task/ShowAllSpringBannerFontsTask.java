@@ -33,7 +33,7 @@ public class ShowAllSpringBannerFontsTask extends DefaultTask {
      * @since 0.1.0
      */
     @TaskAction
-    public void render() {
+    public void display() {
         System.out.println("Fonts: " + Fonts.all());
     }
 
