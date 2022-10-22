@@ -10,9 +10,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * '| /? () \/\/
-     * </pre>
+     * }</pre>
      */
     public static final String ONE_ROW = "1row";
 
@@ -21,7 +21,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ████      ██     �
      * █░░░��██     ░�
      * █░    ░�█  ████
@@ -30,7 +30,7 @@ public class FigFontBannerResources {
      * █ █   ░�  ░██░░
      * ��░ ██�██████
      * �█  ░░� ░░░░░�
-     * </pre>
+     * }</pre>
      */
     public static final String THREED = "3d";
 
@@ -39,7 +39,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ________  ________      ________  ________  ________  ___  ___
      * |\_____  \|\   ___ \    |\   __  \|\   ____\|\   ____\|\  \|\  \
      * \|____|\ /\ \  \_|\ \   \ \  \|\  \ \  \___|\ \  \___|\ \  \ \  \
@@ -48,7 +48,7 @@ public class FigFontBannerResources {
      * |\_______\ \_______\   \ \__\ \__\____\_\  \ \_______\ \__\ \__\
      * \|_______|\|_______|    \|__|\|__|\_________\|_______|\|__|\|__|
      * \|_________|
-     * </pre>
+     * }</pre>
      */
     public static final String THREED_ASCII = "3d_ascii";
 
@@ -57,7 +57,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * .--,-``-.
      * /   /     '.                                                                                                     ,--,
@@ -74,7 +74,7 @@ public class FigFontBannerResources {
      * \   \     .'   \   \  /,---, '   .'  \   \  /  |  ,   /|  ,     .-./|   :    :          '---'      |  ,     .-./---`-'
      * `--`-,,-'      `----' ;   |  .'      `----'    ---`-'  `--`---'     \   \  /                       `--`---'
      * `---'                                          `--`-'
-     * </pre>
+     * }</pre>
      */
     public static final String THREED_DIAGONAL = "3d_diagonal";
 
@@ -83,14 +83,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ###     ###
      * # # # #
      * ##  #  ###
      * # # #   #
      * ###     ###
-     * </pre>
+     * }</pre>
      */
     public static final String THREE_X_FIVE = "3x5";
 
@@ -99,7 +99,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *   ****             **
      *  * /// *          /**
      * /    /*          /**
@@ -109,7 +109,7 @@ public class FigFontBannerResources {
      * / ****    ***** /
      * / ****  ***** // *****
      *  ////  /////  //////
-     * </pre>
+     * }</pre>
      */
     public static final String THREE_D = "3_d";
 
@@ -118,12 +118,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * dP88  8b    d8    db    Yb  dP
      * dP 88  88b  d88   dPYb    YbdP
      * d888888 88YbdP88  dP__Yb   dPYb
      * 88  88 YY 88 dP""""Yb dP  Yb
-     * </pre>
+     * }</pre>
      */
     public static final String FOUR_MAX = "4max";
 
@@ -132,7 +132,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      *
      * ____
@@ -140,7 +140,7 @@ public class FigFontBannerResources {
      * //__       //     / /     //   ) )   //___) )   //   ) )   //   ) )   //     / /     //   ) )   //   / /   //___) )
      * ) )   //     / /     //   / /   //         //   / /   //   / /   //     / /     ((___/ /   //   / /   //
      * ((___/ /   //     / /     //   / /   ((____     ((___/ /   ((___/ /   //     / /          ( (   ((___( (   ((____
-     * </pre>
+     * }</pre>
      */
     public static final String FIVE_LINEOBLIQUE = "5lineoblique";
 
@@ -149,14 +149,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ____
      * //               //     ( )       __        ___              ___       / __       //     ( )      ___                   ___
      * //__             //     / /     //   ) )   //___) )         //   ) )   //   ) )   //     / /     //   ) )   //   / /   //___) )
      * ) )         //     / /     //   / /   //               //   / /   //   / /   //     / /     ((___/ /   //   / /   //
      * ((___/ /   _____ //     / /     //   / /   ((____     _____ ((___/ /   ((___/ /   //     / /          ( (   ((___( (   ((____
-     * </pre>
+     * }</pre>
      */
     public static final String FIVE_LINE_OBLIQUE = "5_line_oblique";
 
@@ -165,7 +165,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * o                                            o                         o        o
      * <|>                                          <|>                       <|>     _<|>_
      * / \                                          / >                       < >
@@ -178,7 +178,7 @@ public class FigFontBannerResources {
      *
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ACROBATIC = "acrobatic";
 
@@ -187,7 +187,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * :::        :::        :::        :::::::::::       ::::::::           :::    :::::::::::       ::::::::       :::::::::
      * :+: :+:      :+:        :+:            :+:          :+:    :+:        :+: :+:      :+:          :+:    :+:      :+:    :+:
      * +:+   +:+     +:+        +:+            +:+          +:+              +:+   +:+     +:+          +:+    +:+      +:+    +:+
@@ -195,7 +195,7 @@ public class FigFontBannerResources {
      * +#+     +#+    +#+        +#+            +#+          +#+   +#+#      +#+     +#+    +#+          +#+    +#+      +#+    +#+
      * #+#     #+#    #+#        #+#            #+#          #+#    #+#      #+#     #+#    #+#          #+#    #+#      #+#    #+#
      * ###     ###    ########## ########## ###########       ########       ###     ###    ###           ########       ###    ###
-     * </pre>
+     * }</pre>
      */
     public static final String ALLIGATOR = "alligator";
 
@@ -204,7 +204,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * :::     :::        :::        :::::::::::  ::::::::      :::     :::::::::::  ::::::::  :::::::::   ::::::::
      * :+: :+:   :+:        :+:            :+:     :+:    :+:   :+: :+:       :+:     :+:    :+: :+:    :+: :+:    :+:
      * +:+   +:+  +:+        +:+            +:+     +:+         +:+   +:+      +:+     +:+    +:+ +:+    +:+       +:+
@@ -212,7 +212,7 @@ public class FigFontBannerResources {
      * +#+     +#+ +#+        +#+            +#+     +#+   +#+# +#+     +#+     +#+     +#+    +#+ +#+    +#+   +#+
      * #+#     #+# #+#        #+#            #+#     #+#    #+# #+#     #+#     #+#     #+#    #+# #+#    #+#  #+#
      * ###     ### ########## ########## ###########  ########  ###     ###     ###      ########  ###    ### ##########
-     * </pre>
+     * }</pre>
      */
     public static final String ALLIGATOR2 = "alligator2";
 
@@ -221,7 +221,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * :::     :::        :::        :::::::::::  ::::::::      :::     :::::::::::  ::::::::  :::::::::   ::::::::
      * :+: :+:   :+:        :+:            :+:     :+:    :+:   :+: :+:       :+:     :+:    :+: :+:    :+: :+:    :+:
      * +:+   +:+  +:+        +:+            +:+     +:+         +:+   +:+      +:+     +:+    +:+ +:+    +:+        +:+
@@ -229,7 +229,7 @@ public class FigFontBannerResources {
      * +#+     +#+ +#+        +#+            +#+     +#+   +#+# +#+     +#+     +#+     +#+    +#+ +#+    +#+        +#+
      * #+#     #+# #+#        #+#            #+#     #+#    #+# #+#     #+#     #+#     #+#    #+# #+#    #+# #+#    #+#
      * ###     ### ########## ########## ###########  ########  ###     ###     ###      ########  ###    ###  ########
-     * </pre>
+     * }</pre>
      */
     public static final String ALLIGATOR3 = "alligator3";
 
@@ -238,7 +238,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____                    _____            _____                    _____                    _____
      * /\    \                  /\    \          /\    \                  /\    \                  /\    \
      * /::\    \                /::\____\        /::\    \                /::\____\                /::\    \
@@ -261,7 +261,7 @@ public class FigFontBannerResources {
      * \::/    /                \::/    /                                 \::/    /                \::/    /
      * \/____/                  \/____/                                   \/____/                  \/____/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ALPHA = "alpha";
 
@@ -270,7 +270,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * AA  l      h        b         t
      * A  A l      h        b         t
      * AAAA l ppp  hhh   aa bbb  eee ttt
@@ -278,7 +278,7 @@ public class FigFontBannerResources {
      * A  A l ppp  h  h aaa bbb  ee   tt
      * p
      * p
-     * </pre>
+     * }</pre>
      */
     public static final String ALPHABET = "alphabet";
 
@@ -287,12 +287,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-. .  . .-. -. .   .-. . . .-.
      * |-| |\/| |   -| |    |  |\| |-
      * ` ' '  ` `-' -' `-' `-' ' ` `-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC3LINE = "amc3line";
 
@@ -301,12 +301,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .:;S;:. .:;S;:.         .:;.;:.      :.         .:;S;.        .
      * S  S     )      S     S S  S  S       S .:;s;:'      :: .:;s;::
      * `:;S;:' `:;S;:' `:;S;:' `     ' `:;S;:'         `:;S;'  `     '
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC3LIV1 = "amc3liv1";
 
@@ -315,7 +315,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .S_SSSs     .S_SsS_S.     sSSs   .S_SSSs     .S_SSSs     .S_SSSs
      * .SS~SSSSS   .SS~S*S~SS.   d%%SP  .SS~SSSSS   .SS~SSSSS   .SS~SSSSS
      * S%S   SSSS  S%S `Y' S%S  d%S'    S%S   SSSS  S%S   SSSS  S%S   SSSS
@@ -331,7 +331,7 @@ public class FigFontBannerResources {
      * SP           SP                  SP          SP          SP
      * Y            Y                   Y           Y           Y
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCAAA01 = "amcaaa01";
 
@@ -340,7 +340,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .sSSSSs.
      * SSSSSSSSSs. .sSSSsSS SSsSSSSS .sSSSSs.    .sSSSs.  SSSSS .sSSSSs.    .sSSS  SSSSS  .sSSSSs.
      * S SSS SSSSS S SSS  SSS  SSSSS S SSSSSSSs. S SSS SS SSSSS S SSSSSSSs. S SSS SSSSS   S SSSSSSSs.
@@ -351,7 +351,7 @@ public class FigFontBannerResources {
      * S%%%S SSSSS S%%%S       SSSSS S%%%S SSSSS S%%%S    SSSSS S%%%S SSSSS S%%%S  SSSSS  S%%%S SSSSS
      * SSSSS SSSSS SSSSS       SSSSS SSSSSsSSSSS SSSSS    SSSSS SSSSSsSS;:' SSSSS   SSSSS SSSSSsSSSSS
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCNEKO = "amcneko";
 
@@ -360,7 +360,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * . .       . .    .       . .       . .       . .                 . .       . .
      * .+'|=|`+. .+'|=|`+.=|`+. .+'|=|`+. .+'|=|`+. .+'|=|`+. |~~|=|~~| .+'|=|`+. .+'|=|`+.
      * |  | |  | |  | `+ | `+ | |  | `+.| |  | |  | |  | |  | |.+' |  | |  | |  | |.+' |  |
@@ -370,7 +370,7 @@ public class FigFontBannerResources {
      * |  | |  | |  |  | |  | | |  | .+'| |  | |  | |  | |  | |  | .+'| |  | |  | |  | .+'|
      * `+.| |..| `+.|  |.|  |+' `+.|=|.+' `+.| |.+' `+.| |..| |..|=|..| `+.|=|.+' `+.|=|.+'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCRAZO2 = "amcrazo2";
 
@@ -379,7 +379,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___        __               ___   ___                     __
      * .'|=|`.     .'|\/|`.     .'|=|_.'   .'|=|  |   .'|=|`.    `._|=|   |   .'|=|`.     .'|=|  |
      * .'  | |  `. .'  |  |  `. .'  |      .'  | |  | .'  | |  `.       |  .' .'  | |  `. .'  | |  |
@@ -387,7 +387,7 @@ public class FigFontBannerResources {
      * |   | |   | |   |  |   | `.  |  ___ |   |  |`. |   | |   | .'  |  ___  `.  | |  .' |   |  |`.
      * |___| |___| |___|  |___|   `.|=|_.' |___|  |_| |___| |___| |___|=|_.'    `.|=|.'   |___|  |_|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCRAZOR = "amcrazor";
 
@@ -396,7 +396,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .s5SSSs.
      * SS. .s5ssSs.  .s5SSSs.  .s5SSSs.  .s        .s5SSSs.  .s5SSSs.  .s    s.
      * sS    S%S    SS SS.       SS.       SS.                 SS.       SS.       SS.
@@ -407,7 +407,7 @@ public class FigFontBannerResources {
      * SS    ;,. SS    ;,. SS    ;,. .,;   ;,. SS    ;,. SS    ;,. .,;   ;,. SS    ;,.
      * :;    ;:' :;    ;:' `:;;;;;:' `:;;;;;:' `:;;;;;:' :;    ;:' `:;;;;;:' :;    ;:'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCSLASH = "amcslash";
 
@@ -416,14 +416,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______                                          ____
      * .'.             .'. .`.        .~      ~.             ..'''' |        |``````.  |            |`````````,
      * .''```.         .'   `   `.     |                    .''       |        |       | |______      |'''|'''''
      * .'       `.     .'           `.   |                 ..'          |        |       | |            |    `.
      * .'           `. .'               `.  `.______.' ....''             |_______ |......'  |___________ |      `.
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCSLDER = "amcslder";
 
@@ -432,7 +432,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-..-..-. .-.-. .-.-. .-..--. .-..-..-. .-.   .-. .-. .-..-.  .-.
      * | | ~ | | | |~.-.~| | | | ~~   ~ | | ~  | | _ | | | | | | ~.-.| |
      * | |.-.| | | |  ~  | | | |        | |    | |`-'| | | | | |   ~ | |
@@ -440,7 +440,7 @@ public class FigFontBannerResources {
      * | |   | | | |     | | | | __     | |    | |   | | | | | |     | |
      * `-'   `-' `-'     `-' `-'`--'    `-'    `-'   `-' `-' `-'     `-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCTHIN = "amcthin";
 
@@ -449,7 +449,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * d s.   d s   sb   sSSs. sss sssss d       b d ss.  d sss     sss.
      * S  ~O  S  S S S  S          S     S       S S    b S       d
      * S   `b S   S  S S           S     S       S S    P S       Y
@@ -458,7 +458,7 @@ public class FigFontBannerResources {
      * S    O S      S  S          S      S     S  S    P S            P
      * P    P P      P   "sss'     P       "sss"   P `SS  P sSSss ` ss'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCTUBES = "amctubes";
 
@@ -467,7 +467,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ,'',,''',                                         ,'''''',
      * ;  ;',  ;                                         ',,';  ;
      * ;  ;,'  ; ,'',,'',,'', ,'',,'', ,',  ,', ,'',,'',     ;  ;
@@ -476,7 +476,7 @@ public class FigFontBannerResources {
      * ;  ; ;  ; ;  ; ; ; ; ; ;  ;,'', ; ',,' ; ;  ; ; ;     ;  ;
      * ',,' ',,' ',,' ',' ',' ',,'',,' ',,'',,' ',,' ','     ',,'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMCUN1 = "amcun1";
 
@@ -485,12 +485,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-. .  . .-. -. .   .-. . . .-.
      * |-| |\/| |   -| |    |  |\| |-
      * ` ' '  ` `-' -' `-' `-' ' ` `-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_3_LINE = "amc_3_line";
 
@@ -499,12 +499,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .:;S;:. .:;S;:.         .:;.;:.      :.         .:;S;.        .
      * S  S     )      S     S S  S  S       S .:;s;:'      :: .:;s;::
      * `:;S;:' `:;S;:' `:;S;:' `     ' `:;S;:'         `:;S;'  `     '
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_3_LIV1 = "amc_3_liv1";
 
@@ -513,7 +513,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .S_SSSs     .S_SsS_S.     sSSs   .S_SSSs     .S_SSSs     .S_SSSs
      * .SS~SSSSS   .SS~S*S~SS.   d%%SP  .SS~SSSSS   .SS~SSSSS   .SS~SSSSS
      * S%S   SSSS  S%S `Y' S%S  d%S'    S%S   SSSS  S%S   SSSS  S%S   SSSS
@@ -529,7 +529,7 @@ public class FigFontBannerResources {
      * SP           SP                  SP          SP          SP
      * Y            Y                   Y           Y           Y
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_AAA01 = "amc_aaa01";
 
@@ -538,7 +538,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .sSSSSs.
      * SSSSSSSSSs. .sSSSsSS SSsSSSSS .sSSSSs.    .sSSSs.  SSSSS .sSSSSs.    .sSSS  SSSSS  .sSSSSs.
      * S SSS SSSSS S SSS  SSS  SSSSS S SSSSSSSs. S SSS SS SSSSS S SSSSSSSs. S SSS SSSSS   S SSSSSSSs.
@@ -549,7 +549,7 @@ public class FigFontBannerResources {
      * S%%%S SSSSS S%%%S       SSSSS S%%%S SSSSS S%%%S    SSSSS S%%%S SSSSS S%%%S  SSSSS  S%%%S SSSSS
      * SSSSS SSSSS SSSSS       SSSSS SSSSSsSSSSS SSSSS    SSSSS SSSSSsSS;:' SSSSS   SSSSS SSSSSsSSSSS
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_NEKO = "amc_neko";
 
@@ -558,7 +558,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___        __               ___   ___                     __
      * .'|=|`.     .'|\/|`.     .'|=|_.'   .'|=|  |   .'|=|`.    `._|=|   |   .'|=|`.     .'|=|  |
      * .'  | |  `. .'  |  |  `. .'  |      .'  | |  | .'  | |  `.       |  .' .'  | |  `. .'  | |  |
@@ -566,7 +566,7 @@ public class FigFontBannerResources {
      * |   | |   | |   |  |   | `.  |  ___ |   |  |`. |   | |   | .'  |  ___  `.  | |  .' |   |  |`.
      * |___| |___| |___|  |___|   `.|=|_.' |___|  |_| |___| |___| |___|=|_.'    `.|=|.'   |___|  |_|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_RAZOR = "amc_razor";
 
@@ -575,7 +575,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * . .       . .    .       . .       . .       . .                 . .       . .       . .
      * .+'|=|`+. .+'|=|`+.=|`+. .+'|=|`+. .+'|=|`+. .+'|=|`+. |~~|=|~~| .+'|=|`+. .+'|=|`+. .+'|=|`+.
      * |  | |  | |  | `+ | `+ | |  | `+.| |  | |  | |  | |  | |.+' |  | |  | |  | |  | |  | |.+' |  |
@@ -585,7 +585,7 @@ public class FigFontBannerResources {
      * |  | |  | |  |  | |  | | |  | .+'| |  | |  | |  | |  | |  | .+'| |  | |  | |  | |  | |  | .+'|
      * `+.| |..| `+.|  |.|  |+' `+.|=|.+' `+.| |.+' `+.| |..| |..|=|..| `+.|=|.+' `+.| |.+' `+.|=|.+'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_RAZOR2 = "amc_razor2";
 
@@ -594,7 +594,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .s5SSSs.
      * SS. .s5ssSs.  .s5SSSs.  .s5SSSs.  .s        .s5SSSs.  .s5SSSs.  .s    s.
      * sS    S%S    SS SS.       SS.       SS.                 SS.       SS.       SS.
@@ -605,7 +605,7 @@ public class FigFontBannerResources {
      * SS    ;,. SS    ;,. SS    ;,. .,;   ;,. SS    ;,. SS    ;,. .,;   ;,. SS    ;,.
      * :;    ;:' :;    ;:' `:;;;;;:' `:;;;;;:' `:;;;;;:' :;    ;:' `:;;;;;:' :;    ;:'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_SLASH = "amc_slash";
 
@@ -614,14 +614,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______                                            ____
      * .'.             .'. .`.        .~      ~.             ..'''' |        | |``````.  |            |`````````,
      * .''```.         .'   `   `.     |                    .''       |        | |       | |______      |'''|'''''
      * .'       `.     .'           `.   |                 ..'          |        | |       | |            |    `.
      * .'           `. .'               `.  `.______.' ....''             |_______ | |......'  |___________ |      `.
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_SLIDER = "amc_slider";
 
@@ -630,7 +630,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-..-..-. .-.-. .-.-. .-..--. .-..-..-. .-.   .-. .-. .-..-.  .-.
      * | | ~ | | | |~.-.~| | | | ~~   ~ | | ~  | | _ | | | | | | ~.-.| |
      * | |.-.| | | |  ~  | | | |        | |    | |`-'| | | | | |   ~ | |
@@ -638,7 +638,7 @@ public class FigFontBannerResources {
      * | |   | | | |     | | | | __     | |    | |   | | | | | |     | |
      * `-'   `-' `-'     `-' `-'`--'    `-'    `-'   `-' `-' `-'     `-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_THIN = "amc_thin";
 
@@ -647,7 +647,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * d s.   d s   sb   sSSs. sss sssss d       b d ss.  d sss     sss.
      * S  ~O  S  S S S  S          S     S       S S    b S       d
      * S   `b S   S  S S           S     S       S S    P S       Y
@@ -656,7 +656,7 @@ public class FigFontBannerResources {
      * S    O S      S  S          S      S     S  S    P S            P
      * P    P P      P   "sss'     P       "sss"   P `SS  P sSSss ` ss'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_TUBES = "amc_tubes";
 
@@ -665,7 +665,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ,'',,''',
      * ;  ;',  ;
      * ;  ;,'  ; ,'',,'',,'', ,'',,'', ,',  ,', ,'',,'', ,'',,'',,'', ,'', ,'',,'',,'', ,'',     ,'',,'', ,'',,'',
@@ -674,7 +674,7 @@ public class FigFontBannerResources {
      * ;  ; ;  ; ;  ; ; ; ; ; ;  ;,'', ; ',,' ; ;  ; ; ;     ;  ;     ;  ;     ;  ;     ;  ;,'', ;  ; ,,  ;  ;;   ;
      * ',,' ',,' ',,' ',' ',' ',,'',,' ',,'',,' ',,' ','     ',,'     ',,'     ',,'     ',,'',,' ',,'',,' ',,'',,'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AMC_UNTITLED = "amc_untitled";
 
@@ -683,7 +683,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * █████  ███    ██ █████████�            ██████�██████� ██████�██    ██�██      � █████  ██████�
      * ██   █�████   ██� ██    �██�            � ██   █� ██   � ██    �██    ██�█      █�██   █▁ ██   █
      * � █████ ██ ██  █  █████��██        █�█ ████▀�  ████��  ██   █ ██    ██��      ██� █████�█ ████�
@@ -691,7 +691,7 @@ public class FigFontBannerResources {
      *  ██ ██� ██ ██  � ██ ███� ███    ██ ██    ████��█  ███�  ████�████  ██ ██ � ██ ██
      * �  ██    ████   �████   ��  ��   �   ██   ███   ‖�██     ��█     �     �  ██   �   ██
      * �             �                          ��                  �                    �           ��          �
-     * </pre>
+     * }</pre>
      */
     public static final String ANSI_REGULAR = "ansi_regular";
 
@@ -700,7 +700,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * █████╗ ███╗   ██╗█████████�            █████████╗  ██� █████╗ ██████� ██████�██╗    ██╗�
      * ██╔══█�████╗  ██�╗██╔═══�██�            ╗██╔═══�██║  ██�██╔══█▗ ██╔══█� ██╔═══██║    ██║�
      * �╗█████║██╔██╗ █═╝█████��██        █�═╝█████��██████╗█████�█╗██║  █��█╗██║   �█║ █╗ ██�
@@ -708,7 +708,7 @@ public class FigFontBannerResources {
      * ═██║██�╗██║██║ �═██║███�║███╗╚�═██║███═██║██�═██║██�█║████▖�█║╚█████║╚███╔
      * �  ██║╚═╚████║╚═�████║╚═��║╚��═══�████║╚═��  ██║╚═�  ██║╚═╈█╔╝╚══███╔╝ ╚═███╔╝ ╚═�
      * �  ╚═╝        �  ╚═══╝      ═════╝   ═╝  ��═╝    ═════╝   ╝  ╚═╝     �  ╚═╝        ��══╝         ════╝      ��╝╚══╝
-     * </pre>
+     * }</pre>
      */
     public static final String ANSI_SHADOW = "ansi_shadow";
 
@@ -717,7 +717,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * >>
      * >>=>
      * >> >=>     >> >==> >> >==>    >=>     >=>      >=>  >===>
@@ -726,7 +726,7 @@ public class FigFontBannerResources {
      * >=>      >=>   >=>     >=>     >=>  >=>   >=>>  >=>=>     >=>
      * >=>        >=> >==>    >==>       >=>     >==>    >==> >=> >=>
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ARROWS = "arrows";
 
@@ -735,12 +735,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____,____,____,__, __,  _ _,  _,____,_   _,_ ____, ____, __, _, ____,_,  _,
      * (-/_|(-(__(-/  (-| (-|    (-|\ |(-|_,(-|  |  (-|__)(-/  \(-|\/| (-/_|(-|\ |
      * _/  |,____)_\__,_|_,_|_,   _| \|,_|__,_|/\|,  _|  \,_\__/,_| _|,_/  |,_| \|,
      * (     (    (    (   (      (     (    (       (     (     (     (     (
-     * </pre>
+     * }</pre>
      */
     public static final String ASCII_NEW_ROMAN = "ascii_new_roman";
 
@@ -749,14 +749,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____  _     ____  _____  ____  ____
      * /  _ \/ \ |\/  _ \/__ __\/  _ \/  __\
      * | / \|| | //| / \|  / \  | / \||  \/|
      * | |-||| \// | |-||  | |  | |-|||    /
      * \_/ \|\__/  \_/ \|  \_/  \_/ \|\_/\_\
      *
-     * </pre>
+     * }</pre>
      */
     public static final String AVATAR = "avatar";
 
@@ -765,9 +765,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |31FF
-     * </pre>
+     * }</pre>
      */
     public static final String B1FF = "b1ff";
 
@@ -776,7 +776,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ########     ###    ##    ## ##    ## ######## ########   #######
      * ##     ##   ## ##   ###   ## ###   ## ##       ##     ## ##     ##
      * ##     ##  ##   ##  ####  ## ####  ## ##       ##     ##        ##
@@ -784,7 +784,7 @@ public class FigFontBannerResources {
      * ##     ## ######### ##  #### ##  #### ##       ##   ##          ##
      * ##     ## ##     ## ##   ### ##   ### ##       ##    ##  ##     ##
      * ########  ##     ## ##    ## ##    ## ######## ##     ##  #######
-     * </pre>
+     * }</pre>
      */
     public static final String BANNER3 = "banner3";
 
@@ -793,7 +793,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * '########:::::'###::::'##::: ##:'##::: ##:'########:'########:::'#######:::::::::::'########::
      * ##.... ##:::'## ##::: ###:: ##: ###:: ##: ##.....:: ##.... ##:'##.... ##:::::::::: ##.... ##:
      * ##:::: ##::'##:. ##:: ####: ##: ####: ##: ##::::::: ##:::: ##:..::::: ##:::::::::: ##:::: ##:
@@ -802,7 +802,7 @@ public class FigFontBannerResources {
      * ##:::: ##: ##.... ##: ##:. ###: ##:. ###: ##::::::: ##::. ##::'##:::: ##:::::::::: ##:::: ##:
      * ########:: ##:::: ##: ##::. ##: ##::. ##: ########: ##:::. ##:. #######::'#######: ########::
      * ........:::..:::::..::..::::..::..::::..::........::..:::::..:::.......:::.......::........:::
-     * </pre>
+     * }</pre>
      */
     public static final String BANNER3_D = "banner3_d";
 
@@ -811,7 +811,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .########.....###....##....##.##....##.########.########..##.......
      * .##.....##...##.##...###...##.###...##.##.......##.....##.##....##.
      * .##.....##..##...##..####..##.####..##.##.......##.....##.##....##.
@@ -819,7 +819,7 @@ public class FigFontBannerResources {
      * .##.....##.#########.##..####.##..####.##.......##...##...#########
      * .##.....##.##.....##.##...###.##...###.##.......##....##........##.
      * .########..##.....##.##....##.##....##.########.##.....##.......##.
-     * </pre>
+     * }</pre>
      */
     public static final String BANNER4 = "banner4";
 
@@ -828,7 +828,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ><< ><<                    ><<
      * ><    ><<                  ><<                   ><
      * ><     ><<   ><<    >< ><<<><<      ><<     ><<<   >< ><<<   ><<
@@ -837,7 +837,7 @@ public class FigFontBannerResources {
      * ><      ><><<   ><<  ><<   ><<   ><< >< >< ><><<><< ><<   ><
      * ><<<< ><<   ><< ><<<><<<   ><< ><<  ><<<    ><<<><<><<<     ><<<<
      *
-     * </pre>
+     * }</pre>
      */
     public static final String BARBWIRE = "barbwire";
 
@@ -846,7 +846,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * d8888b.  .d8b.  .d8888. d888888b  .o88b.
      * 88  `8D d8' `8b 88'  YP   `88'   d8P  Y8
      * 88oooY' 88ooo88 `8bo.      88    8P
@@ -855,7 +855,7 @@ public class FigFontBannerResources {
      * Y8888P' YP   YP `8888Y' Y888888P  `Y88P'
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String BASIC = "basic";
 
@@ -864,7 +864,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _     _      _     _      _     _      _     _
      * (c).-.(c)    (c).-.(c)    (c).-.(c)    (c).-.(c)
      * / ._. \      / ._. \      / ._. \      / ._. \
@@ -874,7 +874,7 @@ public class FigFontBannerResources {
      * _.' `-' '._  _.' `-' '._  _.' `-' '._  _.' `-' '._
      * (.-./`-'\.-.)(.-./`-'\.-.)(.-./`-'\.-.)(.-./`-`\.-.)
      * `-'     `-'  `-'     `-'  `-'     `-'  `-'     `-'
-     * </pre>
+     * }</pre>
      */
     public static final String BEAR = "bear";
 
@@ -883,14 +883,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____           .    .
      * /   \    ___   |    |
      * |,_-<  .'   `  |    |
      * |    ` |----'  |    |
      * `----' `.___, /\__ /\__
      *
-     * </pre>
+     * }</pre>
      */
     public static final String BELL = "bell";
 
@@ -899,9 +899,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |3[-|\|.]/-\|\/|||\|
-     * </pre>
+     * }</pre>
      */
     public static final String BENJAMIN = "benjamin";
 
@@ -911,7 +911,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ________________________________________________________
      * ____                                              _
      * /   )     ,                  /      ,           /  `
@@ -920,7 +920,7 @@ public class FigFontBannerResources {
      * _/____/____/____(___/__(___ __/___/__/____(___ __/______
      * /
      * (_ /
-     * </pre>
+     * }</pre>
      */
     public static final String BIGCHIEF = "bigchief";
 
@@ -929,11 +929,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _     _   _    _
      * |_) o (_|_|_ o (_|
      * |_) | __| |  | __|
-     * </pre>
+     * }</pre>
      */
     public static final String BIGFIG = "bigfig";
 
@@ -942,7 +942,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______________________________________________________________
      * ____                                                    _
      * /   )     ,                        /      ,           /  `
@@ -951,7 +951,7 @@ public class FigFontBannerResources {
      * _/____/____/____(___/________(___ __/___/__/____(___ __/______
      * /  ------
      * (_ /
-     * </pre>
+     * }</pre>
      */
     public static final String BIG_CHIEF = "big_chief";
 
@@ -960,7 +960,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * /$$$$$$$  /$$
      * | $$__  $$|__/
      * | $$  \ $$ /$$  /$$$$$$          /$$$$$$/$$$$   /$$$$$$  /$$$$$$$   /$$$$$$  /$$   /$$         /$$$$$$$   /$$$$$$
@@ -972,7 +972,7 @@ public class FigFontBannerResources {
      * /$$  \ $$|______/                                             /$$  | $$|______/
      * |  $$$$$$/                                                    |  $$$$$$/
      * \______/                                                      \______/
-     * </pre>
+     * }</pre>
      */
     public static final String BIG_MONEY_NE = "big_money_ne";
 
@@ -981,7 +981,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * $$$$$$$\  $$\
      * $$  __$$\ \__|
      * $$ |  $$ |$$\  $$$$$$\         $$$$$$\$$$$\   $$$$$$\  $$$$$$$\   $$$$$$\  $$\   $$\        $$$$$$$\  $$\  $$\  $$\
@@ -993,7 +993,7 @@ public class FigFontBannerResources {
      * $$\   $$ |\______|                                           $$\   $$ |\______|
      * \$$$$$$  |                                                   \$$$$$$  |
      * \______/                                                     \______/
-     * </pre>
+     * }</pre>
      */
     public static final String BIG_MONEY_NW = "big_money_nw";
 
@@ -1002,7 +1002,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   __
      * |       \ |  \
      * | $$$$$$$\ \$$  ______          ______ ____    ______   _______    ______   __    __          _______   ______
@@ -1015,7 +1015,7 @@ public class FigFontBannerResources {
      * |  \__| $$ \$$$$$$                                           |  \__| $$ \$$$$$$
      * \$$    $$                                                    \$$    $$
      * \$$$$$$                                                      \$$$$$$
-     * </pre>
+     * }</pre>
      */
     public static final String BIG_MONEY_SE = "big_money_se";
 
@@ -1024,7 +1024,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   __
      * /       \ /  |
      * $$$$$$$  |$$/   ______           _____  ____    ______   _______    ______   __    __           _______  __   __   __
@@ -1037,7 +1037,7 @@ public class FigFontBannerResources {
      * /  \__$$ |$$$$$$/                                             /  \__$$ |$$$$$$/
      * $$    $$/                                                     $$    $$/
      * $$$$$$/                                                       $$$$$$/
-     * </pre>
+     * }</pre>
      */
     public static final String BIG_MONEY_SW = "big_money_sw";
 
@@ -1046,9 +1046,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 01000010 01101001 01101110 01100001 01110010 01111001
-     * </pre>
+     * }</pre>
      */
     public static final String BINARY = "binary";
 
@@ -1057,7 +1057,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .----------------.  .----------------.  .----------------.  .----------------.  .----------------.  .----------------.
      * | .--------------. || .--------------. || .--------------. || .--------------. || .--------------. || .--------------. |
      * | |   ______     | || |   _____      | || |     ____     | || |     ______   | || |  ___  ____   | || |    _______   | |
@@ -1069,7 +1069,7 @@ public class FigFontBannerResources {
      * | |              | || |              | || |              | || |              | || |              | || |              | |
      * | '--------------' || '--------------' || '--------------' || '--------------' || '--------------' || '--------------' |
      * '----------------'  '----------------'  '----------------'  '----------------'  '----------------'  '----------------'
-     * </pre>
+     * }</pre>
      */
     public static final String BLOCKS = "blocks";
 
@@ -1078,7 +1078,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ▄▄▄▄   � ██▓    � ▒█████ ▒█████▓████�▓██   ██
      * ��█████��██▒      ▒██▒  █  ▒██▒  █��▄ ▒██�▓ ▒██  █
      * ▄ ▒██▒ ▒██░   █▒▒██░ █▒▒██░ �� ██▌░�█▒  ▒██
@@ -1089,7 +1089,7 @@ public class FigFontBannerResources {
      * ��▒▒░▒   �� ░ ▒  ░��   ░ ▒ ▒░��   ░ ▒ ▒░  ▒  ░ ▒  ��██ ░▒░
      * ░  ░    ░    ░ ░       ░ ░ ░ ▒    ░ ░ ░ ▒   ▒  ░ ░  �  ▒ ▒ ░░
      * ░            � ░  ░         ░ ░            ░ ░         �    ░     ░ ░ ░      ░
-     * </pre>
+     * }</pre>
      */
     public static final String BLOODY = "bloody";
 
@@ -1098,7 +1098,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 888~~\           888       /
      * 888   |  e88~-_  888 e88~88e  e88~~8e  888-~\
      * 888 _/  d888   i 888 888 888 d888  88b 888
@@ -1106,7 +1106,7 @@ public class FigFontBannerResources {
      * 888   | Y888   ' 888  /      Y888    , 888
      * 888__/   "88_-~  888 Cb       "88___/  888
      * Y8""8D
-     * </pre>
+     * }</pre>
      */
     public static final String BOLGER = "bolger";
 
@@ -1115,13 +1115,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .----. .---.  .--.  .----..----..----.
      * | {_} }} }}_}/ {} \ | }`-'} |__}} {-. \
      * | {_} }| } \/  /\  \| },-.} '__}} '-} /
      * `----' `-'-'`-'  `-'`----'`----'`----'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String BRACED = "braced";
 
@@ -1130,14 +1130,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .#####...#####...######...####...##..##..######.
      * .##..##..##..##....##....##......##..##....##...
      * .#####...#####.....##....##.###..######....##...
      * .##..##..##..##....##....##..##..##..##....##...
      * .#####...##..##..######...####...##..##....##...
      * ................................................
-     * </pre>
+     * }</pre>
      */
     public static final String BRIGHT = "bright";
 
@@ -1146,7 +1146,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * 8 888888888o   8 888888888o.       ,o888888o.              .8.          8 888888888o.      `8.`888b                 ,8'          .8.          `8.`8888.      ,8'
      * 8 8888    `88. 8 8888    `88.   . 8888     `88.           .888.         8 8888    `^888.    `8.`888b               ,8'          .888.          `8.`8888.    ,8'
@@ -1158,7 +1158,7 @@ public class FigFontBannerResources {
      * 8 8888      88 8 8888 `8b.     `8 8888       ,8P    .8'   `8. `88888.   8 8888        ,88'        `8.`888`8.`88'          .8'   `8. `88888.          8 8888
      * 8 8888    ,88' 8 8888   `8b.    ` 8888     ,88'    .888888888. `88888.  8 8888    ,o88P'           `8.`8' `8,`'          .888888888. `88888.         8 8888
      * 8 888888888P   8 8888     `88.     `8888888P'     .8'       `8. `88888. 8 888888888P'               `8.`   `8'          .8'       `8. `88888.        8 8888
-     * </pre>
+     * }</pre>
      */
     public static final String BROADWAY = "broadway";
 
@@ -1167,11 +1167,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___   ___   ___    __    ___   _        __    _           _     ___
      * | |_) | |_) / / \  / /\  | | \ \ \    / / /\  \ \_/  ___  | |_/ | |_)
      * |_|_) |_| \ \_\_/ /_/--\ |_|_/  \_\/\/ /_/--\  |_|  |___| |_| \ |_|_)
-     * </pre>
+     * }</pre>
      */
     public static final String BROADWAY_KB = "broadway_kb";
 
@@ -1180,12 +1180,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____  __  __  __    ____  _   _  ____    __    ____
      * (  _ \(  )(  )(  )  (  _ \( )_( )( ___)  /__\  (  _ \
      * ) _ < )(__)(  )(__  ) _ < ) _ (  )__)  /(__)\  )(_) )
      * (____/(______)(____)(____/(_) (_)(____)(__)(__)(____/
-     * </pre>
+     * }</pre>
      */
     public static final String BULBHEAD = "bulbhead";
 
@@ -1194,7 +1194,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * # ###            ###                              /
      * /  /###  /          ###                           #/
@@ -1215,7 +1215,7 @@ public class FigFontBannerResources {
      * ####   ### ##               /     #####   ### e
      * /######  /#  ##              /    /#######  /#  r
      * /     ###/     ##            /    /      ###/    2
-     * </pre>
+     * }</pre>
      */
     public static final String CALGPHY2 = "calgphy2";
 
@@ -1224,7 +1224,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ***               ***                                                                *
      *  ****  *             ***      *                                                      **
@@ -1246,7 +1246,7 @@ public class FigFontBannerResources {
      * ******  **                           **             *    *      ****
      *     ****                                           *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CALIGRAPHY = "caligraphy";
 
@@ -1255,7 +1255,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * # ###            ###                                                        /
      * /  /###  /          ###    #                                                #/
@@ -1276,7 +1276,7 @@ public class FigFontBannerResources {
      * ####   ###                     ##               /     #####   ### e
      * /######  /#                      ##              /    /#######  /#  r
      * /     ###/                         ##            /    /      ###/    2
-     * </pre>
+     * }</pre>
      */
     public static final String CALIGRAPHY2 = "caligraphy2";
 
@@ -1285,11 +1285,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ╔═�┌─�┬  �┬  ┬�┬┌┐┌      ┌─┐
      * ��║  �├─│  └�┐┌�││││  ─�└─┐
      * ╚═┤┴ ┴─└? └�?┴�?└�?��─�└─�?
-     * </pre>
+     * }</pre>
      */
     public static final String CALVIN_S = "calvin_s";
 
@@ -1298,14 +1298,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .------..------..------..------..------.
      * |C.--. ||A.--. ||R.--. ||D.--. ||S.--. |
      * | :/\: || (\/) || :(): || :/\: || :/\: |
      * | :\/: || :\/: || ()() || (__) || :\/: |
      * | '--'C|| '--'A|| '--'R|| '--'D|| '--'S|
      * `------'`------'`------'`------'`------'
-     * </pre>
+     * }</pre>
      */
     public static final String CARDS = "cards";
 
@@ -1314,7 +1314,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _//               _//                         _//_//
      * _//   _//            _//                         _//_//
      * _//          _//    _/_/ _/_//     _///   _//     _//_//  _//
@@ -1323,7 +1323,7 @@ public class FigFontBannerResources {
      * _//   _//_//   _//   _//   _/ _/ _/_//_//   _//  _//_// _//
      * _////    _// _///   _// _///    _///  _// _///_///_//  _//
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CATWALK = "catwalk";
 
@@ -1332,7 +1332,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _,.----.  ,--.-,,-,--, .=-.-.  ,-,--.     ,----.                ,----.
      * .' .' -   \/==/  /|=|  |/==/_ /,-.'-  _\ ,-.--` , \   _.-.     ,-.--` , \  _,..---._
      * /==/  ,  ,-'|==|_ ||=|, |==|, |/==/_ ,_.'|==|-  _.-` .-,.'|    |==|-  _.-`/==/,   -  \
@@ -1342,7 +1342,7 @@ public class FigFontBannerResources {
      * \==\.       /==|   .-. ,\==|- |/==/\/ _ |==|_  ,`-._|==|- `-._|==|_  ,`-._|==|  '='   /
      * `-.`.___.-'/==/, //=/  /==/. /\==\ - , /==/ ,     //==/ - , ,/==/ ,     /|==|-,   _`/
      * `--`-' `-`--`--`-`  `--`---'`--`-----`` `--`-----'`--`-----`` `-.`.____.'
-     * </pre>
+     * }</pre>
      */
     public static final String CHISELED = "chiseled";
 
@@ -1351,13 +1351,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______  __                   __
      * |      ||  |--..--.--..-----.|  |--..--.--.
      * |   ---||     ||  |  ||     ||    < |  |  |
      * |______||__|__||_____||__|__||__|__||___  |
      * |_____|
-     * </pre>
+     * }</pre>
      */
     public static final String CHUNKY = "chunky";
 
@@ -1366,7 +1366,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * O))                                  O))            O))
      * O))   O))           O)                  O))            O))
      * O))          O))       O)) O))   O)))) O)O) O)   O))    O))  O))
@@ -1375,7 +1375,7 @@ public class FigFontBannerResources {
      * O))   O)) O))  O)) O)) O))  O))    O))  O))  O))   O)) O)) O))
      * O))))     O))    O))O)))  O))O)) O))   O))   O)) O)))O))  O))
      *
-     * </pre>
+     * }</pre>
      */
     public static final String COINSTAK = "coinstak";
 
@@ -1384,14 +1384,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-._   .-._.  .;
      * .: (_)`-'      .;'
      * ::      .-.   .;  .-.
      * ::   _ ;   ;'::  ;   :
      * `: .; )`;;'_;;_.-`:::'-'
      * `--'
-     * </pre>
+     * }</pre>
      */
     public static final String COLA = "cola";
 
@@ -1400,7 +1400,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .d8888b.           888                                     888
      * d88P  Y88b          888                                     888
      * 888    888          888                                     888
@@ -1412,7 +1412,7 @@ public class FigFontBannerResources {
      *
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String COLOSSAL = "colossal";
 
@@ -1421,7 +1421,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 8""""8
      * 8    " eeeee eeeeeee eeeee e   e eeeee eeee eeeee
      * 8e     8  88 8  8  8 8   8 8   8   8   8    8   8
@@ -1429,7 +1429,7 @@ public class FigFontBannerResources {
      * 88   e 8   8 88 8  8 88    88  8   88  88   88   8
      * 88eee8 8eee8 88 8  8 88    88ee8   88  88ee 88   8
      *
-     * </pre>
+     * }</pre>
      */
     public static final String COMPUTER = "computer";
 
@@ -1438,12 +1438,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __        ,
      * /  ` _ ._ -+- _  __ __ _.
      * \__.(_)[ ) | (/,_) _) (_]
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CONTESSA = "contessa";
 
@@ -1452,14 +1452,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ..%%%%....%%%%...%%..%%..%%%%%%..%%%%%....%%%%....%%%%...%%%%%%.
      * .%%..%%..%%..%%..%%%.%%....%%....%%..%%..%%..%%..%%........%%...
      * .%%......%%..%%..%%.%%%....%%....%%%%%...%%%%%%...%%%%.....%%...
      * .%%..%%..%%..%%..%%..%%....%%....%%..%%..%%..%%......%%....%%...
      * ..%%%%....%%%%...%%..%%....%%....%%..%%..%%..%%...%%%%.....%%...
      * ................................................................
-     * </pre>
+     * }</pre>
      */
     public static final String CONTRAST = "contrast";
 
@@ -1468,14 +1468,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .,-:::::     ...      .::::::. .        :   :::  .,-:::::
      * ,;;;'````'  .;;;;;;;.  ;;;`    ` ;;,.    ;;;  ;;;,;;;'````'
      * [[[        ,[[     \[[,'[==/[[[[,[[[[, ,[[[[, [[[[[[
      * $$$        $$$,     $$$  '''    $$$$$$$$$"$$$ $$$$$$
      * `88bo,__,o,"888,_ _,88P 88b    dP888 Y88" 888o888`88bo,__,o,
      * "YUMMMMMP" "YMMMMMP"   "YMmMY" MMM  M'  "MMMMMM  "YUMMMMMP"
-     * </pre>
+     * }</pre>
      */
     public static final String COSMIC = "cosmic";
 
@@ -1484,14 +1484,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .,-:::::     ...      .::::::. .        :   ::: :::  .   .,::::::
      * ,;;;'````'  .;;;;;;;.  ;;;`    ` ;;,.    ;;;  ;;; ;;; .;;,.;;;;''''
      * [[[        ,[[     \[[,'[==/[[[[,[[[[, ,[[[[, [[[ [[[[[/'   [[cccc
      * $$$        $$$,     $$$  '''    $$$$$$$$$"$$$ $$$_$$$$,     $$""""
      * `88bo,__,o,"888,_ _,88P 88b    dP888 Y88" 888o888"888"88o,  888oo,__
      * "YUMMMMMP" "YMMMMMP"   "YMmMY" MMM  M'  "MMMMMM MMM "MMP" """"YUMMM
-     * </pre>
+     * }</pre>
      */
     public static final String COSMIKE = "cosmike";
 
@@ -1500,7 +1500,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __  ____    ____  __    __  _____   ___   ____   ___
      * /  ]|    \  /    T|  T__T  T|     | /   \ |    \ |   \
      * /  / |  D  )Y  o  ||  |  |  ||   __jY     Y|  D  )|    \
@@ -1509,7 +1509,7 @@ public class FigFontBannerResources {
      * \     ||  .  Y|  |  | \      / |  T   l     !|  .  Y|     |
      * \____jl__j\_jl__j__j  \_/\_/  l__j    \___/ l__j\_jl_____j
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CRAWFORD = "crawford";
 
@@ -1518,7 +1518,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __  ____    ____  __    __  _____   ___   ____   ___
      * /  ]|    \  /    ||  |__|  ||     | /   \ |    \ |   \
      * /  / |  D  )|  o  ||  |  |  ||   __||     ||  D  )|    \
@@ -1527,7 +1527,7 @@ public class FigFontBannerResources {
      * \     ||  .  \|  |  | \      / |  |   |     ||  .  \|     |
      * \____||__|\_||__|__|  \_/\_/  |__|    \___/ |__|\_||_____|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CRAWFORD2 = "crawford2";
 
@@ -1536,7 +1536,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _..._
      * .-'_..._''.
      * .' .'      '.\
@@ -1550,7 +1550,7 @@ public class FigFontBannerResources {
      * `-.______ / | |     / /   | |_ /    /___     / /
      * `  |_|     \ \._,\ '/|         ||`-' /
      * `--'  `" |_________| '..'
-     * </pre>
+     * }</pre>
      */
     public static final String CRAZY = "crazy";
 
@@ -1559,7 +1559,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______      __      __          __
      * |   _   .----|__.----|  |--.-----|  |_
      * |.  1___|   _|  |  __|    <|  -__|   _|
@@ -1568,7 +1568,7 @@ public class FigFontBannerResources {
      * |::.. . |
      * `-------'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CRICKET = "cricket";
 
@@ -1577,14 +1577,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __
      * /  )
      * /   . . __  _   o, __
      * (__/(_/_/ (_/_)_<_\/</_
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CURSIVE = "cursive";
 
@@ -1593,12 +1593,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______ __   __ ______  _______  ______        _______  ______  ______ _______
      * |         \_/   |_____] |______ |_____/ |      |_____| |_____/ |  ____ |______
      * |_____     |    |_____] |______ |    \_ |_____ |     | |    \_ |_____| |______
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CYBERLARGE = "cyberlarge";
 
@@ -1607,12 +1607,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____ _   _ ___  ____ ____ _  _ ____ ___  _ _  _ _  _
      * |     \_/  |__] |___ |__/ |\/| |___ |  \ | |  | |\/|
      * |___   |   |__] |___ |  \ |  | |___ |__/ | |__| |  |
      *
-     * </pre>
+     * }</pre>
      */
     public static final String CYBERMEDIUM = "cybermedium";
 
@@ -1621,10 +1621,10 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____ _ _ ___  ____ ____ ____ _  _ ____ _    _
      * |___  Y  |==] |=== |--< ==== |\/| |--| |___ |___
-     * </pre>
+     * }</pre>
      */
     public static final String CYBERSMALL = "cybersmall";
 
@@ -1633,13 +1633,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * .-             .
      * (  . ..-..-..-,-|-
      * `-'-|`-|' '`'- '-
      * `-'`-'
-     * </pre>
+     * }</pre>
      */
     public static final String CYGNET = "cygnet";
 
@@ -1648,12 +1648,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * '\   /`  \O/    O/  \O    O
      * \ /     Y_   <|    |    |\
      * Y     /  |  / \  / \  / \
      * O\# ./   |__| |__\ /__\ /_
-     * </pre>
+     * }</pre>
      */
     public static final String DANC4 = "danc4";
 
@@ -1662,7 +1662,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____       _      _   _      ____              _   _     ____    _____   U  ___ u  _   _     _____
      * |  _"\  U  /"\  u | \ |"|  U /"___|    ___     | \ |"| U /"___|u |" ___|   \/"_ \/ | \ |"|   |_ " _|
      * /| | | |  \/ _ \/ <|  \| |> \| | u     |_"_|   <|  \| |>\| |  _ /U| |_  u   | | | |<|  \| |>    | |
@@ -1670,7 +1670,7 @@ public class FigFontBannerResources {
      * |____/ u/_/   \_\ |_| \_|    \____|  U/| |\\u   |_| \_|   \____|  |_|    \_)-\___/  |_| \_|   u |_|U
      * |||_    \\    >> ||   \\,-._// \\.-,_|___|_,-.||   \\,-._)(|_   )(\\,-      \\    ||   \\,-._// \\_
      * (__)_)  (__)  (__)(_")  (_/(__)(__)\_)-' '-(_/ (_")  (_/(__)__) (__)(_/     (__)   (_")  (_/(__) (__)
-     * </pre>
+     * }</pre>
      */
     public static final String DANCINGFONT = "dancingfont";
 
@@ -1679,7 +1679,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____       _      _   _      ____              _   _     ____   _  _____   U  ___ u  _   _     _____
      * |  _"\  U  /"\  u | \ |"|  U /"___|    ___     | \ |"| U /"___|u   |" ___|   \/"_ \/ | \ |"|   |_ " _|
      * /| | | |  \/ _ \/ <|  \| |> \| | u     |_"_|   <|  \| |>\| |  _ /  U| |_  u   | | | |<|  \| |>    | |
@@ -1687,7 +1687,7 @@ public class FigFontBannerResources {
      * |____/ u/_/   \_\ |_| \_|    \____|  U/| |\\u   |_| \_|   \____|    |_|    \_)-\___/  |_| \_|   u |_|U
      * |||_    \\    >> ||   \\,-._// \\.-,_|___|_,-.||   \\,-._)(|_     )(\\,-      \\    ||   \\,-._// \\_
      * (__)_)  (__)  (__)(_")  (_/(__)(__)\_)-' '-(_/ (_")  (_/(__)__)   (__)(_/     (__)   (_")  (_/(__) (__)
-     * </pre>
+     * }</pre>
      */
     public static final String DANCING_FONT = "dancing_font";
 
@@ -1696,9 +1696,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 68 101 99 105 109 97 108
-     * </pre>
+     * }</pre>
      */
     public static final String DECIMAL = "decimal";
 
@@ -1707,7 +1707,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ;                        ,                                                                   ;
      * ED.                      Et                                                                  ED.
      * E#Wi                 ,;  E#t                     ,;                                          E#Wi
@@ -1724,7 +1724,7 @@ public class FigFontBannerResources {
      * E##D.               tt   E#t :W##########Wt     tt E#t       E#t    ;##D.    L##, DWi   ,KK: E##D.
      * E#t                      ;#t :,,,,,,,,,,,,,.                        ,,,      .,,             E#t
      * L:                        :;                                                                 L:
-     * </pre>
+     * }</pre>
      */
     public static final String DEFLEPPARD = "defleppard";
 
@@ -1733,7 +1733,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ;                        ,                                                                                   ;
      * ED.                      Et                                                                                  ED.
      * E#Wi                 ,;  E#t                                     ,;                                          E#Wi
@@ -1750,7 +1750,7 @@ public class FigFontBannerResources {
      * E##D.               tt   E#t    jLLLLLLLLLL, :W##########Wt     tt E#t       E#t    ;##D.    L##, DWi   ,KK: E##D.
      * E#t                      ;#t                 :,,,,,,,,,,,,,.                        ,,,      .,,             E#t
      * L:                        :;                                                                                 L:
-     * </pre>
+     * }</pre>
      */
     public static final String DEF_LEPPARD = "def_leppard";
 
@@ -1759,7 +1759,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ███████�   ▄██████� ▄█       █    ███     ▀   ▄██████� ▄█████� ▄██████   ▄███████�   ▄██████   ▄██████   ▄██████   ▄███████� ▄█  �   ▄██████�   ▄██████    ███     ▀
      * �▄  ███   ▀▖�█   ███    █�██       █�███████��█   ███    █�██ ███    ▄  ███    █�   ███    ███   █▄   ███    �██   ███    �█▄   ███    █   ███    ███   ��██  ��█   ███    █�██   ███    �███████
      * �██ ███    ▖�█   ███    ███       █�██▄    ▀█▖�█   ███    █�███ ███  ��█ ███    ████    ███  ▄███   ███    �██   ███    �██   ███    �███    ███  ▄�█████   ███    █�██   ███    �██▄    ▀█�
@@ -1769,7 +1769,7 @@ public class FigFontBannerResources {
      * �██ ███   ▄█▄    ███    █▌    ▄ █▖�█         ██�█    ███   █�  ███    █████ ███   ��███   ███    ▖�██          █████    ▄█    ███          ██��███   ███    ▖�██  █▄    ███    �███    ▄█    ██         ██�
      * ███ ████�██   █████�███▄▄█        ▄████    ███   █�█ █████� ███  ▀██�██   ███    ███         ▄███��██  ▄███�█         ▄███�██   ███    █████ �██   █████��██  ▄███▖�        ▄██�
      * ��███▀         █████          ��█ ▀        �█▀              �█    █▀           �██▀           ��███▀        █   ███    ███ █▀                  �████▀        █▀                  █   ███    ███  █▀   █████          �████▀        �█▀
-     * </pre>
+     * }</pre>
      */
     public static final String DELTA_CORPS_PRIEST_1 = "delta_corps_priest_1";
 
@@ -1778,7 +1778,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * /\\\\\                                                      /\\
      * /\\   /\\  /\                                               /\\
      * /\\    /\\      /\\    /\\\ /\\ /\\    /\\    /\\ /\\       /\\
@@ -1787,7 +1787,7 @@ public class FigFontBannerResources {
      * /\\   /\\ /\\/\\   /\\  /\\  /\  /\\ /\\  /\\  /\\  /\\/\   /\\
      * /\\\\\    /\\  /\\ /\\\/\\\  /\  /\\   /\\    /\\\  /\\ /\\ /\\
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DIAMOND = "diamond";
 
@@ -1796,14 +1796,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.                                     .
      * (_) )-.       .-.        /              /
      * /   \      `-' .-.---/---.-.  .-._. / .-.
      * /     \    /  ./.-'_ /   (    (   ) / (  |
      * .-/.      )_.(__.(__.' /     `---'`-'_/_.-`-'-'
      * (_/  `----'
-     * </pre>
+     * }</pre>
      */
     public static final String DIETCOLA = "dietcola";
 
@@ -1812,14 +1812,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.                                       .
      * (_) )-.       .-.        /                /
      * /   \      `-' .-.---/---  .-.  .-._. / .-.
      * /     \    /  ./.-'_ /     (    (   ) / (  |
      * .-/.      )_.(__.(__.' /._____.`---'`-'_/_.-`-'-'
      * (_/  `----'               `==='
-     * </pre>
+     * }</pre>
      */
     public static final String DIET_COLA = "diet_cola";
 
@@ -1828,7 +1828,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      *
      * DDDDDDDDDDDDD                        hhhhhhh
@@ -1854,7 +1854,7 @@ public class FigFontBannerResources {
      *
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DOH = "doh";
 
@@ -1863,7 +1863,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______
      * |  _  \
      * | | | |  ___    ___   _ __ ___
@@ -1872,7 +1872,7 @@ public class FigFontBannerResources {
      * |___/   \___/  \___/ |_| |_| |_|
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DOOM = "doom";
 
@@ -1881,7 +1881,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ����������                                       �����              ����
      * ����۰������                                     �����              �����
      * ����   �����  ������   �����  ��������   ������  ��������   ������  ����
@@ -1893,7 +1893,7 @@ public class FigFontBannerResources {
      *
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DOSREBEL = "dosrebel";
 
@@ -1902,7 +1902,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ████████�                                                                              █████                     ███�
      * ��█  ░░███░�   ████�    ███�                 ████�    ████░░███         ████� ░░█�
      * ��░░███  ░█�█  ███▖�█  ██�             ��███ ░�██  ██� ░█████�██  ██▖�█  ░�
@@ -1914,7 +1914,7 @@ public class FigFontBannerResources {
      * ███  ░░░░░��  ░░░░�█ ░░░░░░░    ░░░░░��██  ░░��███ ░░▖�██  ░░██░░
      * ░░░░░           ��░            ��░░                                    ░░░░    �░░░░░    ░░░░    ░░░
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DOS_REBEL = "dos_rebel";
 
@@ -1923,7 +1923,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _  _  _  _                      _                                        _                         _
      * (_)(_)(_)(_)                    (_)                                      (_)                       (_)
      * (_)      (_)_     _  _  _    _ (_) _  _    _  _   _  _     _  _  _    _ (_) _  _  _       _  _  _  _     _         _
@@ -1934,7 +1934,7 @@ public class FigFontBannerResources {
      * (_)(_)(_)(_)      (_)(_)(_)       (_)(_)  (_)   (_)   (_)  (_)(_)(_)  (_)  (_)(_)   (_)         (_)(_)(_)(_)       (_)
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DOTMATRIX = "dotmatrix";
 
@@ -1943,7 +1943,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _  _  _  _                      _                                                           _                         _
      * (_)(_)(_)(_)                    (_)                                                         (_)                       (_)
      * (_)      (_)_     _  _  _    _ (_) _  _                       _  _   _  _     _  _  _    _ (_) _  _  _       _  _  _  _     _         _
@@ -1954,7 +1954,7 @@ public class FigFontBannerResources {
      * (_)(_)(_)(_)      (_)(_)(_)       (_)(_)                     (_)   (_)   (_)  (_)(_)(_)  (_)  (_)(_)   (_)         (_)(_)(_)(_)       (_)
      * _  _  _  _  _  _  _
      * (_)(_)(_)(_)(_)(_)(_)
-     * </pre>
+     * }</pre>
      */
     public static final String DOT_MATRIX = "dot_matrix";
 
@@ -1963,13 +1963,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____   ___ __ ________    ____
      * || \\ // \\|| |||| ))|   ||
      * ||  )|(   ))| ||||=)||   ||==
      * ||_// \\_//\\_//||_))|__|||___
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DOUBLE = "double";
 
@@ -1978,11 +1978,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____  _____  __ __ ____  __    _____   __ __  __  _____  _____ _____   __
      * ||  ) ((   )) || || ||=)  ||    ||==   ((  ||==|| ((   )) ||_//  ||    ((
      * ||_//  \\_//  \\_// ||_)) ||__| ||___ \_)) ||  ||  \\_//  || \\  ||   \_))
-     * </pre>
+     * }</pre>
      */
     public static final String DOUBLESHORTS = "doubleshorts";
 
@@ -1991,11 +1991,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____  _____  __ __ ____  __    _____ _  __ __  __  _____  _____ _____   __
      * ||  ) ((   )) || || ||=)  ||    ||==    ((  ||==|| ((   )) ||_//  ||    ((
      * ||_//  \\_//  \\_// ||_)) ||__| ||___  \_)) ||  ||  \\_//  || \\  ||   \_))
-     * </pre>
+     * }</pre>
      */
     public static final String DOUBLE_SHORTS = "double_shorts";
 
@@ -2004,13 +2004,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___
      * | . \ _ _  ___  ___  ___  ___  ___  _ _
      * | | || '_>| . \/ ._>| . \| . \/ ._>| '_>
      * |___/|_|  |  _/\___.|  _/|  _/\___.|_|
      * |_|       |_|  |_|
-     * </pre>
+     * }</pre>
      */
     public static final String DRPEPPER = "drpepper";
 
@@ -2019,13 +2019,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___
      * | . \ _ _      ___  ___  ___  ___  ___  _ _
      * | | || '_>___ | . \/ ._>| . \| . \/ ._>| '_>
      * |___/|_| |___||  _/\___.|  _/|  _/\___.|_|
      * |_|       |_|  |_|
-     * </pre>
+     * }</pre>
      */
     public static final String DR_PEPPER = "dr_pepper";
 
@@ -2034,7 +2034,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * whistl
      * x      XX
      * x      XX
@@ -2045,7 +2045,7 @@ public class FigFontBannerResources {
      *
      * Dwhistled
      *
-     * </pre>
+     * }</pre>
      */
     public static final String DWHISTLED = "dwhistled";
 
@@ -2054,13 +2054,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ##################
      * ##[`'`']###\`~'/##
      * ###|::|####(o o)##
      * ###|::|#####\ / \#
      * #############"####
-     * </pre>
+     * }</pre>
      */
     public static final String EFTICHESS = "eftichess";
 
@@ -2069,13 +2069,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___  __       __
      * | __|/ _||| ()/ _| _   _ ||
      * | _| | ] | ]||| ] /o\|/ \| ]
      * |___|L|  L| L|L|  \_/L_n|L|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String EFTIFONT = "eftifont";
 
@@ -2084,11 +2084,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __
      * [|-ftipiti
      * `-
-     * </pre>
+     * }</pre>
      */
     public static final String EFTIPITI = "eftipiti";
 
@@ -2097,14 +2097,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____   _  _   _           _         _
      * (  __),'_)( ) (_)         ( )       ( )
      * | |_  | | | |  _  __  ___ | |_  ___ | |
      * (  _) ( _)( _)( )( _)( o )( o \( o )( _)
      * /____\/_\ /_\ /_\/_\  \_/ /___/ \_/ /_\
      *
-     * </pre>
+     * }</pre>
      */
     public static final String EFTIROBOT = "eftirobot";
 
@@ -2113,13 +2113,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___   _
      * / _/ ,'_7/7 ()/7  _   /7() __
      * / _/ /_7 /_7/7/_7,'o| ///7,','
      * /___///  // ////  |_,7//// \_\
      *
-     * </pre>
+     * }</pre>
      */
     public static final String EFTITALIC = "eftitalic";
 
@@ -2128,12 +2128,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _                        .      .    #  #  #  #      |             _     _       _     _
      * +++          _|_|_         ()_()      .  .:::.      #  #..#  #      |.===.      o' \,=./ `o   o' \,=./ `o
      * (o o)         (o o)         (o o)        :(o o):  .  #  #O #) #      {}o o{}        (o o)         (o o)
      * ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--`o'--Ooo-ooO--(_)--Ooo-o#O-#(_#--#oo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
-     * </pre>
+     * }</pre>
      */
     public static final String EFTIWALL = "eftiwall";
 
@@ -2142,12 +2142,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___ __ _  o             _
      * )L  )L`)L _ __ _ _ ___  )L __ __
      * ((_ (( (( (( \(((/'((_( (( (('(|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String EFTIWATER = "eftiwater";
 
@@ -2156,13 +2156,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ##################
      * ##[`'`']###\`~'/##
      * ###|::|####(o o)##
      * ###|::|#####\ / \#
      * #############"####
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_CHESS = "efti_chess";
 
@@ -2171,13 +2171,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___  __            __
      * | __|/ _||| ()     / _| _   _ ||
      * | _| | ] | ]||     | ] /o\|/ \| ]
      * |___|L|  L| L| ___ L|  \_/L_n|L|
      * |___|
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_FONT = "efti_font";
 
@@ -2186,13 +2186,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___   _
      * / _/ ,'_7/7 ()    ()/7  _   /7() __
      * / _/ /_7 /_7/7    /7/_7,'o| ///7,','
      * /___///  // //____////  |_,7//// \_\
      * /___/
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_ITALIC = "efti_italic";
 
@@ -2201,11 +2201,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __
      * [|-fti  piti
      * `-   ==
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_PITI = "efti_piti";
 
@@ -2214,14 +2214,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____   _  _   _               _         _
      * (  __),'_)( ) (_)             ( )       ( )
      * | |_  | | | |  _      __  ___ | |_  ___ | |
      * (  _) ( _)( _)( )    ( _)( o )( o \( o )( _)
      * /____\/_\ /_\ /_\____/_\  \_/ /___/ \_/ /_\
      * |____|
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_ROBOT = "efti_robot";
 
@@ -2230,12 +2230,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _                        .      .     '\/`   #  #  #  #      |             _     _       _     _
      * +++          _|_|_         ()_()      .  .:::.       (oo)   #  #..#  #      |.===.      o' \,=./ `o   o' \,=./ `o
      * (o o)         (o o)         (o o)        :(o o):  .  (_`'_)  #  #O #) #      {}o o{}        (o o)         (o o)
      * ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--`o'--Ooo-ooO--(_)--Ooo---_!!_--o#O-#(_#--#oo-ooO--(_)--Ooo-ooO--(_)--Ooo-ooO--(_)--Ooo-
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_WALL = "efti_wall";
 
@@ -2244,12 +2244,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___ __ _  o          _
      * )L  )L`)L_  _ _ ___  )L __ __
      * ((_ (( ((    (/'((_( (( (('(|
      * ===
-     * </pre>
+     * }</pre>
      */
     public static final String EFTI_WATER = "efti_water";
 
@@ -2258,7 +2258,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ▄▄▄▄▄▄▄▄▄▄� ▄           ▐░� ▄▄▄▄▄▄▄▄▄▄� ▄▄▄▄▄▄▄▄� ▄▄▄▄▄▄▄ ▄▄▄▄▄▄▄▄▄� ▄▄▄▄▄▄▄▄▄� ▄▄        ▄ ▐░� ▄▄▄▄▄▄▄▄� ▄▄▄▄▄▄▄▄�
      * �� ▐░░░░░░░░▖�          ▐░▌ �� ▐░░░░░░░░▄▄▄ ▐░░░░░�▄▄▄▄ ▐░░��▄ ▐░░░░░░▄▄ ▐░░░░░░░░▌      ▐░▌▐░�▄▄ ▐░░░░░�▄▄ ▐░░░░░�
      * �░░▌▐░█▀▀▀▀�         ▐░▌    �░░▌▐░█▀▀▀▀░░░░░░▌▐░�░░░░░░░�░░░░▌▐░█▀░░░░▌▐░█▀▀�▌░▌     ▐░▌▐��░░░░░▌ ▀▀��░░░░░▌▐░�
@@ -2271,7 +2271,7 @@ public class FigFontBannerResources {
      * �▄▄▄ ▐░░░░░░��░░░░░░▄▄▄▄ ▐░░░░░░▐░░░░░░░░�          ▐░▌  �     ▐░▌  ▐░▌   �░▌▐░░░░░░▖�▌     ▐░▐░▌░░░░░░░░░�▐░░░░░░░░
      * ░░░░░▌ ▀▀▀▀�▌ ▀▀▀▀▀�░░░░░▌ ▀▀▀▀�░░░▌ ▀▀▀▀�        ▐░▌        ▐░▌ ▐░▌       �░░░░▌ ▀▀▀▀▐░▌      ▐░░▌��░▌ ▀▀▀▀▀▀░░░▌ ▀▀▀▀�
      * ��▀▀▀▀▀▀            �▀▀▀▀▀      ��▀▀▀▀▀▀            �▀▀▀▀▀▀              ▀             ▐░▌ ▀         ▀    ��▀▀▀▀▀▀           ▀        ▀▀        ▀▀▀▀▀            �▀▀▀▀▀▀
-     * </pre>
+     * }</pre>
      */
     public static final String ELECTRONIC = "electronic";
 
@@ -2280,13 +2280,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ▄▄▄ .�▄▄▌  ▪  �▄▄▄▄▄▄▄ .�
      * ��▄.▀·�██•  �█ �▄•██��▄.▀·�
      * ��▀▀▪�██▪  �█·�   ▐█.▖�▀▀▪�
      * ��▐█▄�▐█▌▖�█▪ ▐█▌�▐█▄�
      * ��▌ ▀▀�▌.▀▀�▀▀� ▀▀▀ ��▌ ▀▀
-     * </pre>
+     * }</pre>
      */
     public static final String ELITE = "elite";
 
@@ -2295,7 +2295,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______  _______ _________ _______
      * (  ____ \(  ____ )\__   __/(  ____ \
      * | (    \/| (    )|   ) (   | (    \/
@@ -2305,7 +2305,7 @@ public class FigFontBannerResources {
      * | (____/\| )      ___) (___| (____/\
      * (_______/|/       \_______/(_______/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String EPIC = "epic";
 
@@ -2314,7 +2314,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * '||''''|                     ||`
      * ||  .                       ||
      * ||''|   .|''|, `||''|,  .|''||  .|''|, '||''|
@@ -2322,7 +2322,7 @@ public class FigFontBannerResources {
      * .||.     `|...  .||  ||. `|..||. `|...  .||.
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String FENDER = "fender";
 
@@ -2331,13 +2331,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * o8boooo    8888 888      888888888   ,d8PPPP   ,dbPPPp
      * 88booop    8888 888         '88d     d88ooo    d88ooP'
      * 88b        8888 888        '888    ,88'      ,88' P'
      * 88P        8888 888PPPPP '88p      88bdPPP   88  do
      *
-     * </pre>
+     * }</pre>
      */
     public static final String FILTER = "filter";
 
@@ -2346,7 +2346,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * (
      * )\ )                    (                    )         )
      * (()/(  (   (      (      )\ )              ( /(      ( /(
@@ -2356,7 +2356,7 @@ public class FigFontBannerResources {
      * | __|  | || '_|/ -_)     |  _|/ _ \| ' \))|  _|     | / /
      * |_|    |_||_|  \___|_____|_|  \___/|_||_|  \__|_____|_\_\
      * |_____|                    |_____|
-     * </pre>
+     * }</pre>
      */
     public static final String FIRE_FONT_K = "fire_font_k";
 
@@ -2365,7 +2365,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * (
      * )\ )               (                 )
      * (()/( (  (     (    )\ )           ( /(
@@ -2375,7 +2375,7 @@ public class FigFontBannerResources {
      * | __| | | '_/ -_)   |  _/ _ \ ' \))  _|   (_-<
      * |_|   |_|_| \___|___|_| \___/_||_| \__|___/__/
      * |_____|               |_____|
-     * </pre>
+     * }</pre>
      */
     public static final String FIRE_FONT_S = "fire_font_s";
 
@@ -2384,12 +2384,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____              ____  ____  ____  ____
      * |_   | ____  ____ |_   ||_   ||    || __ |
      * || ||  __||____|  || |  || |||_| || |/ |
      * |_||_|           \__/  \__/|_||_|\___/
-     * </pre>
+     * }</pre>
      */
     public static final String FLIPPED = "flipped";
 
@@ -2398,7 +2398,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ________   .---.       ,-----.    .--.      .--.    .-''-.  .-------.    .-------.     ,-----.    .--.      .--.    .-''-.  .-------.
      * |        |  | ,_|     .'  .-,  '.  |  |_     |  |  .'_ _   \ |  _ _   \   \  _(`)_ \  .'  .-,  '.  |  |_     |  |  .'_ _   \ |  _ _   \
      * |   .----',-./  )    / ,-.|  \ _ \ | _( )_   |  | / ( ` )   '| ( ' )  |   | (_ o._)| / ,-.|  \ _ \ | _( )_   |  | / ( ` )   '| ( ' )  |
@@ -2409,7 +2409,7 @@ public class FigFontBannerResources {
      * |   |       |        \'. \_/``".'  |    /  \    |  \       / |  |  \    / /   )       '. \_/``".'  |    /  \    |  \       / |  |  \    /
      * '---'       `--------`  '-----'    `---'    `---`   `'-..-'  ''-'   `'-'  `---'         '-----'    `---'    `---`   `'-..-'  ''-'   `'-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String FLOWERPOWER = "flowerpower";
 
@@ -2418,7 +2418,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ________   .---.       ,-----.    .--.      .--.    .-''-.  .-------.                    .-------.     ,-----.    .--.      .--.    .-''-.  .-------.
      * |        |  | ,_|     .'  .-,  '.  |  |_     |  |  .'_ _   \ |  _ _   \                   \  _(`)_ \  .'  .-,  '.  |  |_     |  |  .'_ _   \ |  _ _   \
      * |   .----',-./  )    / ,-.|  \ _ \ | _( )_   |  | / ( ` )   '| ( ' )  |                   | (_ o._)| / ,-.|  \ _ \ | _( )_   |  | / ( ` )   '| ( ' )  |
@@ -2429,7 +2429,7 @@ public class FigFontBannerResources {
      * |   |       |        \'. \_/``".'  |    /  \    |  \       / |  |  \    /  (_{;}_) (_(=)_)/   )       '. \_/``".'  |    /  \    |  \       / |  |  \    /
      * '---'       `--------`  '-----'    `---'    `---`   `'-..-'  ''-'   `'-'  --(_,_)---(_I_)-`---'         '-----'    `---'    `---`   `'-..-'  ''-'   `'-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String FLOWER_POWER = "flower_power";
 
@@ -2438,12 +2438,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |~~             |
      * |--/~\|   ||/~\~|~/~\|~~\(~
      * |  \_/ \_/||    | \_/|__/_)
      * |
-     * </pre>
+     * }</pre>
      */
     public static final String FOURTOPS = "fourtops";
 
@@ -2452,12 +2452,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |~~               |
      * |--/~\|   ||/~\  ~|~/~\|~~\(~
      * |  \_/ \_/||   __ | \_/|__/_)
      * |
-     * </pre>
+     * }</pre>
      */
     public static final String FOUR_TOPS = "four_tops";
 
@@ -2466,7 +2466,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .....                                         ..           s
      * .H8888888x.  '`+                           < .z@8"`          :8
      * :888888888888x.  !    .u    .                !@88E           .88       x.    .        .u    .
@@ -2482,7 +2482,7 @@ public class FigFontBannerResources {
      * '888       X88f
      * '%8:     .8*"
      * ^----~"`
-     * </pre>
+     * }</pre>
      */
     public static final String FRAKTUR = "fraktur";
 
@@ -2491,7 +2491,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * wWw  wWw\\\  ///               c  c
      * wWw   (O)  (O)((O)(O))  wWw   /)     (OO)  wWw
      * (O)_  / )  ( \ | \ ||   (O)_(o)(O) ,'.--.) (O)_
@@ -2499,7 +2499,7 @@ public class FigFontBannerResources {
      * (  _)  | \____/ ||| \ | (  _) |(__)|| \___ (  _)
      * )/    '. `--' .`||  ||  )/   /,-. |'.    ) `.__)
      * (        `-..-' (_/  \_)(    -'   ''  `-.'
-     * </pre>
+     * }</pre>
      */
     public static final String FUNFACE = "funface";
 
@@ -2508,7 +2508,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * wWw  wWw  wWw\\\  ///  wWw           c  c  wWw   oo_
      * (O)_ (O)  (O)((O)(O))  (O)_   /)     (OO)  (O)_ /  _)-<
      * / __)/ )  ( \ | \ ||   / __)(o)(O) ,'.--.) / __)\__ `.
@@ -2516,7 +2516,7 @@ public class FigFontBannerResources {
      * (  _) | \____/ ||| \ | (  _)  |(__)|| \___ (  _)     _| |
      * / /   '. `--' .`||  || / /    /,-. |'.    ) \ \_  ,-'   |
      * )/      `-..-' (_/  \_))/    -'   ''  `-.'   \__)(_..--'
-     * </pre>
+     * }</pre>
      */
     public static final String FUNFACES = "funfaces";
 
@@ -2525,7 +2525,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * wWw  wWw\\\  /// _                 c  c
      * wWw   (O)  (O)((O)(O))      wWw   /)     (OO)  wWw
      * (O)_  / )  ( \ | \ ||       (O)_(o)(O) ,'.--.) (O)_
@@ -2533,7 +2533,7 @@ public class FigFontBannerResources {
      * (  _)  | \____/ ||| \ |     (  _) |(__)|| \___ (  _)
      * )/    '. `--' .`||  ||      )/   /,-. |'.    ) `.__)
      * (        `-..-' (_/  \_)    (    -'   ''  `-.'
-     * </pre>
+     * }</pre>
      */
     public static final String FUN_FACE = "fun_face";
 
@@ -2542,7 +2542,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * wWw  wWw  wWw\\\  ///         wWw           c  c  wWw   oo_
      * (O)_ (O)  (O)((O)(O))         (O)_   /)     (OO)  (O)_ /  _)-<
      * / __)/ )  ( \ | \ ||          / __)(o)(O) ,'.--.) / __)\__ `.
@@ -2550,7 +2550,7 @@ public class FigFontBannerResources {
      * (  _) | \____/ ||| \ |        (  _)  |(__)|| \___ (  _)     _| |
      * / /   '. `--' .`||  ||  _____ / /    /,-. |'.    ) \ \_  ,-'   |
      * )/      `-..-' (_/  \_)[_____])/    -'   ''  `-.'   \__)(_..--'
-     * </pre>
+     * }</pre>
      */
     public static final String FUN_FACES = "fun_faces";
 
@@ -2559,7 +2559,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .---.
      * : .--'
      * : `;.-..-..---. .---. .-..-.
@@ -2567,7 +2567,7 @@ public class FigFontBannerResources {
      * :_; `.__.'`.___;`.___;`._. ;
      * .-. :
      * `._.'
-     * </pre>
+     * }</pre>
      */
     public static final String FUZZY = "fuzzy";
 
@@ -2576,7 +2576,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      *
      * ____                                                   ,6P
@@ -2593,7 +2593,7 @@ public class FigFontBannerResources {
      * 6M    Yb
      * YM.   d9
      * YMMMM9
-     * </pre>
+     * }</pre>
      */
     public static final String GEORGI16 = "georgi16";
 
@@ -2602,7 +2602,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ,,
      * .g8"""bgd                                       db
@@ -2614,7 +2614,7 @@ public class FigFontBannerResources {
      * `"bmmmdPY   `Mbmmd'  `Ybmd9'.JMML.   YMMMMMb  .JMML.`Moo9^Yo..JMML..JMML.
      * 6'     dP
      * Ybmmmd'
-     * </pre>
+     * }</pre>
      */
     public static final String GEORGIA11 = "georgia11";
 
@@ -2623,7 +2623,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ('-. .-.               .-')    .-') _
      * ( OO )  /              ( OO ). (  OO) )
      * ,----.    ,--. ,--. .-'),-----. (_)---\_)/     '._
@@ -2633,7 +2633,7 @@ public class FigFontBannerResources {
      * (|  | '. (_/|  .-.  |  \ |  | |  |.-._)   \   |  |
      * |  '--'  | |  | |  |   `'  '-'  '\       /   |  |
      * `------'  `--' `--'     `-----'  `-----'    `--'
-     * </pre>
+     * }</pre>
      */
     public static final String GHOST = "ghost";
 
@@ -2642,7 +2642,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * )\.-.        .'(     .-./(       .-.   .')      .'(    )\.--.       .'(
      * ,' ,-,_)   ,') \  )  ,'     )  ,'  /  ) ( /       \  )  (   ._.'  ,') \  )
      * (  .   __  (  '-' (  (  .-, (  (  ) | (   ))       ) (    `-.`.   (  '-' (
@@ -2650,7 +2650,7 @@ public class FigFontBannerResources {
      * (  ,   (   (  ,  ) \ (  ,   (  (  ,   (  (       )  ) \ (  '.)  ) (  ,  ) \
      * )/'._.'    )/    )/  )/ ._.'   )/ ._.'   )/,__.'    )/  '._,_.'   )/    )/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String GHOULISH = "ghoulish";
 
@@ -2659,12 +2659,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____ __   ____ __   _    __
      * |  _\| |  | __\| \|\||_/\| \|\
      * | [ \| |__|  ]_|  \|| __/|  \|
      * |___/|___/|___/|/\_/|/   |/\_/
-     * </pre>
+     * }</pre>
      */
     public static final String GLENYN = "glenyn";
 
@@ -2673,14 +2673,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __       _____     _____     ___        ___   __   __
      * )  ____)    )   (     )   (   \    ___) (  (  )  )
      * /  /  __    /     \   /     \   |  (__    \  \/  /
      * (  (  (  \  (       ) (       )  |   __)    \    /
      * \  \__)  )  \     /   \     /   |  (        )  /
      * __)      (____)   (_____)   (___/    \______/  (_____
-     * </pre>
+     * }</pre>
      */
     public static final String GOOFY = "goofy";
 
@@ -2689,7 +2689,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __ ,
      * ,-| ~           ,  ,,
      * ('||/__,        ||  ||     '
@@ -2699,7 +2699,7 @@ public class FigFontBannerResources {
      * -____/  \\,/   \\, \\ |/ \\ \\,/
      * _/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String GOTHIC = "gothic";
 
@@ -2708,12 +2708,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___  ____   __    ___  ____  ____  _  _  __
      * / __)(  _ \ / _\  / __)(  __)(  __)/ )( \(  )
      * ( (_ \ )   //    \( (__  ) _)  ) _) ) \/ (/ (_/\
      * \___/(__\_)\_/\_/ \___)(____)(__)  \____/\____/
-     * </pre>
+     * }</pre>
      */
     public static final String GRACEFUL = "graceful";
 
@@ -2722,7 +2722,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .eeeeee..eeeeeee...eeeeee..eeeeeee..eee.eeeeee.eeeeeee..eeeeeeeee.
      * @@@@@@@@:@@@@@@@@:@@@@@@@@:@@@@@@@@:@@@:@@@@@@:@@@@@@@@:@@@@@@@@@:
      * %%%------%%%--%%%-%%%--%%%-%%%--%%%-%%%-%%%----%%%--%%%----%%%----
@@ -2732,7 +2732,7 @@ public class FigFontBannerResources {
      * ::::::::#:::##:::#:::##:::#::::::::#:::#::::::#:::##:::####:::####
      * @......@@...@@...@...@@...@.......@@...@......@...@@...@@@@...@@@@
      *
-     * </pre>
+     * }</pre>
      */
     public static final String GRADIENT = "gradient";
 
@@ -2741,14 +2741,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ________                   _____   _____ .__   __   .__
      * /  _____/ _______ _____   _/ ____\_/ ____\|__|_/  |_ |__|
      * /   \  ___ \_  __ \\__  \  \   __\ \   __\ |  |\   __\|  |
      * \    \_\  \ |  | \/ / __ \_ |  |    |  |   |  | |  |  |  |
      * \______  / |__|   (____  / |__|    |__|   |__| |__|  |__|
      * \/              \/
-     * </pre>
+     * }</pre>
      */
     public static final String GRAFFITI = "graffiti";
 
@@ -2757,7 +2757,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _____
      * |  ___)
@@ -2767,7 +2767,7 @@ public class FigFontBannerResources {
      * |_|    |  __/ \___)\___)|_|\_\
      * | |
      * |_|
-     * </pre>
+     * }</pre>
      */
     public static final String GREEK = "greek";
 
@@ -2776,12 +2776,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-.
      * ( H .'( e .'( a .'( r .'( t .'( _ .'( l .'( e .'( f .'( t .'
      * `.(   `.(   `.(   `.(   `.(   '.(   `.(   `.(   `.(   `.(
      *
-     * </pre>
+     * }</pre>
      */
     public static final String HEART_LEFT = "heart_left";
 
@@ -2790,12 +2790,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-. .-.-.
      * '. H )'. e )'. a )'. r )'. t )'. _ )'. r )'. i )'. g )'. h )'. t )
      * ).'   ).'   ).'   ).'   ).'   ).'   ).'   ).'   ).'   ).'   ).'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String HEART_RIGHT = "heart_right";
 
@@ -2804,7 +2804,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _  _                                            ____         _
      * FJ  L]     ____     _ ___     _ ___   _    _    F___ J     ___FJ
      * J |__| L   F __ J   J '__ J   J '__ ",J |  | L   `-__| L   F __  L
@@ -2813,7 +2813,7 @@ public class FigFontBannerResources {
      * J__L  J__LJ\______/FJ__L  J__LJ__L     )-____  LJ\______/FJ\____,__L
      * |__L  J__| J______F |__L  J__||__L    J\______/F J______F  J____,__F
      * J______F
-     * </pre>
+     * }</pre>
      */
     public static final String HENRY3D = "henry3d";
 
@@ -2822,7 +2822,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _  _                                                     ____         _
      * FJ  L]     ____     _ ___     _ ___   _    _             F___ J     ___FJ
      * J |__| L   F __ J   J '__ J   J '__ ",J |  | L            `-__| L   F __  L
@@ -2831,7 +2831,7 @@ public class FigFontBannerResources {
      * J__L  J__LJ\______/FJ__L  J__LJ__L     )-____  L ________J\______/FJ\____,__L
      * |__L  J__| J______F |__L  J__||__L    J\______/F|________|J______F  J____,__F
      * J______F L________J
-     * </pre>
+     * }</pre>
      */
     public static final String HENRY_3D = "henry_3d";
 
@@ -2840,9 +2840,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 48 65 78
-     * </pre>
+     * }</pre>
      */
     public static final String HEX = "hex";
 
@@ -2851,12 +2851,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ()  ;.                                    ,-.       ,-.\\ \\               ,-.
      * () ; |          ||          .-.   ____   <,- \_____/  ` \\ \\         ___  | |
      * () `.| ....     ||  .---.  _|_ \  /  \     /  ___. \     \\ \\   __  |   | | '
      * /\   | `=.`''===.' '.___.' (_)   /_/\_\ ,_(__/ ,_(__\     \\ \\ |__| | |_| |
-     * </pre>
+     * }</pre>
      */
     public static final String HIEROGLYPHS = "hieroglyphs";
 
@@ -2865,7 +2865,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _
      * ' )     )           /' /'                                               /'
      * /'    /'          /' /'                                               /'
@@ -2876,7 +2876,7 @@ public class FigFontBannerResources {
      * /'
      * /     /'
      * (___,/'
-     * </pre>
+     * }</pre>
      */
     public static final String HOLLYWOOD = "hollywood";
 
@@ -2885,14 +2885,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   _______   _______   _     _   _     _   _______   _______   _          ______   _______   _______   _______   _______   _
      * \__   __\ /  ____ \ / ___  _| | |___| | | |  .` | /  ____ \ `._   __| | /_____  .`  _ ._| /______ \ /______ \ | ._ _. | |  _ ___| | /_____
      * __| |__  | /___/ | | \_/  \  |  ___  | | |.`_. | | /___/ |  _`. `._  | ______/ \  \_||_        / |       / | | \ v / | | ||_\    | ______/
      * \_______\ \_______/ `.__.`\_| |_|   |_| |__.` |_| \_______/ |_______| |_\        `._____|       \_|       \_| |_/   \_| |_/       |_\
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String HORIZONTALLEFT = "horizontalleft";
 
@@ -2901,14 +2901,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   _______   _______   _     _   _     _   _______   _______         _   ______    _______   _______   _     _   _______   _______         _
      * \__   __\ /  ____ \ |_  ___ \ | |___| | | '.  | | /  ____ \ |__   _.'  _____\ | |_. _  '. / ______\ |_  ___ \ | |___| | / .---. \ \__   __\  _____\ |
      * __| |__  | /___/ |  /  \_/ | |  ___  | | ._'.| | | /___/ |  _.' .'_  \______ |  _||_/  / | \        /  \_/ | |  ___  | \_'-. / |  __| |__  \______ |
      * \_______\ \_______/ |_/'.__.' |_|   |_| |_| '.__| \_______/ |_______|       /_| |_____.'  |_/       |_/'.__.' |_|   |_|   '.| \_/ \_______\       /_|
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String HORIZONTALRIGHT = "horizontalright";
 
@@ -2917,14 +2917,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   _______   _______   _     _   _     _   _______   _______   _          ______   _______             _______   _______   _______   _
      * \__   __\ /  ____ \ / ___  _| | |___| | | |  .` | /  ____ \ `._   __| | /_____  .`  _ ._| /______ \           /______ \ | ._ _. | |  _ ___| | /_____
      * __| |__  | /___/ | | \_/  \  |  ___  | | |.`_. | | /___/ |  _`. `._  | ______/ \  \_||_        / |                 / | | \ v / | | ||_\    | ______/
      * \_______\ \_______/ `.__.`\_| |_|   |_| |__.` |_| \_______/ |_______| |_\        `._____|       \_|                 \_| |_/   \_| |_/       |_\
      * ________
      * [________]
-     * </pre>
+     * }</pre>
      */
     public static final String HORIZONTAL_LEFT = "horizontal_left";
 
@@ -2933,14 +2933,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   _______   _______   _     _   _     _   _______   _______         _   ______    _______             _______   _     _   _______   _______         _
      * \__   __\ /  ____ \ |_  ___ \ | |___| | | '.  | | /  ____ \ |__   _.'  _____\ | |_. _  '. / ______\           |_  ___ \ | |___| | / .---. \ \__   __\  _____\ |
      * __| |__  | /___/ |  /  \_/ | |  ___  | | ._'.| | | /___/ |  _.' .'_  \______ |  _||_/  / | \                  /  \_/ | |  ___  | \_'-. / |  __| |__  \______ |
      * \_______\ \_______/ |_/'.__.' |_|   |_| |_| '.__| \_______/ |_______|       /_| |_____.'  |_/                 |_/'.__.' |_|   |_|   '.| \_/ \_______\       /_|
      * ________
      * [________]
-     * </pre>
+     * }</pre>
      */
     public static final String HORIZONTAL_RIGHT = "horizontal_right";
 
@@ -2949,7 +2949,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * Icl_1900
      * * R
      * X
@@ -2963,7 +2963,7 @@ public class FigFontBannerResources {
      * 7
      * 8
      *  9 *
-     * </pre>
+     * }</pre>
      */
     public static final String ICL_1900 = "icl_1900";
 
@@ -2972,7 +2972,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _         _   _         _          _            _           _           _          _               _             _
      * /\ \      /\_\/\_\ _    /\ \       /\ \         / /\        / /\        /\ \       / /\            _\ \          /\ \
      * \ \ \    / / / / //\_\ /  \ \     /  \ \       / /  \      / /  \       \ \ \     / /  \          /\__ \        /  \ \
@@ -2985,7 +2985,7 @@ public class FigFontBannerResources {
      * /\__\/_/___\\/_/    / / // / /      / / /____\/ / \ \/___/ /  \ \/___/ //\__\/_/___\/ / /__________\/_______/\__\// / /_______\
      * \/_________/        \/_/ \/_/       \/_________/   \_____\/    \_____\/ \/_________/\/_____________/\_______\/    \/__________/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String IMPOSSIBLE = "impossible";
 
@@ -2994,14 +2994,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____
      * (, /          ,
      * / __  _ _    _/_ _
      * ___/__/ (_(/___(_(__(_(_
      * (__ /
      *
-     * </pre>
+     * }</pre>
      */
     public static final String INVITA = "invita";
 
@@ -3010,7 +3010,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___           ___           ___           ___           ___           ___                       ___
      * ___        /\  \         /\  \         /\__\         /\  \         /\  \         /\  \          ___        /\  \
      * /\  \      /::\  \       /::\  \       /::|  |       /::\  \        \:\  \       /::\  \        /\  \      /::\  \
@@ -3022,7 +3022,7 @@ public class FigFontBannerResources {
      * \:\__\       \:\/:/  /     \:\/:/  /        /:/  /     \:\ \/__/     \/__/          |:|\/__/    \:\__\       \:\  \
      * \/__/        \::/  /       \::/  /        /:/  /       \:\__\                      |:|  |       \/__/        \:\__\
      * \/__/         \/__/         \/__/         \/__/                       \|__|                     \/__/
-     * </pre>
+     * }</pre>
      */
     public static final String ISOMETRIC1 = "isometric1";
 
@@ -3031,7 +3031,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___           ___           ___           ___                         ___                       ___
      * /\__\         /\  \         /\  \         /\__\                       /\  \                     /\__\
      * ___         /:/ _/_       /::\  \       |::\  \       /:/ _/_         ___         /::\  \       ___         /:/  /
@@ -3043,7 +3043,7 @@ public class FigFontBannerResources {
      * \::/  /   \/_/:/  /     \:\/:/  /     \:\  \        \:\/:/  /   \/__\:\  \      \:\~~\          \::/  /   \:\/:/  /
      * /:/  /      /:/  /       \::/  /       \:\__\        \::/  /         \:\__\      \:\__\         /:/  /     \::/  /
      * \/__/       \/__/         \/__/         \/__/         \/__/           \/__/       \/__/         \/__/       \/__/
-     * </pre>
+     * }</pre>
      */
     public static final String ISOMETRIC2 = "isometric2";
 
@@ -3052,7 +3052,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___           ___           ___           ___                       ___                       ___
      * ___          /  /\         /  /\         /__/\         /  /\          ___        /  /\        ___          /  /\
      * /  /\        /  /:/_       /  /::\       |  |::\       /  /:/_        /  /\      /  /::\      /  /\        /  /:/
@@ -3064,7 +3064,7 @@ public class FigFontBannerResources {
      * /__/:/    \__\/ /:/     \  \:\/:/     \  \:\        \  \:\/:/        \  \:\   \  \:\          /__/:/    \  \:\/:/
      * \__\/       /__/:/       \  \::/       \  \:\        \  \::/          \__\/    \  \:\         \__\/      \  \::/
      * \__\/         \__\/         \__\/         \__\/                     \__\/                     \__\/
-     * </pre>
+     * }</pre>
      */
     public static final String ISOMETRIC3 = "isometric3";
 
@@ -3073,7 +3073,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___           ___           ___           ___                         ___                        ___
      * ___        /  /\         /  /\         /  /\         /  /\          ___          /  /\           ___        /  /\
      * /__/\      /  /::\       /  /::\       /  /::|       /  /::\        /__/\        /  /::\         /__/\      /  /::\
@@ -3085,7 +3085,7 @@ public class FigFontBannerResources {
      * \  \:\       \  \:\/:/     \  \:\/:/        /  /:/     \  \:\_\/     /__/:/         |  |:|\/     \  \:\       \  \:\
      * \__\/        \  \::/       \  \::/        /__/:/       \  \:\       \__\/          |__|:|~       \__\/        \  \:\
      * \__\/         \__\/         \__\/         \__\/                       \__\|                      \__\/
-     * </pre>
+     * }</pre>
      */
     public static final String ISOMETRIC4 = "isometric4";
 
@@ -3094,12 +3094,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * /_/_ /'_
      * ( /(/(/(
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ITALIC = "italic";
 
@@ -3108,7 +3108,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * o                        o
      * 8
@@ -3119,7 +3119,7 @@ public class FigFontBannerResources {
      * ...::.....::.....:..:..:..:....::..:.....:
      * ::::::::::::::::::::::::::::::::::::::::::
      * ::::::::::::::::::::::::::::::::::::::::::
-     * </pre>
+     * }</pre>
      */
     public static final String JAZMINE = "jazmine";
 
@@ -3128,7 +3128,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * __   __. ______  _______  _   _   _  _______  ___  ______  ______      _
      * \ \ / / |____  ||____  .|| | | | | ||____   ||_  ||____  ||____  |    | |
@@ -3136,7 +3136,7 @@ public class FigFontBannerResources {
      * ___\  \   | | |_|     | | | |/ /_/ /      | |   | |     | | | | |_|| |_| |
      * |______|   | |         | | |_______/       |_|   |_|     |_| | |     \___/
      * |_|         |_|                                   |_|
-     * </pre>
+     * }</pre>
      */
     public static final String JERUSALEM = "jerusalem";
 
@@ -3145,11 +3145,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __   ____ _____  _     ____  ____  __  __  _     ____  _____  _____  ____ _____   ____
      * __) | (_ (_`| () )| |__ / () \/ (__`|  |/  /| |__ | ===||_   _||_   _|| ===|| () ) (_ (_`
      * \___/.__)__)|_()_)|____|\____/\____)|__|\__\|____||____|  |_|    |_|  |____||_|\_\.__)__)
-     * </pre>
+     * }</pre>
      */
     public static final String JS_BLOCK_LETTERS = "js_block_letters";
 
@@ -3158,12 +3158,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-. .----..----. .----.   .--.   .---. .-. .-..----..---. .-.   .----..---.  .---. .----..----.  .----.
      * .-.| |{ {__  | {}  }| {}  } / {} \ /  ___}| |/ / | {_ {_   _}| |   | {_ {_   _}{_   _}| {_  | {}  }{ {__
      * | {} |.-._} }| {}  }| .-. \/  /\  \\     }| |\ \ | {__  | |  | `--.| {__  | |    | |  | {__ | .-. \.-._} }
      * `----'`----' `----' `-' `-'`-'  `-' `---' `-' `-'`----' `-'  `----'`----' `-'    `-'  `----'`-' `-'`----'
-     * </pre>
+     * }</pre>
      */
     public static final String JS_BRACKET_LETTERS = "js_bracket_letters";
 
@@ -3172,12 +3172,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____, ____ _ ____   ___,   ___, ____, ____, ___,   __   _ ____   __   _, ___,   __  _, ____, ____
      * (-|   (-(__` (-/  ` (-|_\_,(-|_)(-|   (-|   (-|_\_,(-|    (-/  ` (-|  |  (-|_)  (-\ |  (-|_, (-(__`
      * _ |    ____)   \___, _|  )  _|   _|__, _|    _|  )  _|__,   \___,  |__|_, _| \_,   \|   _|__, ____)
      * (__/   (             (      (    (     (     (      (                     (             (     (
-     * </pre>
+     * }</pre>
      */
     public static final String JS_CAPITAL_CURVES = "js_capital_curves";
 
@@ -3186,14 +3186,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * .  ,    __        ,_   ,    ._,     _
      * _/__/_)__(_,__(_/__/ (__/_)__/_ (_/__(/_
      * _/_
      * (/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String JS_CURSIVE = "js_cursive";
 
@@ -3202,12 +3202,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __       __  ___    __                 ___ ___ ___  ___  __   __
      * | /__`     /__`  |  | /  ` |__/     |    |__   |   |  |__  |__) /__`
      * \__/ .__/ ___ .__/  |  | \__, |  \ ___ |___ |___  |   |  |___ |  \ .__/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String JS_STICK_LETTERS = "js_stick_letters";
 
@@ -3216,7 +3216,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * #    #   #             #     #                   #          ######   #
      * ########## #   ###    #######  #   ###    ######   #   ###             #   ###
      * #    #   ####        # #     ####            #   ####     ########## ####
@@ -3225,7 +3225,7 @@ public class FigFontBannerResources {
      * #     #             #     #        ########## #             ##    #
      * #        #######      #      #######             #######    ##       #######
      *
-     * </pre>
+     * }</pre>
      */
     public static final String KATAKANA = "katakana";
 
@@ -3234,7 +3234,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * '||'  |'  '||
      * || .'     || ...   ....   .. ...
      * ||'|.     ||'  || '' .||   ||  ||
@@ -3242,7 +3242,7 @@ public class FigFontBannerResources {
      * .||.  ||.  '|...'  '|..'|' .||. ||.
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String KBAN = "kban";
 
@@ -3251,7 +3251,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _______  _______  _______  _______  _______  _______  _______  _______
      * |\     /||\     /||\     /||\     /||\     /||\     /||\     /||\     /|
@@ -3261,7 +3261,7 @@ public class FigFontBannerResources {
      * | +---+ || +---+ || +---+ || +---+ || +---+ || +---+ || +---+ || +---+ |
      * |/_____\||/_____\||/_____\||/_____\||/_____\||/_____\||/_____\||/_____\|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String KEYBOARD = "keyboard";
 
@@ -3270,12 +3270,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _________  _________  _________  _________
      * (___    __)(______  _)(  _____  )(  _   _  )
      * __/ __ \_  _____/ /_ | |_____| || |_| |_| |
      * (___/  \__)(_________)(_________)(____/\___)
-     * </pre>
+     * }</pre>
      */
     public static final String KNOB = "knob";
 
@@ -3284,10 +3284,10 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * I,� ,�`. I`.I ��T�� ,�`.
      * I`. `..' I `I   I   `..'
-     * </pre>
+     * }</pre>
      */
     public static final String KONTO = "konto";
 
@@ -3296,10 +3296,10 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * /.�  /�/  /1 / �/�  /�/  /��  /  /1  /1 / �/�
      * /�.  /./  / 1/  /   /./  ../  /. /�/ / 1/  /
-     * </pre>
+     * }</pre>
      */
     public static final String KONTOSLANT = "kontoslant";
 
@@ -3308,10 +3308,10 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * /.�  /�/  /1 / �/�  /�/ _ /��  /  /1  /1 / �/�
      * /�.  /./  / 1/  /   /./   ../  /. /�/ / 1/  /
-     * </pre>
+     * }</pre>
      */
     public static final String KONTO_SLANT = "konto_slant";
 
@@ -3320,7 +3320,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __                                              __       __
      * /\ \                                           /'__`\    /\ \
      * \ \ \         __      _ __   _ __   __  __    /\_\L\ \   \_\ \
@@ -3330,7 +3330,7 @@ public class FigFontBannerResources {
      * \/___/  \/__/\/_/  \/_/   \/_/   `/___/> \   \/___/  \/__,_ /
      * /\___/
      * \/__/
-     * </pre>
+     * }</pre>
      */
     public static final String LARRY3D = "larry3d";
 
@@ -3339,7 +3339,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __                                                        __       __
      * /\ \                                                     /'__`\    /\ \
      * \ \ \         __      _ __   _ __   __  __              /\_\L\ \   \_\ \
@@ -3349,7 +3349,7 @@ public class FigFontBannerResources {
      * \/___/  \/__/\/_/  \/_/   \/_/   `/___/> \  _______    \/___/  \/__,_ /
      * /\___/ /\______\
      * \/__/  \/______/
-     * </pre>
+     * }</pre>
      */
     public static final String LARRY_3D = "larry_3d";
 
@@ -3358,7 +3358,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __                                                        __       __                  ___
      * /\ \                                                     /'__`\    /\ \               /'___`\
      * \ \ \         __      _ __   _ __   __  __              /\_\L\ \   \_\ \             /\_\ /\ \
@@ -3368,7 +3368,7 @@ public class FigFontBannerResources {
      * \/___/  \/__/\/_/  \/_/   \/_/   `/___/> \  _______    \/___/  \/__,_ /  _______   \/_____/
      * /\___/ /\______\                    /\______\
      * \/__/  \/______/                    \/______/
-     * </pre>
+     * }</pre>
      */
     public static final String LARRY_3D_2 = "larry_3d_2";
 
@@ -3377,14 +3377,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * |               |
      * |      -       -|
      * |     |       | |
      * ---   -       -
      *
-     * </pre>
+     * }</pre>
      */
     public static final String LCD = "lcd";
 
@@ -3393,14 +3393,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * LL             tt    tt
      * LL        eee  tt    tt      eee  rr rr   sss
      * LL      ee   e tttt  tttt  ee   e rrr  r s
      * LL      eeeee  tt    tt    eeeee  rr      sss
      * LLLLLLL  eeeee  tttt  tttt  eeeee rr         s
      * sss
-     * </pre>
+     * }</pre>
      */
     public static final String LETTERS = "letters";
 
@@ -3409,7 +3409,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _             _(`-')    (`-')  _      (`-')  _
      * <-.    (_)      <-.  ( (OO ).-> ( OO).-/     _(OO ) (_)      <-.
      * ,--. )   ,-(`-'),--. )  \    .'_ (,------.,--.(_/,-.\ ,-(`-'),--. )
@@ -3418,7 +3418,7 @@ public class FigFontBannerResources {
      * (|  '__ |(|  |_/(|  '__ ||  |  / : |  .--' _ \     /_)(|  |_/(|  '__ |
      * |     |' |  |'->|     |'|  '-'  / |  `---.\-'\   /    |  |'->|     |'
      * `-----'  `--'   `-----' `------'  `------'    `-'     `--'   `-----'
-     * </pre>
+     * }</pre>
      */
     public static final String LILDEVIL = "lildevil";
 
@@ -3427,7 +3427,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _                      _(`-')    (`-')  _      (`-')  _
      * <-.    (_)      <-.           ( (OO ).-> ( OO).-/     _(OO ) (_)      <-.
      * ,--. )   ,-(`-'),--. )           \    .'_ (,------.,--.(_/,-.\ ,-(`-'),--. )
@@ -3436,7 +3436,7 @@ public class FigFontBannerResources {
      * (|  '__ |(|  |_/(|  '__ |<-.(OO ) |  |  / : |  .--' _ \     /_)(|  |_/(|  '__ |
      * |     |' |  |'->|     |',------.)|  '-'  / |  `---.\-'\   /    |  |'->|     |'
      * `-----'  `--'   `-----' `------' `------'  `------'    `-'     `--'   `-----'
-     * </pre>
+     * }</pre>
      */
     public static final String LIL_DEVIL = "lil_devil";
 
@@ -3445,13 +3445,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _       _____  ______   ______  ______   _        ______   ______  _    __  ______
      * | |       | |  | |  \ \ | |     | |  | \ | |      / |  | \ | |     | |  / / / |
      * | |   _   | |  | |  | | | |---- | |--| < | |   _  | |  | | | |     | |-< <  '------.
      * |_|__|_| _|_|_ |_|  |_| |_|____ |_|__|_/ |_|__|_| \_|__|_/ |_|____ |_|  \_\  ____|_/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String LINEBLOCKS = "lineblocks";
 
@@ -3460,13 +3460,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _       _____  ______   ______ _ ______   _        ______   ______  _    __  ______
      * | |       | |  | |  \ \ | |      | |  | \ | |      / |  | \ | |     | |  / / / |
      * | |   _   | |  | |  | | | |----  | |--| < | |   _  | |  | | | |     | |-< <  '------.
      * |_|__|_| _|_|_ |_|  |_| |_|____  |_|__|_/ |_|__|_| \_|__|_/ |_|____ |_|  \_\  ____|_/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String LINE_BLOCKS = "line_blocks";
 
@@ -3475,12 +3475,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.   .-..-..-..-..-..-..-.
      * | |__ | || .` || || | >  <
      * `----'`-'`-'`-'`----''-'`-`
      *
-     * </pre>
+     * }</pre>
      */
     public static final String LINUX = "linux";
 
@@ -3489,12 +3489,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ::|              :|
      * ::|    ,::\ .::/ :|_/ :~~/ :::| /::| :::\ ,::\ :\/| :~~/
      * ::::::|`::/ `::\ :|~\ :::, :|   \::| :|:| `::/ :::| :::,
      * ,.:/
-     * </pre>
+     * }</pre>
      */
     public static final String LOCKERGNOME = "lockergnome";
 
@@ -3503,12 +3503,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * /\/\       |        |
      * |==| /=| /=| /= = /=|
      * \  / \=| \=| |  | \=|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String MADRID = "madrid";
 
@@ -3517,7 +3517,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .::       .::
      * .: .::   .:::
      * .:: .:: . .::   .::    .: .:::  .::   .::  .::   .::       .::
@@ -3526,7 +3526,7 @@ public class FigFontBannerResources {
      * .::       .::.::   .::  .::    .::.:: .::  .::.:        .:
      * .::       .::  .:: .:::.:::       .::   .::.::  .::::     .::::
      * .:::
-     * </pre>
+     * }</pre>
      */
     public static final String MARQUEE = "marquee";
 
@@ -3535,12 +3535,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |\  /|       /~\
      * | \/ |/~~|\/-|-/~\|   ||/~\
      * |    |\__|/\ | \_/ \_/||
      *
-     * </pre>
+     * }</pre>
      */
     public static final String MAXFOUR = "maxfour";
 
@@ -3549,7 +3549,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___      ___   _______   _______   ___        __    _____  ___    ____
      * |"  \    /"  | /"     "| /"      \ |"  |      |" \  (\"   \|"  \  /  " \
      * \   \  //   |(: ______)|:        |||  |      ||  | |.\\   \    |/__|| |
@@ -3558,7 +3558,7 @@ public class FigFontBannerResources {
      * |.  \    /:  |(:      "||:  __   \ ( \_|:  \  /\  |\|    \    \ | /" \_|\
      * |___|\__/|___| \_______)|__|  \___) \_______)(__\_|_)\___|\____\)(_______)
      *
-     * </pre>
+     * }</pre>
      */
     public static final String MERLIN1 = "merlin1";
 
@@ -3567,7 +3567,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _               _        _         _          _      _          _
      * _/\\___ _____  __/\\___  _/\\___   _/\\_      _/\\_  _/\\___   __//\
      * (_      v    ))(_  ____))(_   _  ))(_  _))    (____))(_      ))//    \
@@ -3577,7 +3577,7 @@ public class FigFontBannerResources {
      * \//  \//   \//           \//     \//        \//      \//     \//
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String MERLIN2 = "merlin2";
 
@@ -3586,11 +3586,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |/  _
      * ||\ _|  |  |/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String MIKE = "mike";
 
@@ -3599,14 +3599,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _  __  __
      * __ _   ___   __ _  __ _ (_)|  \/  |
      * |__` | / _ \ |__` ||__` || || |\/| |
      * | || (_) |   | |   | || || |  | |
      * |_| \___/    |_|   |_||_||_|  |_|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String MIRROR = "mirror";
 
@@ -3615,7 +3615,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __   __  _______  ______   __   __  ___      _______  ______
      * |  |_|  ||       ||      | |  | |  ||   |    |   _   ||    _ |
      * |       ||   _   ||  _    ||  | |  ||   |    |  |_|  ||   | ||
@@ -3623,7 +3623,7 @@ public class FigFontBannerResources {
      * |       ||  |_|  || |_|   ||       ||   |___ |       ||    __  |
      * | ||_|| ||       ||       ||       ||       ||   _   ||   |  | |
      * |_|   |_||_______||______| |_______||_______||__| |__||___|  |_|
-     * </pre>
+     * }</pre>
      */
     public static final String MODULAR = "modular";
 
@@ -3632,9 +3632,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * -- --- .-. ... .
-     * </pre>
+     * }</pre>
      */
     public static final String MORSE = "morse";
 
@@ -3643,9 +3643,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * -- --- .-. ... . ..---
-     * </pre>
+     * }</pre>
      */
     public static final String MORSE2 = "morse2";
 
@@ -3654,14 +3654,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * #   #  ###   #### #   #  ###  #   #
      * ## ## #   # #     #   # #   # # # #
      * # # # #   # #      #### #   # # # #
      * #   # #   # #         # #   # # # #
      * #   #  ###   ####     #  ###   ###
-     * </pre>
+     * }</pre>
      */
     public static final String MOSCOW = "moscow";
 
@@ -3670,12 +3670,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ""|""| |""||""|'
      * | '  |_|| '   |
      * |       |
-     * </pre>
+     * }</pre>
      */
     public static final String MSHEBREW210 = "mshebrew210";
 
@@ -3684,12 +3684,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __
      * |\ /| |  | >>> >>> |   |
      * | < | |  |  /   /  |   |<<
      * |   | '<<' /<< /<< |<< |__
-     * </pre>
+     * }</pre>
      */
     public static final String MUZZLE = "muzzle";
 
@@ -3698,7 +3698,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 888888ba                                      oo
      * 88    `8b
      * 88     88 .d8888b. 88d888b. .d8888b. dP    dP dP
@@ -3707,7 +3707,7 @@ public class FigFontBannerResources {
      * dP     dP `88888P8 dP    dP `88888P' `8888P88 88
      * .88 88
      * d8888P  dP
-     * </pre>
+     * }</pre>
      */
     public static final String NANCYJ = "nancyj";
 
@@ -3716,7 +3716,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * M"""""""`YM                                     oo              .8888b
      * M  mmmm.  M                                                     88   "
      * M  MMMMM  M .d8888b. 88d888b. .d8888b. dP    dP dP              88aaa  .d8888b. 88d888b. .d8888b. dP    dP
@@ -3725,7 +3725,7 @@ public class FigFontBannerResources {
      * M  MMMMM  M `88888P8 dP    dP `88888P' `8888P88 88              dP     `88888P8 dP    dP `88888P' `8888P88
      * MMMMMMMMMMM                                 .88 88 oooooooooooo                                        .88
      * d8888P  dP                                                 d8888P
-     * </pre>
+     * }</pre>
      */
     public static final String NANCYJ_FANCY = "nancyj_fancy";
 
@@ -3734,7 +3734,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 888888ba                                      oo              oo                                                               dP
      * 88    `8b                                                                                                                      88
      * 88     88 .d8888b. 88d888b. .d8888b. dP    dP dP              dP 88d8b.d8b. 88d888b. 88d888b. .d8888b. dP   .dP .d8888b. .d888b88
@@ -3743,7 +3743,7 @@ public class FigFontBannerResources {
      * dP     dP `88888P8 dP    dP `88888P' `8888P88 88              dP dP  dP  dP 88Y888P' dP       `88888P' 8888P'   `88888P' `88888P8
      * .88 88 oooooooooooo               88
      * d8888P  dP                            dP
-     * </pre>
+     * }</pre>
      */
     public static final String NANCYJ_IMPROVED = "nancyj_improved";
 
@@ -3752,7 +3752,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 888888ba                                      oo                                      dP                   dP oo                         dP
      * 88    `8b                                                                             88                   88                            88
      * 88     88 .d8888b. 88d888b. .d8888b. dP    dP dP              dP    dP 88d888b. .d888b88 .d8888b. 88d888b. 88 dP 88d888b. .d8888b. .d888b88
@@ -3761,7 +3761,7 @@ public class FigFontBannerResources {
      * dP     dP `88888P8 dP    dP `88888P' `8888P88 88              `88888P' dP    dP `88888P8 `88888P' dP       dP dP dP    dP `88888P' `88888P8
      * oooooooooooooooooooooooooooooooooooooo~~~~.88~88~ vvvvvvvvvvv oooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooo
      * d8888P  dP  """""""""""
-     * </pre>
+     * }</pre>
      */
     public static final String NANCYJ_UNDERLINED = "nancyj_underlined";
 
@@ -3779,6 +3779,7 @@ public class FigFontBannerResources {
      * {__    {_ __{__{__ {__ {__ {__  {__{_            {__
      * {__      {__{__{__     {__     {___  {____   {__ {__
      * {__     {__
+     *
      * </pre>
      */
     public static final String NIPPLES = "nipples";
@@ -3788,7 +3789,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ,ggg, ,ggggggg,
      * dP""Y8,8P"""""Y8b                                                     I8
      * Yb, `8dP'     `88                                                     I8
@@ -3805,7 +3806,7 @@ public class FigFontBannerResources {
      * I8
      * I8
      * I8
-     * </pre>
+     * }</pre>
      */
     public static final String NSCRIPT = "nscript";
 
@@ -3814,7 +3815,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _   _
      * | \ | |
@@ -3824,7 +3825,7 @@ public class FigFontBannerResources {
      * |_| \_|  \_)  | |  |  __/ \___)\___)|_|\_\
      * | |  | |
      * |_|  |_|
-     * </pre>
+     * }</pre>
      */
     public static final String NTGREEK = "ntgreek";
 
@@ -3833,7 +3834,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _   _
      * | \ | |
@@ -3843,7 +3844,7 @@ public class FigFontBannerResources {
      * |_| \_|  \_)    | |  |  __/ \___)\___)|_|\_\
      * | |  | |
      * ||  |_|  |_|
-     * </pre>
+     * }</pre>
      */
     public static final String NT_GREEK = "nt_greek";
 
@@ -3852,7 +3853,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ,ggg, ,ggggggg,
      * dP""Y8,8P"""""Y8b                                                                   I8
      * Yb, `8dP'     `88                                                                   I8
@@ -3869,7 +3870,7 @@ public class FigFontBannerResources {
      * I8
      * I8
      * I8
-     * </pre>
+     * }</pre>
      */
     public static final String NV_SCRIPT = "nv_script";
 
@@ -3878,14 +3879,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ooooooo     ooooooo
      * o888   888o o888   888o
      * 888     888  888888888
      * 888o   o888 888o   o888
      * 88ooo88     88ooo88
      *
-     * </pre>
+     * }</pre>
      */
     public static final String O8 = "o8";
 
@@ -3894,9 +3895,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 117 143 164 141 154
-     * </pre>
+     * }</pre>
      */
     public static final String OCTAL = "octal";
 
@@ -3905,14 +3906,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___
      * /___\  __ _  _ __   ___
      * //  // / _` || '__| / _ \
      * / \_// | (_| || |   |  __/
      * \___/   \__, ||_|    \___|
      * |___/
-     * </pre>
+     * }</pre>
      */
     public static final String OGRE = "ogre";
 
@@ -3921,7 +3922,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * #######
      * #     # #      #####  #####    ##   #    # #    # ###### #####
      * #     # #      #    # #    #  #  #  ##   # ##   # #      #    #
@@ -3929,7 +3930,7 @@ public class FigFontBannerResources {
      * #     # #      #    # #    # ###### #  # # #  # # #      #####
      * #     # #      #    # #    # #    # #   ## #   ## #      #   #
      * ####### ###### #####  #####  #    # #    # #    # ###### #    #
-     * </pre>
+     * }</pre>
      */
     public static final String OLDBANNER = "oldbanner";
 
@@ -3938,7 +3939,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * #######
      * #     # #      #####          #####    ##   #    # #    # ###### #####
      * #     # #      #    #         #    #  #  #  ##   # ##   # #      #    #
@@ -3946,7 +3947,7 @@ public class FigFontBannerResources {
      * #     # #      #    #         #    # ###### #  # # #  # # #      #####
      * #     # #      #    #         #    # #    # #   ## #   ## #      #   #
      * ####### ###### #####  ####### #####  #    # #    # #    # ###### #    #
-     * </pre>
+     * }</pre>
      */
     public static final String OLD_BANNER = "old_banner";
 
@@ -3955,7 +3956,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___oooo_____________ooooo__
      * _oo____oo___oooo__oo____oo_
      * oo______oo_oo___o_______oo_
@@ -3963,7 +3964,7 @@ public class FigFontBannerResources {
      * _oo____oo__o___oo___ooo____
      * ___oooo_____oooo__oooooooo_
      * ___________________________
-     * </pre>
+     * }</pre>
      */
     public static final String OS2 = "os2";
 
@@ -3972,7 +3973,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _____          ____   _________________       _____         _____           ____  ____    ____           ______        _____    ____   ____      ______        ______            ______       ______
      * ___|\    \    ____|\   \ /                 \ ____|\    \    ___|\    \         |    ||    |  |    |      ___|\     \   ___|\    \  |    | |    | ___|\     \   ___|\     \       ___|\     \  ___|\     \
@@ -3987,7 +3988,7 @@ public class FigFontBannerResources {
      * \(           \(      )/      \(               \(    )/      \(     )/      \(   )/    \(       )/      \(    )/        \( |____|/   \(     )/    \( |_____|/   \( |_____|/     \(    )/       \( |_____|/
      * '            '      '        '                '    '        '     '        '   '      '       '        '    '          '   )/       '     '      '    )/       '    )/         '    '         '    )/
      * '                          '             '                              '
-     * </pre>
+     * }</pre>
      */
     public static final String PATORJKS_CHEESE = "patorjk's_cheese";
 
@@ -3996,7 +3997,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______                                                                                                                                             _____
      * _____|\     \     _____       ________    ________         ____     ___________               _____    ______   _______          __     __          _____\    \ _____       _____
      * /     / |     |  /      |_    /        \  /        \    ____\_  \__  \          \             |\    \_ |\     \  \      \        /  \   /  \        /    / |    |\    \     /    /
@@ -4009,7 +4010,7 @@ public class FigFontBannerResources {
      * \ |     |     | |     | |     |         \ |   |     | \_____\   | / |     | | |     ||\_____\      | /|     | / |    | |  |    | |       | |    || |    |____/|  |    |   |    |
      * \|_____|      \|_____|\|_____|          \|___|      \ |    |___|/  |_____|/ \|_____|| |     |_____|/ |_____|/  |____|/   |____|/         \|____| \|____|   | |  |____|   |____|
      * \|____|                         \|_____|                                                          |___|/
-     * </pre>
+     * }</pre>
      */
     public static final String PATORJK_HEX = "patorjk_hex";
 
@@ -4018,7 +4019,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _____
      * (_____)
@@ -4028,7 +4029,7 @@ public class FigFontBannerResources {
      * (_)       (__)_) (__) (__) (____)
      * (_)
      * (_)
-     * </pre>
+     * }</pre>
      */
     public static final String PAWP = "pawp";
 
@@ -4037,7 +4038,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * /^^^^^^^                      /^^
      * /^^    /^^                    /^^
      * /^^    /^^   /^^       /^^    /^^  /^^ /^^^^
@@ -4046,7 +4047,7 @@ public class FigFontBannerResources {
      * /^^       /^        /^^   /^^ /^^ /^^     /^^
      * /^^         /^^^^     /^^ /^^^/^^  /^^/^^ /^^
      *
-     * </pre>
+     * }</pre>
      */
     public static final String PEAKS = "peaks";
 
@@ -4055,14 +4056,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _/\/\/\/\/\____________________________/\/\________________________________/\/\______________________________/\/\_____
      * _/\/\____/\/\____/\/\/\____/\/\/\______/\/\__/\/\____/\/\/\/\____/\/\/\/\__/\/\____/\/\/\______/\/\/\/\____/\/\/\/\/\_
      * _/\/\/\/\/\____/\/\/\/\/\______/\/\____/\/\/\/\____/\/\/\/\____/\/\/\/\____/\/\________/\/\____/\/\__/\/\____/\/\_____
      * _/\/\__________/\/\________/\/\/\/\____/\/\/\/\__________/\/\________/\/\__/\/\____/\/\/\/\____/\/\__/\/\____/\/\_____
      * _/\/\____________/\/\/\/\__/\/\/\/\/\__/\/\__/\/\__/\/\/\/\____/\/\/\/\____/\/\/\__/\/\/\/\/\__/\/\__/\/\____/\/\/\___
      * ______________________________________________________________________________________________________________________
-     * </pre>
+     * }</pre>
      */
     public static final String PEAKSSLANT = "peaksslant";
 
@@ -4071,14 +4072,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _/\/\/\/\/\____________________________/\/\______________________________________________/\/\______________________________/\/\_____
      * _/\/\____/\/\____/\/\/\____/\/\/\______/\/\__/\/\____/\/\/\/\__________________/\/\/\/\__/\/\____/\/\/\______/\/\/\/\____/\/\/\/\/\_
      * _/\/\/\/\/\____/\/\/\/\/\______/\/\____/\/\/\/\____/\/\/\/\__________________/\/\/\/\____/\/\________/\/\____/\/\__/\/\____/\/\_____
      * _/\/\__________/\/\________/\/\/\/\____/\/\/\/\__________/\/\______________________/\/\__/\/\____/\/\/\/\____/\/\__/\/\____/\/\_____
      * _/\/\____________/\/\/\/\__/\/\/\/\/\__/\/\__/\/\__/\/\/\/\__________________/\/\/\/\____/\/\/\__/\/\/\/\/\__/\/\__/\/\____/\/\/\___
      * _______________________________________________________________/\/\/\/\/\/\_________________________________________________________
-     * </pre>
+     * }</pre>
      */
     public static final String PEAKS_SLANT = "peaks_slant";
 
@@ -4087,7 +4088,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * OooOOo.         o     o     o
      * O     `O       O     O     O
      * o      O       O     O     o
@@ -4098,7 +4099,7 @@ public class FigFontBannerResources {
      * o'       `OoO' `OoO' `OoO' Oo `OoO' `OoO'
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String PEBBLES = "pebbles";
 
@@ -4107,12 +4108,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _
      * /_/_  _  _  _  _
      * /  /_'/_//_//_'/
      * /  /
-     * </pre>
+     * }</pre>
      */
     public static final String PEPPER = "pepper";
 
@@ -4121,7 +4122,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * @@@@@@@    @@@@@@   @@@   @@@@@@    @@@@@@   @@@  @@@
      * @@@@@@@@  @@@@@@@@  @@@  @@@@@@@   @@@@@@@@  @@@@ @@@
@@ -4134,7 +4135,7 @@ public class FigFontBannerResources {
      * ::       ::::: ::   ::  :::: ::   ::::: ::   ::   ::
      * :         : :  :   :    :: : :     : :  :   ::    :
      *
-     * </pre>
+     * }</pre>
      */
     public static final String POISON = "poison";
 
@@ -4143,7 +4144,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___             ___    ___
      * (  _`\         /'___) /'___)
      * | |_) ) _   _ | (__  | (__   _   _
@@ -4152,7 +4153,7 @@ public class FigFontBannerResources {
      * (_)    `\___/'(_)    (_)    `\__, |
      * ( )_| |
      * `\___/'
-     * </pre>
+     * }</pre>
      */
     public static final String PUFFY = "puffy";
 
@@ -4161,13 +4162,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _         _         _         _         _         _
      * _( )__    _( )__    _( )__    _( )__    _( )__    _( )__
      * _|     _| _|     _| _|     _| _|     _| _|     _| _|     _|
      * (_ P _ (_ (_ U _ (_ (_ Z _ (_ (_ Z _ (_ (_ L _ (_ (_ E _ (_
      * |_( )__|  |_( )__|  |_( )__|  |_( )__|  |_( )__|  |_( )__|
-     * </pre>
+     * }</pre>
      */
     public static final String PUZZLE = "puzzle";
 
@@ -4176,7 +4177,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____
      * __|__   |__  ____    ____    __  ____    __  ______   __    ______  ____  ____   _
      * |     |     ||    \  |    \  /  ||    \  /  ||   ___|_|  |_ |   ___||    ||    \ | |
@@ -4184,7 +4185,7 @@ public class FigFontBannerResources {
      * |__|\__\  __||__|\__\|__/\__/|__||__/\__/|__||______| |__|  |______||____||__/\____|
      * |_____|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String RAMMSTEIN = "rammstein";
 
@@ -4193,14 +4194,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * _____            _                   _
      * | __  | ___  ___ | |_  ___  ___  ___ | | ___  ___
      * |    -|| -_||  _||  _|| .'||   || . || || -_||_ -|
      * |__|__||___||___||_|  |__,||_|_||_  ||_||___||___|
      * |___|
-     * </pre>
+     * }</pre>
      */
     public static final String RECTANGLES = "rectangles";
 
@@ -4209,7 +4210,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __________               .___                  .__                                 .__
      * \______   \   ____     __| _/         ______   |  |__     ____     ____     ____   |__| ___  ___
      * |       _/ _/ __ \   / __ |          \____ \  |  |  \   /  _ \  _/ __ \   /    \  |  | \  \/  /
@@ -4217,7 +4218,7 @@ public class FigFontBannerResources {
      * |____|_  /  \___  > \____ |   ______ |   __/  |___|  /  \____/   \___  > |___|  / |__| /__/\_ \
      * \/       \/       \/  /_____/ |__|          \/                \/       \/             \/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String RED_PHOENIX = "red_phoenix";
 
@@ -4226,7 +4227,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______________________________________________________________
      * /~~~~~~~\__/~~~~~~~~\_/~~\_______/~~~~\_/~~~~~~~~\_/~~~~~~~~\_
      * /~~\__/~~\_/~~\_______/~~\________/~~\__/~~\_______/~~\_______
@@ -4234,7 +4235,7 @@ public class FigFontBannerResources {
      * /~~\__/~~\_/~~\_______/~~\________/~~\__/~~\_______/~~\_______
      * /~~\__/~~\_/~~~~~~~~\_/~~~~~~~~\_/~~~~\_/~~~~~~~~\_/~~\_______
      * ______________________________________________________________
-     * </pre>
+     * }</pre>
      */
     public static final String RELIEF = "relief";
 
@@ -4243,7 +4244,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
      * //////// \\///////// \/// \\\\\\\///// \///////// \///////// \\/////// \
      * /// \\/// \/// \\\\\\\/// \\\\\\\\/// \\/// \\\\\\\/// \\\\\\\/// \/// \
@@ -4251,7 +4252,7 @@ public class FigFontBannerResources {
      * /// \\/// \/// \\\\\\\/// \\\\\\\\/// \\/// \\\\\\\/// \\\\\\\\/// \\\\\
      * /// \\/// \///////// \///////// \///// \///////// \/// \\\\\\\//////// \
      * \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
-     * </pre>
+     * }</pre>
      */
     public static final String RELIEF2 = "relief2";
 
@@ -4260,7 +4261,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ========================
      * =       ================
      * =  ====  ===============
@@ -4272,7 +4273,7 @@ public class FigFontBannerResources {
      * =  ====  ==  =  ==== ===
      * =  ====  ===   ===== ===
      * ========================
-     * </pre>
+     * }</pre>
      */
     public static final String REV = "rev";
 
@@ -4281,7 +4282,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ======================================================
      * =       ==============================================
      * =  ====  =============================================
@@ -4293,7 +4294,7 @@ public class FigFontBannerResources {
      * =  ====  ==  =  ==== ====  =  ==  =======  =  ==  =  =
      * =  ====  ===   ===== =====   ===  ========   ====   ==
      * ======================================================
-     * </pre>
+     * }</pre>
      */
     public static final String REVERSE = "reverse";
 
@@ -4302,7 +4303,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ooooooooo.
      * `888   `Y88.
      * 888   .d88'  .ooooo.  ooo. .oo.  .oo.    .oooo.   ooo. .oo.
@@ -4313,7 +4314,7 @@ public class FigFontBannerResources {
      *
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ROMAN = "roman";
 
@@ -4322,9 +4323,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * Ebg13
-     * </pre>
+     * }</pre>
      */
     public static final String ROT13 = "rot13";
 
@@ -4333,11 +4334,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____   _    _,_ _     _,_  _    _
      * _/(_) (_)  ( '  _|)  ( '  (|)  (_)_
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ROTATED = "rotated";
 
@@ -4346,7 +4347,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______                            _             _
      * (_____ \                          | |           | |
      * _____) )  ___   _   _  ____    __| | _____   __| |
@@ -4354,7 +4355,7 @@ public class FigFontBannerResources {
      * | |  \ \ | |_| || |_| || | | |( (_| || ____|( (_| |
      * |_|   |_| \___/ |____/ |_| |_| \____||_____) \____|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ROUNDED = "rounded";
 
@@ -4363,14 +4364,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * dMMMMb    .aMMMb    dMP dMP dMP     .aMMMb     dMMMMb    .aMMMb     .aMMMb     dMMMMb
      * dMP.dMP   dMP"dMP   dMP dMP dMP     dMP"dMP    dMP dMP   dMP"VMP    dMP"dMP    dMP.dMP
      * dMMMMK"   dMP dMP   dMP dMP dMP     dMMMMMP    dMP dMP   dMP        dMMMMMP    dMMMMP"
      * dMP"AMF   dMP.aMP   dMP.dMP.dMP     dMP dMP    dMP dMP   dMP.aMP    dMP dMP    dMP
      * dMP dMP    VMMMP"    VMMMPVMMP"     dMP dMP    dMP dMP    VMMMP"    dMP dMP    dMP
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ROWANCAP = "rowancap";
 
@@ -4379,14 +4380,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * dMMMMb    .aMMMb    dMP dMP dMP     .aMMMb     dMMMMb    .aMMMb     .aMMMb     dMMMMb
      * dMP.dMP   dMP"dMP   dMP dMP dMP     dMP"dMP    dMP dMP   dMP"VMP    dMP"dMP    dMP.dMP
      * dMMMMK"   dMP dMP   dMP dMP dMP     dMMMMMP    dMP dMP   dMP        dMMMMMP    dMMMMP"
      * dMP"AMF   dMP.aMP   dMP.dMP.dMP     dMP dMP    dMP dMP   dMP.aMP    dMP dMP    dMP
      * dMP dMP    VMMMP"    VMMMPVMMP"     dMP dMP    dMP dMP    VMMMP"    dMP dMP    dMP
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ROWAN_CAP = "rowan_cap";
 
@@ -4395,7 +4396,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 888 88e
      * 888 888D  e88 88e  8P d8P 8P d8P  e88 88e
      * 888 88"  d888 888b P d8P  P d8P  d888 888b
@@ -4403,7 +4404,7 @@ public class FigFontBannerResources {
      * 888 88b,  "88 88"  d8P d8 d8P d8  "88 88"
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String ROZZO = "rozzo";
 
@@ -4412,14 +4413,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |~\
      * |  \
      * |  /
      * |_/
      * | \
      * |  \
-     * </pre>
+     * }</pre>
      */
     public static final String RUNIC = "runic";
 
@@ -4428,14 +4429,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * |~\
      * |  \
      * |  /
      * |_/  |\   |  |~\ |
      * | \  | | `|  |_| |
      * |  \ | |  |` ||| |\
-     * </pre>
+     * }</pre>
      */
     public static final String RUNYC = "runyc";
 
@@ -4444,14 +4445,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __,                         _
      * (               _/_         //
      * `.  __,  _ _   /  __,  _, // __,  _   __,
      * (___)(_/(_/ / /_(__(_/(_(__(/_(_/(_/ (_(_/(_
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SANTACLARA = "santaclara";
 
@@ -4460,14 +4461,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __,                      _
      * (               _/_      //
      * `.  __,  _ _   /  __ , // __,  _   __,
      * (___)(_/(_/ / /_(__(_   (/_(_/(_/ (_(_/(_
      * ___
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SANTA_CLARA = "santa_clara";
 
@@ -4476,14 +4477,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * @@@@@@ @@@@@@@  @@@       @@@@@@   @@@@@@  @@@@@@@
      * !@@     @@!  @@@ @@!      @@!  @@@ @@!  @@@ @@!  @@@
      * !@@!!  @!@!@!@  @!!      @!@  !@! @!@  !@! @!@  !@!
      * !:! !!:  !!! !!:      !!:  !!! !!:  !!! !!:  !!!
      * ::.: :  :: : ::  : ::.: :  : :. :   : :. :  :: :  :
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SBLOOD = "sblood";
 
@@ -4492,12 +4493,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___  ___  ___   __  ___   __   __   ___
      * / __)(  _)(  ,) (  )(  _) / _) (  ) (  ,\
      * \__ \ ) _) )  \  )(  ) _)( (_  /__\  ) _/
      * (___/(___)(_)\_)(__)(_)   \__)(_)(_)(_)
-     * </pre>
+     * }</pre>
      */
     public static final String SERIFCAP = "serifcap";
 
@@ -4506,14 +4507,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ,-.  .                     .
      * (   ` |   o                 |
      * `-.  |-. . ;-.-. ;-. ,-. ,-|
      * .   ) | | | | | | |   | | | |
      * `-'  ' ' ' ' ' ' '   `-' `-'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SHIMROD = "shimrod";
 
@@ -4522,11 +4523,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * (`|_    |-
      * _)||()|`|_
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SHORT = "short";
 
@@ -4535,7 +4536,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____/\\\\\\\\\\\___        __/\\\\\\____        ________________        _______________        _______________        ___________________        _______________        ________________        __/\\\\\\____        _______        ________________        ________/\\\\\_
      * ___/\\\/////////\\\_        _\////\\\____        ________________        _______________        _______________        ___________________        _______________        ________________        _\////\\\____        _______        ________________        ______/\\\///__
      * __\//\\\______\///__        ____\/\\\____        ________________        _______________        _____/\\\______        ___________________        _______________        ________________        ____\/\\\____        __/\\\_        ________________        _____/\\\______
@@ -4545,7 +4546,7 @@ public class FigFontBannerResources {
      * __/\\\______\//\\\__        ____\/\\\____        __/\\\/////\\\__        _\/\\\___\/\\\_        ____\/\\\_/\\__        ___________________        _\/\\\_________        _\//\\///////___        ____\/\\\____        _\/\\\_        _\//\\///////___        ____\/\\\______
      * _\///\\\\\\\\\\\/___        __/\\\\\\\\\_        _\//\\\\\\\\/\\_        _\/\\\___\/\\\_        ____\//\\\\\___        __/\\\\\\\\\\\\\\\_        _\/\\\_________        __\//\\\\\\\\\\_        __/\\\\\\\\\_        _\/\\\_        __\//\\\\\\\\\\_        ____\/\\\______
      * ___\///////////_____        _\/////////__        __\////////\//__        _\///____\///__        _____\/////____        _\///////////////__        _\///__________        ___\//////////__        _\/////////__        _\///__        ___\//////////__        ____\///_______
-     * </pre>
+     * }</pre>
      */
     public static final String SLANT_RELIEF = "slant_relief";
 
@@ -4554,14 +4555,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * #HH||#| #|   H|
      * ##    #|      H| #H|
      * #HH| #| #| #HH|##HH|
      * ||#| #|## H|##
      * ##HH| #H|#H|#HH| #HH|
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SLIDE = "slide";
 
@@ -4570,14 +4571,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ()     _
      * /\    //                 _/_
      * /  )  // _   _. __  o _   /
      * /__/__</_/_)_(__/ (_<_/_)_<__
      * /
      * '
-     * </pre>
+     * }</pre>
      */
     public static final String SLSCRIPT = "slscript";
 
@@ -4586,14 +4587,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ()     _
      * /\    //                   _/_
      * /  )  //   _   _. __  o _   /
      * /__/__</_ _/_)_(__/ (_<_/_)_<__
      * /
      * '
-     * </pre>
+     * }</pre>
      */
     public static final String SL_SCRIPT = "sl_script";
 
@@ -4602,13 +4603,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___   _   _    _    _      _      ___    _    ____    ___
      * (  _( ) \_/ (  )_\  ) |    ) |    / _(   )_\  )  _)\  (  _(
      * _) \  |  _  | /( )\ | (__  | (__  ))_   /( )\ | '__/  _) \
      * )____) )_( )_()_/ \_()____( )____( \__( )_/ \_()_(    )____)
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SMALLCAPS = "smallcaps";
 
@@ -4617,13 +4618,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___   _   _    _    _      _             ___    _    ____    ___
      * (  _( ) \_/ (  )_\  ) |    ) |           / _(   )_\  )  _)\  (  _(
      * _) \  |  _  | /( )\ | (__  | (__         ))_   /( )\ | '__/  _) \
      * )____) )_( )_()_/ \_()____( )____(  _____ \__( )_/ \_()_(    )____)
      * )_____(
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_CAPS = "small_caps";
 
@@ -4632,7 +4633,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___       ___       ___       ___       ___       ___       ___       ___       ___       ___       ___       ___       ___       ___
      * /\  \     /\__\     /\  \     /\__\     /\__\     /\  \     /\  \     /\  \     /\__\     /\  \     /\  \     /\  \     /\  \     /\  \
      * /::\  \   /::L_L_   /::\  \   /:/  /    /:/  /    _\:\  \   /::\  \   /::\  \   /::L_L_   /::\  \    \:\  \   /::\  \   _\:\  \   /::\  \
@@ -4640,7 +4641,7 @@ public class FigFontBannerResources {
      * \:\:\/__/ \/_/:/  / \/\::/  / \:\  \    \:\  \    \::/\/__/ \:\:\/__/ \:\/:/  / \/_/:/  / \:\:\/  /  /:/\/__/ \;:::/  / \::/\/__/ \:\ \/__/
      * \::/  /    /:/  /    /:/  /   \:\__\    \:\__\    \:\__\    \::/  /   \::/  /    /:/  /   \:\/  /   \/__/     |:\/__/   \:\__\    \:\__\
      * \/__/     \/__/     \/__/     \/__/     \/__/     \/__/     \/__/     \/__/     \/__/     \/__/               \|__|     \/__/     \/__/
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_ISOMETRIC1 = "small_isometric1";
 
@@ -4649,12 +4650,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____  ____  ____  ____  ____  ____  ____  ____  ____  ____  ____  ____  ____  ____
      * ||S ||||m ||||a ||||l ||||l ||||_ ||||k ||||e ||||y ||||b ||||o ||||a ||||r ||||d ||
      * ||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||
      * |/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\|
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_KEYBOARD = "small_keyboard";
 
@@ -4663,7 +4664,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * @@@@@@ @@@@@@@@@@   @@@@@@  @@@      @@@               @@@@@@@   @@@@@@  @@@  @@@@@@  @@@@@@  @@@  @@@
      * !@@     @@! @@! @@! @@!  @@@ @@!      @@!               @@!  @@@ @@!  @@@ @@! !@@     @@!  @@@ @@!@!@@@
@@ -4671,7 +4672,7 @@ public class FigFontBannerResources {
      * !:! !!:     !!: !!:  !!! !!:      !!:               !!:      !!:  !!! !!:     !:! !!:  !!! !!:  !!!
      * ::.: :   :      :    :   : : : ::.: : : ::.: : .......   :        : :. :  :   ::.: :   : :. :  ::    :
      * : :: : :
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_POISON = "small_poison";
 
@@ -4680,13 +4681,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ()          _,  |\ |\   ,   _   ,_  o    _|_
      * /\ /|/|/|  / |  |/ |/  / \_/   /  | | |/\_|
      * /(_) | | |_/\/|_/|_/|_/  \/ \__/   |/|/|_/ |_/
      * ____             (|
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_SCRIPT = "small_script";
 
@@ -4695,12 +4696,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __|             | |   |              |
      * \__ \  ` \   _` | |(_-<   \   _` |  _` |  _ \\ \  \ /
      * ____/_|_|_|\__,_|_|___/_| _|\__,_|\__,_|\___/ \_/\_/
      * ____|
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_SHADOW = "small_shadow";
 
@@ -4709,13 +4710,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____           ____       __          __
      * / __/_ _  ___ _/ / /  ___ / /__ ____  / /_
      * _\ \/  ' \/ _ `/ / /  (_-</ / _ `/ _ \/ __/
      * /___/_/_/_/\_,_/_/_/__/___/_/\_,_/_//_/\__/
      * /___/
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_SLANT = "small_slant";
 
@@ -4724,11 +4725,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _   _ _  .',                 ,'  _ _  _____     .',
      * ( ) |_)_)  |  --- ---     |~)  | | ) ) (_(_| |~)  |  \/
      * /            (_, (_, ___ |                | ~~~     (,
-     * </pre>
+     * }</pre>
      */
     public static final String SMALL_TENGWAR = "small_tengwar";
 
@@ -4737,7 +4738,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___       ___       ___       ___       ___       ___       ___
      * /\  \     /\__\     /\  \     /\  \     /\  \     /\__\     /\  \
      * /::\  \   /::L_L_   _\:\  \   /::\  \   /::\  \   /::L_L_   /::\  \
@@ -4745,7 +4746,7 @@ public class FigFontBannerResources {
      * \:\:\/__/ \/_/:/  / \::/\/__/ \:\:\/__/ \:\/:/  / \/_/:/  / \:\:\/  /
      * \::/  /    /:/  /   \:\__\    \::/  /   \::/  /    /:/  /   \:\/  /
      * \/__/     \/__/     \/__/     \/__/     \/__/     \/__/     \/__/
-     * </pre>
+     * }</pre>
      */
     public static final String SMISOME1 = "smisome1";
 
@@ -4754,12 +4755,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____  ____  ____  ____  ____  ____  ____  ____  ____  ____
      * ||S ||||m ||||k ||||e ||||y ||||b ||||o ||||a ||||r ||||d ||
      * ||__||||__||||__||||__||||__||||__||||__||||__||||__||||__||
      * |/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\||/__\|
-     * </pre>
+     * }</pre>
      */
     public static final String SMKEYBOARD = "smkeyboard";
 
@@ -4768,7 +4769,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * @@@@@@ @@@@@@@@@@  @@@@@@@   @@@@@@  @@@  @@@@@@  @@@@@@  @@@  @@@
      * !@@     @@! @@! @@! @@!  @@@ @@!  @@@ @@! !@@     @@!  @@@ @@!@!@@@
@@ -4776,7 +4777,7 @@ public class FigFontBannerResources {
      * !:! !!:     !!: !!:      !!:  !!! !!:     !:! !!:  !!! !!:  !!!
      * ::.: :   :      :    :        : :. :  :   ::.: :   : :. :  ::    :
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SMPOISON = "smpoison";
 
@@ -4785,11 +4786,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _   _ _      ,'  _ _  _____     .',
      * ( ) |_)_) |~)  | | ) ) (_(_| |~)  |  \/
      * /        |                | ~~~     (,
-     * </pre>
+     * }</pre>
      */
     public static final String SMTENGWAR = "smtengwar";
 
@@ -4798,7 +4799,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * ,---.          ,---.  ,--.
      * '   .-'  ,---. /  .-',-'  '-.
@@ -4806,7 +4807,7 @@ public class FigFontBannerResources {
      * .-'    |' '-' '|  .-'  |  |
      * `-----'  `---' `--'    `--'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SOFT = "soft";
 
@@ -4815,14 +4816,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ________                     _________
      * __  ___/________ _____ _____ ______  /
      * _____ \ ___  __ \_  _ \_  _ \_  __  /
      * ____/ / __  /_/ //  __//  __// /_/ /
      * /____/  _  .___/ \___/ \___/ \__,_/
      * /_/
-     * </pre>
+     * }</pre>
      */
     public static final String SPEED = "speed";
 
@@ -4831,13 +4832,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____  _____  ____   ___  _____  _____
      * /  ___>/  _  \/  _/  /___\/   __\/   __\
      * |___  ||   __/|  |---|   ||   __||   __|
      * <_____/\__/   \_____/\___/\__/   \__/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SPLIFF = "spliff";
 
@@ -4846,7 +4847,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___________________________________________
      * 7     77      77  _  77     77     77  7  7
      * |  ___!!__  __!|  _  ||  ___!|  ___!|  !  |
@@ -4854,7 +4855,7 @@ public class FigFontBannerResources {
      * 7     |  |  |  |  |  ||     7|     7 7   7
      * !_____!  !__!  !__!__!!_____!!_____! !___!
      *
-     * </pre>
+     * }</pre>
      */
     public static final String STACEY = "stacey";
 
@@ -4863,14 +4864,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .---. .                    .
      * \___  |- ,-. ,-,-. ,-. ,-. |- ,-.
      * \ |  ,-| | | | | | ,-| |  |-'
      * `---' `' `-^ ' ' ' |-' `-^ `' `-'
      * |
      * '
-     * </pre>
+     * }</pre>
      */
     public static final String STAMPATE = "stampate";
 
@@ -4879,14 +4880,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .---. .                    .      .  .
      * \___  |- ,-. ,-,-. ,-. ,-. |- ,-. |  |  ,-.
      * \ |  ,-| | | | | | ,-| |  |-' |  |  | |
      * `---' `' `-^ ' ' ' |-' `-^ `' `-' `' `' `-'
      * |
      * '
-     * </pre>
+     * }</pre>
      */
     public static final String STAMPATELLO = "stampatello";
 
@@ -4895,7 +4896,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ------------------------  ------   ----------- ----------------------------------- ------------------- ------------
      * *********************** ********  *********** *********************************** ********************************
      * ----        ---------------------- ----    --- ----        ----------------    ---   ----  ---      -------
@@ -4905,7 +4906,7 @@ public class FigFontBannerResources {
      * ------------    ----   ----    --------   ---- ------------    ----    ----   ---- ------------        ------------
      * ***********    ****   ****    ********    ****************    ****    ****    ****************        ************
      *
-     * </pre>
+     * }</pre>
      */
     public static final String STARSTRIPS = "starstrips";
 
@@ -4914,7 +4915,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______..___________.     ___      .______      ____    __    ____      ___      .______           _______.
      * /       ||           |    /   \     |   _  \     \   \  /  \  /   /     /   \     |   _  \         /       |
      * |   (----``---|  |----`   /  ^  \    |  |_)  |     \   \/    \/   /     /  ^  \    |  |_)  |       |   (----`
@@ -4922,7 +4923,7 @@ public class FigFontBannerResources {
      * .----)   |       |  |      /  _____  \  |  |\  \----.   \    /\    /     /  _____  \  |  |\  \----..----)   |
      * |_______/        |__|     /__/     \__\ | _| `._____|    \__/  \__/     /__/     \__\ | _| `._____||_______/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String STARWARS = "starwars";
 
@@ -4931,7 +4932,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ------------ ------------    ------    -----------  _ ------------ ------------ -----------  --------  -----------  ------------
      * *********** ************   ********   ***********    ************ ************ ***********  ********  ************ ************
      * ----         ------------  ----------  ----    ---    ----         ------------ ----    ---    ----    ---      --- ----
@@ -4941,7 +4942,7 @@ public class FigFontBannerResources {
      * ------------     ----     ----    ---- ----   ----    ------------     ----     ----   ----  --------  ----         ------------
      * ***********     ****     ****    **** ****    ****   ************     ****     ****    **** ********  ****         ************
      *
-     * </pre>
+     * }</pre>
      */
     public static final String STAR_STRIPS = "star_strips";
 
@@ -4950,7 +4951,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______..___________.     ___      .______              ____    __    ____      ___      .______           _______.
      * /       ||           |    /   \     |   _  \             \   \  /  \  /   /     /   \     |   _  \         /       |
      * |   (----``---|  |----`   /  ^  \    |  |_)  |             \   \/    \/   /     /  ^  \    |  |_)  |       |   (----`
@@ -4958,7 +4959,7 @@ public class FigFontBannerResources {
      * .----)   |       |  |      /  _____  \  |  |\  \----.           \    /\    /     /  _____  \  |  |\  \----..----)   |
      * |_______/        |__|     /__/     \__\ | _| `._____| ______     \__/  \__/     /__/     \__\ | _| `._____||_______/
      * |______|
-     * </pre>
+     * }</pre>
      */
     public static final String STAR_WARS = "star_wars";
 
@@ -4967,7 +4968,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * `.. ..    `..             `.. `..
      * `..    `..  `..             `.. `..
      * `..      `.`. `.   `..     `.. `..   `..    `. `...
@@ -4976,7 +4977,7 @@ public class FigFontBannerResources {
      * `..    `..  `..  `.         `.. `..`..   `..  `..
      * `.. ..     `..   `....   `...`...  `.. `...`...
      *
-     * </pre>
+     * }</pre>
      */
     public static final String STELLAR = "stellar";
 
@@ -4985,12 +4986,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __  ___    __                 ___ ___ ___  ___  __   __
      * /__`  |  | /  ` |__/     |    |__   |   |  |__  |__) /__`
      * .__/  |  | \__, |  \ ___ |___ |___  |   |  |___ |  \ .__/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String STICK_LETTERS = "stick_letters";
 
@@ -4999,7 +5000,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _
      * | |    _
      * \ \  | |_    ___   ____
@@ -5007,7 +5008,7 @@ public class FigFontBannerResources {
      * _____) )| |__ | |_| || | | |
      * (______/  \___) \___/ | ||_/
      * |_|
-     * </pre>
+     * }</pre>
      */
     public static final String STOP = "stop";
 
@@ -5016,12 +5017,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __
      * (_ |_ _ _ . _ |_ |_
      * __)|_| (_||(_)| )|_
      * _/
-     * </pre>
+     * }</pre>
      */
     public static final String STRAIGHT = "straight";
 
@@ -5030,7 +5031,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .________|_____._\.______  ._______  :.______  :._____  ._______:.______  _____._\.___.__  .______  .______  :.______  .___   �.___   �
      *    ___/__ _:| : __   \� .___  \ |      \�:_ ___\  .____/| : __   \�__ _:| :   |  \:            \�:      �|   |  |   | �
      * |___     |  :| |  \____ :   |  ||�|      |   |___: _/\ | �|  \____ |  :|� |   : �\ |   . �|      \ |   . � |   |� |   |
@@ -5040,7 +5041,7 @@ public class FigFontBannerResources {
      *        |             �    :  |      �| :   :�     �        |    �|___|      |___|    |      � |___|    _____/  _____/ 
      * �                          �         /     �                 �                          �                        �     �
      * �:                                                                           �        �
-     * </pre>
+     * }</pre>
      */
     public static final String STRONGER_THAN_ALL = "stronger_than_all";
 
@@ -5049,14 +5050,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______     __  __     ______     ______     ______     ______     ______
      * /\  ___\   /\ \/\ \   /\  == \   /\___  \   /\  ___\   /\  == \   /\  __ \
      * \ \___  \  \ \ \_\ \  \ \  __<   \/_/  /__  \ \  __\   \ \  __<   \ \ \/\ \
      * \/\_____\  \ \_____\  \ \_____\   /\_____\  \ \_____\  \ \_\ \_\  \ \_____\
      * \/_____/   \/_____/   \/_____/   \/_____/   \/_____/   \/_/ /_/   \/_____/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SUB_ZERO = "sub_zero";
 
@@ -5065,7 +5066,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______   __ __ __   ________   ___ __ __   ______   __       ________   ___   __    ______
      * /_____/\ /_//_//_/\ /_______/\ /__//_//_/\ /_____/\ /_/\     /_______/\ /__/\ /__/\ /_____/\
      * \::::_\/_\:\\:\\:\ \\::: _  \ \\::\| \| \ \\:::_ \ \\:\ \    \::: _  \ \\::\_\\  \ \\:::_ \ \
@@ -5074,7 +5075,7 @@ public class FigFontBannerResources {
      * /____\:\\:\\:\\:\ \\:.\ \  \ \\. \  \  \ \\ \ \    \:\/___/\\:.\ \  \ \\. \`-\  \ \\:\/.:| |
      * \_____\/ \_______\/ \__\/\__\/ \__\/ \__\/ \_\/     \_____\/ \__\/\__\/ \__\/ \__\/ \____/_/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SWAMPLAND = "swampland";
 
@@ -5083,7 +5084,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ______   __ __ __   ________   ___ __ __   ______         __       ________   ___   __    ______
      * /_____/\ /_//_//_/\ /_______/\ /__//_//_/\ /_____/\       /_/\     /_______/\ /__/\ /__/\ /_____/\
      * \::::_\/_\:\\:\\:\ \\::: _  \ \\::\| \| \ \\:::_ \ \      \:\ \    \::: _  \ \\::\_\\  \ \\:::_ \ \
@@ -5092,7 +5093,7 @@ public class FigFontBannerResources {
      * /____\:\\:\\:\\:\ \\:.\ \  \ \\. \  \  \ \\ \ \ /______/\\:\/___/\\:.\ \  \ \\. \`-\  \ \\:\/.:| |
      * \_____\/ \_______\/ \__\/\__\/ \__\/ \__\/ \_\/ \__::::\/ \_____\/ \__\/\__\/ \__\/ \__\/ \____/_/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SWAMP_LAND = "swamp_land";
 
@@ -5101,7 +5102,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      *
      * .-.
@@ -5111,7 +5112,7 @@ public class FigFontBannerResources {
      * `-'  `' `'   `-'`-'  `-
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SWAN = "swan";
 
@@ -5120,7 +5121,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___
      * (   )
      * .--.     ___  ___  ___   .--.     .--.    | |_
@@ -5134,7 +5135,7 @@ public class FigFontBannerResources {
      * '.___.'     '.__.'.__.'   `.__.'   `.__.'    `.__.
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String SWEET = "sweet";
 
@@ -5143,14 +5144,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * @@@@@@          @@@@@@@  @@@       @@@@@@   @@@@@@  @@@@@@@
      * !@@              @@!  @@@ @@!      @@!  @@@ @@!  @@@ @@!  @@@
      * !@@!!           @!@!@!@  @!!      @!@  !@! @!@  !@! @!@  !@!
      * !:!          !!:  !!! !!:      !!:  !!! !!:  !!! !!:  !!!
      * ::.: :  .......  :: : ::  : ::.: :  : :. :   : :. :  :: :  :
      * : :: : :
-     * </pre>
+     * }</pre>
      */
     public static final String S_BLOOD = "s_blood";
 
@@ -5159,7 +5160,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____/\\\\\\\\\\\___        ___________________        _______________        ________________        __/\\\\\\____        _______        ________________        ________/\\\\\_
      * ___/\\\/////////\\\_        ___________________        _______________        ________________        _\////\\\____        _______        ________________        ______/\\\///__
      * __\//\\\______\///__        ___________________        _______________        ________________        ____\/\\\____        __/\\\_        ________________        _____/\\\______
@@ -5169,7 +5170,7 @@ public class FigFontBannerResources {
      * __/\\\______\//\\\__        ___________________        _\/\\\_________        _\//\\///////___        ____\/\\\____        _\/\\\_        _\//\\///////___        ____\/\\\______
      * _\///\\\\\\\\\\\/___        __/\\\\\\\\\\\\\\\_        _\/\\\_________        __\//\\\\\\\\\\_        __/\\\\\\\\\_        _\/\\\_        __\//\\\\\\\\\\_        ____\/\\\______
      * ___\///////////_____        _\///////////////__        _\///__________        ___\//////////__        _\/////////__        _\///__        ___\//////////__        ____\///_______
-     * </pre>
+     * }</pre>
      */
     public static final String S_RELIEF = "s_relief";
 
@@ -5178,7 +5179,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * T)tttttt                      ##
      * T)
      * T)    a)AAAA  n)NNNN       j) a)AAAA
@@ -5187,7 +5188,7 @@ public class FigFontBannerResources {
      * T)     a)AAAA n)   NN      j)  a)AAAA
      * j)   JJ
      * j)JJJ
-     * </pre>
+     * }</pre>
      */
     public static final String TANJA = "tanja";
 
@@ -5196,7 +5197,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .dP'                                               db
      * dP'                                               db    db
      * "Ybaaaaaaaaad8'
@@ -5207,7 +5208,7 @@ public class FigFontBannerResources {
      * 88                                          88  .88888888b.           dP'  b
      * 88                                          88                        Y.  ,P
      * .8P                                          Y8.                        `""'
-     * </pre>
+     * }</pre>
      */
     public static final String TENGWAR = "tengwar";
 
@@ -5216,12 +5217,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _________  __________ __________ _________
      * /__     __\/   /_____//_________//__     __\
      * `%%|___|%%'\___\%%%%%'`%%%%%%%%%/`%%|___|%%'
      * `B'     `BBBBBBBB'`BBBBBBBB'     `B'
-     * </pre>
+     * }</pre>
      */
     public static final String TEST1 = "test1";
 
@@ -5230,7 +5231,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ▄▄▄ ▄  █▄███�▄███�██▄  ▄▀ ▄███�
      * ▄▀ ▀� █   ▄   █▀   �   █▀   �   █  � ▄▀  �   █▀   �
      * �▀ █    � ██▀  ██▄▀  ██▄█  █    █ ▀��  ██▄�
@@ -5238,7 +5239,7 @@ public class FigFontBannerResources {
      * █       █   █ ▄▀ ▀█ ▄▀ ▀█ █  █  █  � ▄▀ ▀█
      * ▀             █  ██▀     ██▀     ██▀�██  ██▀
      * ▀
-     * </pre>
+     * }</pre>
      */
     public static final String THE_EDGE = "the_edge";
 
@@ -5247,13 +5248,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * 88888 8     w      8
      * 8   8d8b. w .d8b 8.dP
      * 8   8P Y8 8 8    88b
      * 8   8   8 8 `Y8P 8 Yb
      *
-     * </pre>
+     * }</pre>
      */
     public static final String THICK = "thick";
 
@@ -5262,14 +5263,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * --.--|    o
      * |  |---..,---.
      * |  |   |||   |
      * `  `   '``   '
      *
-     * </pre>
+     * }</pre>
      */
     public static final String THIN = "thin";
 
@@ -5278,7 +5279,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ▄▀▀▀� ▄▀▀▄ ▄ ▄▀▀█▀▄▀▀▀
      * �▀▀▄ █ ▄  █  █   �▄   █   █▀▄ █ �
      * █  ▐ ▐��▀ ▐  █▄ █  ▐   █�   ▐    �
@@ -5286,7 +5287,7 @@ public class FigFontBannerResources {
      * ��       ▄▀   █    ▄▀    ▄▀▀▀�  █   █�
      * █      ▄▀   █   ▀▀▄  █  ��▀▀    �
      * ▐        ��     ▐   ▐     █ ▐    ��
-     * </pre>
+     * }</pre>
      */
     public static final String THIS = "this";
 
@@ -5295,13 +5296,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___, ,  _, ,_  ,  ,  _,  ,_
      * ' | |_|,/ \,|_) |\ | /_,  | \,
      * |'| |'\_/'| \ |'\|'\_  _|_/
      * ' ' ` '   '  `'  `   `'
      *
-     * </pre>
+     * }</pre>
      */
     public static final String THORNED = "thorned";
 
@@ -5310,11 +5311,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ~|~|_  _ _  _  _  _ . _ _|_
      * | | || (/_(/_|_)(_)|| | |
      * |
-     * </pre>
+     * }</pre>
      */
     public static final String THREEPOINT = "threepoint";
 
@@ -5323,11 +5324,11 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ~|~|_  _ _  _    _  _ . _ _|_
      * | | || (/_(/___|_)(_)|| | |
      * |
-     * </pre>
+     * }</pre>
      */
     public static final String THREE_POINT = "three_point";
 
@@ -5336,14 +5337,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _/\/\/\/\/\/\__/\/\________________/\/\___________________
      * _____/\/\________________/\/\/\/\__/\/\__/\/\____/\/\/\/\_
      * _____/\/\______/\/\____/\/\________/\/\/\/\____/\/\/\/\___
      * _____/\/\______/\/\____/\/\________/\/\/\/\__________/\/\_
      * _____/\/\______/\/\/\____/\/\/\/\__/\/\__/\/\__/\/\/\/\___
      * __________________________________________________________
-     * </pre>
+     * }</pre>
      */
     public static final String TICKS = "ticks";
 
@@ -5352,14 +5353,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _/\/\/\/\/\/\__/\/\________________/\/\________________________________/\/\______________________________/\/\_____
      * _____/\/\________________/\/\/\/\__/\/\__/\/\____/\/\/\/\____/\/\/\/\__/\/\____/\/\/\______/\/\/\/\____/\/\/\/\/\_
      * _____/\/\______/\/\____/\/\________/\/\/\/\____/\/\/\/\____/\/\/\/\____/\/\________/\/\____/\/\__/\/\____/\/\_____
      * _____/\/\______/\/\____/\/\________/\/\/\/\__________/\/\________/\/\__/\/\____/\/\/\/\____/\/\__/\/\____/\/\_____
      * _____/\/\______/\/\/\____/\/\/\/\__/\/\__/\/\__/\/\/\/\____/\/\/\/\____/\/\/\__/\/\/\/\/\__/\/\__/\/\____/\/\/\___
      * __________________________________________________________________________________________________________________
-     * </pre>
+     * }</pre>
      */
     public static final String TICKSSLANT = "ticksslant";
 
@@ -5368,14 +5369,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _/\/\/\/\/\/\__/\/\________________/\/\______________________________________________/\/\______________________________/\/\_____
      * _____/\/\________________/\/\/\/\__/\/\__/\/\____/\/\/\/\__________________/\/\/\/\__/\/\____/\/\/\______/\/\/\/\____/\/\/\/\/\_
      * _____/\/\______/\/\____/\/\________/\/\/\/\____/\/\/\/\__________________/\/\/\/\____/\/\________/\/\____/\/\__/\/\____/\/\_____
      * _____/\/\______/\/\____/\/\________/\/\/\/\__________/\/\______________________/\/\__/\/\____/\/\/\/\____/\/\__/\/\____/\/\_____
      * _____/\/\______/\/\/\____/\/\/\/\__/\/\__/\/\__/\/\/\/\__________________/\/\/\/\____/\/\/\__/\/\/\/\/\__/\/\__/\/\____/\/\/\___
      * ___________________________________________________________/\/\/\/\/\/\_________________________________________________________
-     * </pre>
+     * }</pre>
      */
     public static final String TICKS_SLANT = "ticks_slant";
 
@@ -5384,7 +5385,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * [... [......    [..
      * [..     [. [..
      * [..        [..   [..     [....
@@ -5393,7 +5394,7 @@ public class FigFontBannerResources {
      * [..    [.. [..[.            [..
      * [..    [..[...  [....   [.. [..
      *
-     * </pre>
+     * }</pre>
      */
     public static final String TILES = "tiles";
 
@@ -5402,7 +5403,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * o-O-o        o                  o
      * |   o      | /                |
      * |     o-o  OO   o-o o-o      -o- o-o o  o
@@ -5410,7 +5411,7 @@ public class FigFontBannerResources {
      * o   | o  o o  o o-o o         o  o-o o--O
      * o---o           |
      * o--o
-     * </pre>
+     * }</pre>
      */
     public static final String TINKER_TOY = "tinker_toy";
 
@@ -5419,13 +5420,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ___  _, _, _ __,  _, ___  _, _, _ __,
      * |  / \ |\/| |_) (_   |  / \ |\ | |_
      * |  \ / |  | |_) , )  |  \ / | \| |
      * ~   ~  ~  ~ ~    ~   ~   ~  ~  ~ ~~~
      *
-     * </pre>
+     * }</pre>
      */
     public static final String TOMBSTONE = "tombstone";
 
@@ -5434,14 +5435,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _____                     _
      * |_   _|    _ _   __ _     (_)    _ _
      * | |     | '_| / _` |    | |   | ' \
      * _|_|_   _|_|_  \__,_|   _|_|_  |_||_|
      * _|"""""|_|"""""|_|"""""|_|"""""|_|"""""|
      * "`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'"`-0-0-'
-     * </pre>
+     * }</pre>
      */
     public static final String TRAIN = "train";
 
@@ -5450,14 +5451,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * dBBBBBBP dBBBBBb    dBBBP  dBP dBP
      * dBP          d8P.dBP
      * dBP     dBBBBK   dBBP   dBBBBP
      * dBP     dBP  BB  dBP    dBP BB
      * dBP     dBP  dB' dBBBBP dBP dBP
      *
-     * </pre>
+     * }</pre>
      */
     public static final String TREK = "trek";
 
@@ -5466,13 +5467,13 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * __    __    __    ___     __     ___   ___
      * \  /    /  \  |  \    |     |  \     |_-_  |
      * \/   __\___  |   \   |     |   \ `\/\    .|()
      * _ /        \   |   /   |  .  |   /  |  |  ()|'
      * \/      \__/   |__/    `__'  |__/    \/    _|_
-     * </pre>
+     * }</pre>
      */
     public static final String TSALAGI = "tsalagi";
 
@@ -5481,7 +5482,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * O~~~ O~~~~~~        O~~               O~~
      * O~~            O~~               O~~
      * O~~    O~~  O~~O~~      O~~  O~~ O~~   O~~    O~ O~~~
@@ -5490,7 +5491,7 @@ public class FigFontBannerResources {
      * O~~    O~~  O~~O~~   O~~O~~  O~~ O~~O~~   O~~  O~~
      * O~~      O~~O~~O~~ O~~    O~~O~~O~~~  O~~ O~~~O~~~
      *
-     * </pre>
+     * }</pre>
      */
     public static final String TUBULAR = "tubular";
 
@@ -5499,7 +5500,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * _______   _      _   __  ______   _______     _____  _____
      * /\_______)\/_/\  /\_\ /\_\/ ____/\/\_______)\ /\_____\/\ __/\
      * \(___  __\/) ) )( ( ( \/_/) ) __\/\(___  __\/( (_____/) )  \ \
@@ -5508,7 +5509,7 @@ public class FigFontBannerResources {
      * \ \ \    )_) /\ (_(( (_()____) )  \ \ \    ( (_____\) )__/ /
      * /_/_/    \_\/  \/_/ \/_/\____\/   /_/_/     \/_____/\/___\/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String TWISTED = "twisted";
 
@@ -5517,10 +5518,10 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ~|~     _ |) _ o._ _|_
      * | \/\/(_)| (_)|| | |
-     * </pre>
+     * }</pre>
      */
     public static final String TWOPOINT = "twopoint";
 
@@ -5529,10 +5530,10 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ~|~     _   |) _ o._ _|_
      * | \/\/(_)__| (_)|| | |
-     * </pre>
+     * }</pre>
      */
     public static final String TWO_POINT = "two_point";
 
@@ -5541,7 +5542,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * 88        88               88
      * 88        88               ""
@@ -5553,7 +5554,7 @@ public class FigFontBannerResources {
      * `"Y8888Y"'   88       88  88      "8"       `"Ybbd8"'  88          `"YbbdP"'
      *
      *
-     * </pre>
+     * }</pre>
      */
     public static final String UNIVERS = "univers";
 
@@ -5562,14 +5563,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * :::  === :::===  :::====  :::===== :::      :::====  :::=====
      * :::  === :::     :::  === :::      :::      :::  === :::
      * ===  ===  =====  ======== ======   ===      ======== === =====
      * ===  ===     === ===  === ===      ===      ===  === ===   ===
      * ======  ======  ===  === ===      ======== ===  ===  =======
      *
-     * </pre>
+     * }</pre>
      */
     public static final String USAFLAG = "usaflag";
 
@@ -5578,14 +5579,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * :::  === :::===  :::====           :::===== :::      :::====  :::=====
      * :::  === :::     :::  ===          :::      :::      :::  === :::
      * ===  ===  =====  ========          ======   ===      ======== === =====
      * ===  ===     === ===  ===          ===      ===      ===  === ===   ===
      * ======  ======  ===  ===          ===      ======== ===  ===  =======
      * ========
-     * </pre>
+     * }</pre>
      */
     public static final String USA_FLAG = "usa_flag";
 
@@ -5594,7 +5595,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * ____   ____                      _   _
      * |_  _| |_  _|                    (_) / |_
      * \ \   / /,--.   _ .--.  .--.   __ `| |-' _   __
@@ -5602,7 +5603,7 @@ public class FigFontBannerResources {
      * \ ' / // | |, | |     `'.'.  | | | |,  \ '/ /
      * \_/  \'-;__/[___]   [\__) )[___]\__/[\_:  /
      * \__.'
-     * </pre>
+     * }</pre>
      */
     public static final String VARSITY = "varsity";
 
@@ -5611,12 +5612,12 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * \  X  / _
      * \/ \/ (_( \) (_(
      * _)
-     * </pre>
+     * }</pre>
      */
     public static final String WAVY = "wavy";
 
@@ -5625,14 +5626,14 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      *
      * /  |      /         |
      * (   | ___    ___  ___|
      * | / )|___)| |   )|   )
      * |/|/ |__  | |    |__/
      *
-     * </pre>
+     * }</pre>
      */
     public static final String WEIRD = "weird";
 
@@ -5641,7 +5642,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.  .-.,---. _______ ,-.    ,---. _______  _______ ,---.  ,---.
      * | |/\| || .-'|__   __|| |    | .-'|__   __||__   __|| .-'  | .-.\
      * | /  \ || `-.  )| |   | |    | `-.  )| |     )| |   | `-.  | `-'/
@@ -5649,7 +5650,7 @@ public class FigFontBannerResources {
      * |(/  \ ||  `--. | |   | `--. |  `--. | |      | |   |  `--.| |\ \
      * (_)   \|/( __.' `-'   |( __.'/( __.' `-'      `-'   /( __.'|_| \)\
      * (__)           (_)   (__)                   (__)        (__)
-     * </pre>
+     * }</pre>
      */
     public static final String WETLETTER = "wetletter";
 
@@ -5658,7 +5659,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * .-.  .-.,---. _______ _,-.    ,---. _______  _______ ,---.  ,---.
      * | |/\| || .-'|__   __| | |    | .-'|__   __||__   __|| .-'  | .-.\
      * | /  \ || `-.  )| |    | |    | `-.  )| |     )| |   | `-.  | `-'/
@@ -5666,7 +5667,7 @@ public class FigFontBannerResources {
      * |(/  \ ||  `--. | |    | `--. |  `--. | |      | |   |  `--.| |\ \
      * (_)   \|/( __.' `-'    |( __.'/( __.' `-'      `-'   /( __.'|_| \)\
      * (__)            (_)   (__)                   (__)        (__)
-     * </pre>
+     * }</pre>
      */
     public static final String WET_LETTER = "wet_letter";
 
@@ -5675,7 +5676,7 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * d8b        d8,
      * ?88       `8P
      * 88b
@@ -5686,7 +5687,7 @@ public class FigFontBannerResources {
      * )88
      * ,d8P
      * `?888P'
-     * </pre>
+     * }</pre>
      */
     public static final String WHIMSY = "whimsy";
 
@@ -5695,9 +5696,9 @@ public class FigFontBannerResources {
      *
      * <p>Example:
      *
-     * <pre>
+     * <pre>{@code
      * \\/\\/ [[]] \\/\\/
-     * </pre>
+     * }</pre>
      */
     public static final String WOW = "wow";
 
