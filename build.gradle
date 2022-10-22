@@ -37,6 +37,16 @@ javadoc {
     options.addBooleanOption('Xdoclint:all,-missing', true)
 }
 
+jar {
+    manifest {
+        attributes(
+                'Implementation-Title': project.name,
+                'Implementation-Version': project.version,
+                'Implementation-Vendor': 'Alexengrig Dev.'
+        )
+    }
+}
+
 repositories {
     mavenCentral()
 }
