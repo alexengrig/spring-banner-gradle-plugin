@@ -35,4 +35,5 @@ jobs:
     - name: Execute Gradle check
       uses: gradle/gradle-build-action@v2
       with:
+        gradle-version: current
         arguments: check
