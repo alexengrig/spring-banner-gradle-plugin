@@ -1,12 +1,10 @@
 plugins {
-    id 'java-gradle-plugin'
-    id 'maven-publish'
     id 'com.gradle.plugin-publish' version '1.0.0'
 }
 
 group = 'dev.alexengrig.gradle'
 version = "${springBannerPluginVersion}"
-description = 'Spring Banner Gradle Plugin for generating banners'
+description = 'Spring Banner Gradle Plugin for generating banners.'
 
 gradlePlugin {
     plugins {
