@@ -7,14 +7,13 @@ plugins {
 
 group = 'io.github.alexengrig.gradle.demo'
 version = '0-SNAPSHOT'
+description = 'Spring Boot Banner Demo Application'
 sourceCompatibility = '17'
 
 springBanner {
     text = 'demo'
-    caption = """
-Description: \${application.description}
-Version: ${project.version}
-"""
+    caption = """Version: \${application.version:${project.version}}
+Description: \${application.description:${project.description}}"""
     font = 'soft'
 }
 

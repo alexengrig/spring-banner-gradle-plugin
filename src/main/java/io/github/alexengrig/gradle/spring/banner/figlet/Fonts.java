@@ -16,8 +16,8 @@
 
 package io.github.alexengrig.gradle.spring.banner.figlet;
 
-import java.util.HashSet;
 import java.util.Set;
+import java.util.TreeSet;
 
 /**
  * @since 0.1.0
@@ -28,11 +28,9 @@ public final class Fonts {
 
     public static Set<String> all() {
         if (NAMES == null) {
-            Set<String> local = FigFontBannerResources.all();
-            Set<String> library = LibraryFontLoader.all();
-            Set<String> result = new HashSet<>(local.size() + library.size());
-            result.addAll(local);
-            result.addAll(library);
+            Set<String> result = new TreeSet<>(String::compareTo);
+            result.addAll(FigFontBannerResources.all());
+            result.addAll(LibraryFontLoader.all());
             NAMES = result;
         }
         return NAMES;
