@@ -22,7 +22,7 @@ Add in your `build.gradle`:
 
 ```groovy
 plugins {
-    id 'dev.alexengrig.spring-banner' version '0.1.0'
+    id 'io.github.alexengrig.spring-banner' version '0.1.0'
 }
 ```
 
