@@ -4,14 +4,14 @@ plugins {
 
 group = 'io.github.alexengrig.gradle'
 version = "${springBannerPluginVersion}"
-description = 'Spring Banner Gradle Plugin for generating banners.'
+description = "Gradle plugin for generating Spring Boot 'banner.txt'"
 
 gradlePlugin {
     plugins {
         springBannerPlugin {
             id = 'io.github.alexengrig.spring-banner'
             displayName = 'Spring Banner Gradle Plugin'
-            description = project.description
+            description = "Generating Spring Boot 'banner.txt'"
             implementationClass = 'io.github.alexengrig.gradle.spring.banner.SpringBannerPlugin'
         }
     }
@@ -20,7 +20,7 @@ gradlePlugin {
 pluginBundle {
     website = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
     vcsUrl = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
-    tags = ['spring', 'banner']
+    tags = ['spring', 'spring-framework', 'spring-boot', 'banner']
 }
 
 java {

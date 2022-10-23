@@ -5,12 +5,17 @@
 Spring Banner Gradle Plugin for generating `banner.txt`.
 
 ```text
-                 _                   _                                 
-  ___ _ __  _ __(_)_ __   __ _      | |__   __ _ _ __  _ __   ___ _ __ 
- / __| '_ \| '__| | '_ \ / _` |_____| '_ \ / _` | '_ \| '_ \ / _ \ '__|
- \__ \ |_) | |  | | | | | (_| |_____| |_) | (_| | | | | | | |  __/ |   
- |___/ .__/|_|  |_|_| |_|\__, |     |_.__/ \__,_|_| |_|_| |_|\___|_|   
-     |_|                 |___/                                         
+                    _                   __                               
+   _________  _____(_)___  ____ _      / /_  ____ _____  ____  ___  _____
+  / ___/ __ \/ ___/ / __ \/ __ `/_____/ __ \/ __ `/ __ \/ __ \/ _ \/ ___/
+ (__  ) /_/ / /  / / / / / /_/ /_____/ /_/ / /_/ / / / / / / /  __/ /    
+/____/ .___/_/  /_/_/ /_/\__, /     /_.___/\__,_/_/ /_/_/ /_/\___/_/     
+    /_/                 /____/  ____                 __            _      
+          ____ __________ _____/ / /__        ____  / /_  ______ _(_)___  
+         / __ `/ ___/ __ `/ __  / / _ \______/ __ \/ / / / / __ `/ / __ \ 
+        / /_/ / /  / /_/ / /_/ / /  __/_____/ /_/ / / /_/ / /_/ / / / / / 
+        \__, /_/   \__,_/\__,_/_/\___/     / .___/_/\__,_/\__, /_/_/ /_/  
+       /____/                             /_/            /____/           
 ```
 
 > [See customizing the Spring Banner](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.spring-application.banner)
@@ -26,17 +31,15 @@ plugins {
 }
 ```
 
-Use `${project.version}` for values from Gradle and
-`\${application.description}` for values from Spring
+For `caption` use `\${application.version}` for values from Spring and
+`${project.version}` for values from Gradle
 in your `build.gradle`:
 
 ```groovy
 springBanner {
     font = 'soft'
-    caption = """
-Version: ${project.version}
-Description: \${application.description}
-"""
+    caption = """Version: \${application.version:${project.version}}
+Description: \${application.description:${project.description}}"""
 }
 ```
 
