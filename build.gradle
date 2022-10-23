@@ -1,6 +1,5 @@
 plugins {
     id 'com.gradle.plugin-publish' version '1.0.0'
-    id 'com.gradle.enterprise' version '3.11.2'
 }
 
 group = 'dev.alexengrig.gradle'
@@ -22,16 +21,6 @@ pluginBundle {
     website = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
     vcsUrl = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
     tags = ['spring']
-}
-
-gradleEnterprise {
-    if (System.getenv("CI") != null) {
-        buildScan {
-            publishAlways()
-            termsOfServiceUrl = "https://gradle.com/terms-of-service"
-            termsOfServiceAgree = "yes"
-        }
-    }
 }
 
 java {
