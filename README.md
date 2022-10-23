@@ -1,5 +1,7 @@
 # spring-banner-gradle-plugin
 
+[![Java CI with Gradle](https://github.com/alexengrig/spring-banner-gradle-plugin/actions/workflows/gradle.yml/badge.svg)](https://github.com/alexengrig/spring-banner-gradle-plugin/actions/workflows/gradle.yml)
+
 Spring Banner Gradle Plugin for generating `banner.txt`.
 
 ```text
