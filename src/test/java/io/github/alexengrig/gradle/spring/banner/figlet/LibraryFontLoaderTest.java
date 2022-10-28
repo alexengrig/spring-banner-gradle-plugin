@@ -16,9 +16,7 @@
 
 package io.github.alexengrig.gradle.spring.banner.figlet;
 
-import com.github.dtmo.jfiglet.FigFont;
 import com.github.dtmo.jfiglet.FigFontResources;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
 import java.util.Set;
@@ -26,16 +24,8 @@ import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class LibraryFontLoaderTest {
-
-    LibraryFontLoader loader;
-
-    @BeforeEach
-    void setUp() {
-        loader = new LibraryFontLoader();
-    }
 
     @Test
     void should_return_fontNames() {
@@ -64,29 +54,6 @@ class LibraryFontLoaderTest {
                         )
                         .map(FontLoader::getFontNameByFilename)
                         .collect(Collectors.toSet()));
-    }
-
-    @Test
-    void should_has_font() {
-        boolean hasFont = loader.hasFont("standard");
-        assertThat(hasFont)
-                .as("standard font")
-                .isTrue();
-    }
-
-    @Test
-    void should_load_font() {
-        FigFont font = loader.loadFont("standard");
-        assertThat(font)
-                .as("standard font")
-                .isNotNull();
-    }
-
-    @Test
-    void shouldNot_load_font() {
-        assertThatThrownBy(() -> loader.loadFont("non-existing-font"), "non existing font")
-                .isInstanceOf(NullPointerException.class)
-                .hasMessage("Not found font resource: non-existing-font.flf");
     }
 
 }

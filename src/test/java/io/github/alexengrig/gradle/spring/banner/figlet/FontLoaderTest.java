@@ -36,6 +36,7 @@ class FontLoaderTest {
                 .as("foo.flf")
                 .isEqualTo("foo");
     }
+
     @Test
     void should_check_font_by_filename() {
         assertThat(FontLoader.isFontByFilename("foo.flf"))
