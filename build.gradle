@@ -55,6 +55,9 @@ dependencies {
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junit5Version}"
 
     testImplementation "org.assertj:assertj-core:${assertJVersion}"
+
+    testImplementation "org.mockito:mockito-core:${mockitoVersion}"
+    testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
 }
 
 testSets {
