@@ -3,7 +3,7 @@
 ![Gradle Plugin Portal](https://img.shields.io/gradle-plugin-portal/v/io.github.alexengrig.spring-banner)
 [![GitHub](https://img.shields.io/github/license/alexengrig/spring-banner-gradle-plugin?style=flat&&color=informational)](LICENSE)
 
-[![Project CI](https://github.com/alexengrig/spring-banner-gradle-plugin/actions/workflows/gradle.yml/badge.svg)](https://github.com/alexengrig/spring-banner-gradle-plugin/actions/workflows/gradle.yml)
+[![Github Actions: Build & Test project](https://github.com/alexengrig/spring-banner-gradle-plugin/actions/workflows/build_and_test.yml/badge.svg)](https://github.com/alexengrig/spring-banner-gradle-plugin/actions/workflows/build_and_test.yml)
 
 Spring Banner Gradle Plugin for generating `banner.txt`.
 
