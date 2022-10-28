@@ -31,9 +31,9 @@ java {
     withJavadocJar()
 }
 
-compileJava.options.encoding = 'UTF-8'
-compileTestJava.options.encoding = 'UTF-8'
-javadoc.options.encoding = 'UTF-8'
+tasks.withType(JavaCompile) { options.encoding = 'UTF-8' }
+
+javadoc { options.encoding = 'UTF-8' }
 
 jar {
     manifest {
@@ -45,9 +45,7 @@ jar {
     }
 }
 
-repositories {
-    mavenCentral()
-}
+repositories { mavenCentral() }
 
 dependencies {
     implementation "com.github.dtmo.jfiglet:jfiglet:${jfigletVersion}"
@@ -62,29 +60,36 @@ dependencies {
 }
 
 testSets {
-    functionalTest
     integrationTest
+    functionalTest
 }
 
-tasks.withType(Test) { testTask ->
-    testTask.useJUnitPlatform()
-    check.dependsOn testTask
+tasks.withType(Test) {
+    useJUnitPlatform()
+    check.dependsOn it
 }
 
-jacoco {
-    toolVersion = '0.8.8'
-}
+jacoco { toolVersion = '0.8.8' }
 
-jacocoTestReport {
-    dependsOn test, integrationTest, functionalTest
+tasks.withType(JacocoReport) {
     reports {
         xml.enabled = true
         html.enabled = true
     }
+    jacocoTestCoverageVerification.dependsOn it
 }
+
+jacocoTestReport.dependsOn test
+jacocoIntegrationTestReport.dependsOn integrationTest
+jacocoFunctionalTestReport.dependsOn functionalTest
 
 jacocoTestCoverageVerification {
-    dependsOn jacocoTestReport
+    violationRules {
+        rule {
+            limit {
+                minimum = 0
+            }
+        }
+    }
+    check.dependsOn it
 }
-
-check.dependsOn jacocoTestCoverageVerification
