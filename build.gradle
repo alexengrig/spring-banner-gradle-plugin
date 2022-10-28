@@ -65,6 +65,7 @@ testSets {
     integrationTest
 }
 
-tasks.withType(Test).configureEach {
-    useJUnitPlatform()
+tasks.withType(Test) { testTask ->
+    testTask.useJUnitPlatform()
+    check.dependsOn testTask
 }
