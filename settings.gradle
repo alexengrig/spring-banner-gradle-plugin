@@ -1,13 +1,21 @@
+pluginManagement {
+    plugins {
+        id 'com.gradle.enterprise' version "${gradleEnterprisePluginVersion}"
+        id 'com.gradle.plugin-publish' version "${gradlePublishPluginVersion}"
+        id 'org.unbroken-dome.test-sets' version "${testSetsPluginVersion}"
+    }
+}
+
 plugins {
-    id 'com.gradle.enterprise' version '3.11.2'
+    id 'com.gradle.enterprise'
 }
 
 gradleEnterprise {
-    if (System.getenv("CI") != null) {
+    if (System.getenv('CI')) {
         buildScan {
             publishAlways()
-            termsOfServiceUrl = "https://gradle.com/terms-of-service"
-            termsOfServiceAgree = "yes"
+            termsOfServiceUrl = 'https://gradle.com/terms-of-service'
+            termsOfServiceAgree = 'yes'
         }
     }
 }

@@ -1,17 +1,18 @@
 plugins {
-    id 'com.gradle.plugin-publish' version "${gradlePublishPluginVersion}"
+    id 'com.gradle.plugin-publish'
+    id 'org.unbroken-dome.test-sets'
 }
 
 group = 'io.github.alexengrig.gradle'
 version = "${springBannerPluginVersion}"
-description = "Gradle plugin for generating Spring Boot 'banner.txt'"
+description = 'Spring Banner Gradle Plugin for generating banners.'
 
 gradlePlugin {
     plugins {
         springBannerPlugin {
             id = 'io.github.alexengrig.spring-banner'
             displayName = 'Spring Banner Gradle Plugin'
-            description = "Generating Spring Boot 'banner.txt'"
+            description = "Generating Spring Boot 'banner.txt'."
             implementationClass = 'io.github.alexengrig.gradle.spring.banner.SpringBannerPlugin'
         }
     }
@@ -31,11 +32,7 @@ java {
 
 compileJava.options.encoding = 'UTF-8'
 compileTestJava.options.encoding = 'UTF-8'
-
-javadoc {
-    options.encoding = 'UTF-8'
-    options.addBooleanOption('Xdoclint:all,-missing', true)
-}
+javadoc.options.encoding = 'UTF-8'
 
 jar {
     manifest {
@@ -53,8 +50,18 @@ repositories {
 
 dependencies {
     implementation "com.github.dtmo.jfiglet:jfiglet:${jfigletVersion}"
+
+    testImplementation "org.junit.jupiter:junit-jupiter-api:${junit5Version}"
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:${junit5Version}"
+
+    testImplementation "org.assertj:assertj-core:${assertJVersion}"
 }
 
-test {
+testSets {
+    functionalTest
+    integrationTest
+}
+
+tasks.withType(Test).configureEach {
     useJUnitPlatform()
 }
