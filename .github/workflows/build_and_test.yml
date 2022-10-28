@@ -34,10 +34,9 @@ jobs:
         uses: gradle/gradle-build-action@v2
         with:
           arguments: assemble
-
   check:
     name: Check
-    needs: [ prepare,build ]
+    needs: [ prepare, assemble ]
     runs-on: ubuntu-latest
     steps:
       - name: Execute Gradle 'check'
