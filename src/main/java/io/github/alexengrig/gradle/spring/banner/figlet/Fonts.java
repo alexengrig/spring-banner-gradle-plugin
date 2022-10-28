@@ -16,7 +16,7 @@
 
 package io.github.alexengrig.gradle.spring.banner.figlet;
 
-import java.util.Set;
+import java.util.SortedSet;
 import java.util.TreeSet;
 
 /**
@@ -24,13 +24,13 @@ import java.util.TreeSet;
  */
 public final class Fonts {
 
-    private static Set<String> NAMES;
+    private static SortedSet<String> NAMES;
 
-    public static Set<String> all() {
+    public static SortedSet<String> all() {
         if (NAMES == null) {
-            Set<String> result = new TreeSet<>(String::compareTo);
-            result.addAll(FigFontBannerResources.all());
-            result.addAll(LibraryFontLoader.all());
+            SortedSet<String> result = new TreeSet<>(String::compareTo);
+            result.addAll(LocalFontLoader.fontNames());
+            result.addAll(LibraryFontLoader.fontNames());
             NAMES = result;
         }
         return NAMES;

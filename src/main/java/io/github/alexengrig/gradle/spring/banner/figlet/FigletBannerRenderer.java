@@ -29,10 +29,18 @@ public final class FigletBannerRenderer {
 
     public static FigletBannerRenderer SINGLETON = new FigletBannerRenderer();
 
-    private final Set<FontLoader> fontLoaders = Set.of(
-            new LibraryFontLoader(),
-            new LocalFontLoader()
-    );
+    private final Set<FontLoader> fontLoaders;
+
+    public FigletBannerRenderer() {
+        this(Set.of(
+                new LibraryFontLoader(),
+                new LocalFontLoader()
+        ));
+    }
+
+    public FigletBannerRenderer(Set<FontLoader> fontLoaders) {
+        this.fontLoaders = fontLoaders;
+    }
 
     public String render(String font, String text) {
         Objects.requireNonNull(font, "font");
@@ -44,7 +52,7 @@ public final class FigletBannerRenderer {
                 return renderer.renderText(text);
             }
         }
-        throw new RuntimeException(font);
+        throw new IllegalArgumentException("Unknown font: " + font);
     }
 
 }

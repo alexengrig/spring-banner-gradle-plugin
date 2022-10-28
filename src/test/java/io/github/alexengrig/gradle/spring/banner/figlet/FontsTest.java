@@ -16,22 +16,22 @@
 
 package io.github.alexengrig.gradle.spring.banner.figlet;
 
-import com.github.dtmo.jfiglet.FigFont;
+import org.junit.jupiter.api.Test;
 
-interface FontLoader {
+import java.util.SortedSet;
 
-    String EXTENSION = ".flf";
+import static org.assertj.core.api.Assertions.assertThat;
 
-    static String getFontNameByFilename(String filename) {
-        return filename.substring(0, filename.lastIndexOf(EXTENSION));
+class FontsTest {
+
+    @Test
+    void should_return_fontNames() {
+        SortedSet<String> values = Fonts.all();
+        assertThat(values)
+                .as("names")
+                .hasSize(257)
+                .containsAll(LocalFontLoader.fontNames())
+                .containsAll(LibraryFontLoader.fontNames());
     }
-
-    static boolean isFontByFilename(String filename) {
-        return filename.endsWith(EXTENSION);
-    }
-
-    boolean hasFont(String font);
-
-    FigFont loadFont(String font);
 
 }
