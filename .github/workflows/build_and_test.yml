@@ -10,11 +10,11 @@ permissions:
   contents: read
 
 jobs:
+  env:
+    CI: true
   assemble:
     name: Assemble
     runs-on: ubuntu-latest
-    env:
-      CI: true
     steps:
       - name: Checkout project sources
         uses: actions/checkout@v3
@@ -32,8 +32,6 @@ jobs:
   check:
     name: Check
     runs-on: ubuntu-latest
-    env:
-      CI: true
     steps:
       - name: Checkout project sources
         uses: actions/checkout@v3
