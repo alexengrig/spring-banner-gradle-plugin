@@ -2,3 +2,7 @@
 **/.gradle/**
 **/build/**
 !**/src/**/build/**
+**/gradle/**
+!**/src/**/gradle/**
+**/gradlew
+**/gradlew.bat
