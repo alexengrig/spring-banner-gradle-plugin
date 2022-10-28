@@ -49,7 +49,6 @@ public interface SpringBannerExtension {
     default String getTextValue(Project project) {
         return getText()
                 .convention(project.getName())
-                .convention("spring")
                 .get();
     }
 
@@ -77,7 +76,7 @@ public interface SpringBannerExtension {
      */
     default String getCaptionValue() {
         return getCaption()
-                .convention("Powered by Spring Boot ${spring-boot.version}")
+                .convention("Powered by Spring Boot v${spring-boot.version}")
                 .get();
     }
 
