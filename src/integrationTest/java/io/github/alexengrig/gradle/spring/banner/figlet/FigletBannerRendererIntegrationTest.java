@@ -19,6 +19,7 @@ package io.github.alexengrig.gradle.spring.banner.figlet;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.assertThatThrownBy;
 
 class FigletBannerRendererIntegrationTest {
@@ -44,6 +45,28 @@ class FigletBannerRendererIntegrationTest {
         assertThatThrownBy(() -> renderer.render("font", null))
                 .isInstanceOf(NullPointerException.class)
                 .hasMessage("text");
+    }
+
+    @Test
+    void shouldNot_render_unknownFont() {
+        assertThatThrownBy(() -> renderer.render("unknown", "foo"))
+                .isInstanceOf(IllegalArgumentException.class)
+                .hasMessage("Unknown font: unknown");
+    }
+
+    @Test
+    void should_render_standardBanner() {
+        String banner = renderer.render("standard", "test");
+        @SuppressWarnings("TextBlockMigration")
+        String snapshot = "  _            _   \n" +
+                          " | |_ ___  ___| |_ \n" +
+                          " | __/ _ \\/ __| __|\n" +
+                          " | ||  __/\\__ \\ |_ \n" +
+                          "  \\__\\___||___/\\__|\n" +
+                          "                   ";
+        assertThat(banner)
+                .as("banner")
+                .isEqualTo(snapshot);
     }
 
 }

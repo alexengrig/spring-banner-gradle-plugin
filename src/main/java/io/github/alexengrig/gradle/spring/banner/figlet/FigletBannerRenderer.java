@@ -27,10 +27,16 @@ import java.util.Set;
  */
 public final class FigletBannerRenderer {
 
+    /**
+     * @since 0.1.0
+     */
     public static FigletBannerRenderer SINGLETON = new FigletBannerRenderer();
 
     private final Set<FontLoader> fontLoaders;
 
+    /**
+     * @since 0.1.0
+     */
     public FigletBannerRenderer() {
         this(Set.of(
                 new LibraryFontLoader(),
@@ -38,10 +44,16 @@ public final class FigletBannerRenderer {
         ));
     }
 
+    /**
+     * @since 0.1.0
+     */
     public FigletBannerRenderer(Set<FontLoader> fontLoaders) {
         this.fontLoaders = fontLoaders;
     }
 
+    /**
+     * @since 0.1.0
+     */
     public String render(String font, String text) {
         Objects.requireNonNull(font, "font");
         Objects.requireNonNull(text, "text");
