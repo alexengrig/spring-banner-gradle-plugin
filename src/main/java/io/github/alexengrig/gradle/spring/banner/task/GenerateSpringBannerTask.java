@@ -37,13 +37,20 @@ import java.util.Objects;
  */
 public class GenerateSpringBannerTask extends DefaultTask {
 
-    private static final String NAME = "generateBanner";
+    /**
+     * @since 0.1.0
+     */
+    public static final String NAME = "generateBanner";
+
     private static final String FILENAME = "banner.txt";
 
     private final Project project;
     private final SpringBannerExtension extension;
     private final FigletBannerRenderer renderer;
 
+    /**
+     * @since 0.1.0
+     */
     @Inject
     public GenerateSpringBannerTask(Project project, FigletBannerRenderer renderer) {
         this.project = project;
@@ -53,6 +60,9 @@ public class GenerateSpringBannerTask extends DefaultTask {
         setDescription("Generates '" + FILENAME + "'.");
     }
 
+    /**
+     * @since 0.1.0
+     */
     public static void register(Project project) {
         TaskContainer tasks = project.getTasks();
         var renderer = FigletBannerRenderer.SINGLETON;
@@ -64,6 +74,9 @@ public class GenerateSpringBannerTask extends DefaultTask {
         processResourceTask.finalizedBy(generateTask.get());
     }
 
+    /**
+     * @since 0.1.0
+     */
     @TaskAction
     public void generate() {
         Path path = Objects.requireNonNull(project.getExtensions()

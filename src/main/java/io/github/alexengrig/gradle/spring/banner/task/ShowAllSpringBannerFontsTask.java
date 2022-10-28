@@ -27,7 +27,10 @@ import org.gradle.api.tasks.TaskContainer;
  */
 public class ShowAllSpringBannerFontsTask extends DefaultTask {
 
-    private static final String NAME = "showAllBannerFonts";
+    /**
+     * @since 0.1.0
+     */
+    public static final String NAME = "showAllBannerFonts";
 
     /**
      * @since 0.1.0

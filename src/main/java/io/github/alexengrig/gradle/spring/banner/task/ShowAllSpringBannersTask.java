@@ -32,7 +32,10 @@ import java.util.StringJoiner;
  */
 public class ShowAllSpringBannersTask extends DefaultTask {
 
-    private static final String NAME = "showAllBanners";
+    /**
+     * @since 0.1.0
+     */
+    public static final String NAME = "showAllBanners";
 
     private final Project project;
     private final SpringBannerExtension extension;

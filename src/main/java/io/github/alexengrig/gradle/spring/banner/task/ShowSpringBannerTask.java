@@ -30,7 +30,10 @@ import javax.inject.Inject;
  */
 public class ShowSpringBannerTask extends DefaultTask {
 
-    private static final String NAME = "showBanner";
+    /**
+     * @since 0.1.0
+     */
+    public static final String NAME = "showBanner";
 
     private final Project project;
     private final SpringBannerExtension extension;
