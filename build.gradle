@@ -1,6 +1,7 @@
 plugins {
     id 'com.gradle.plugin-publish'
     id 'org.unbroken-dome.test-sets'
+    id 'jacoco'
 }
 
 group = 'io.github.alexengrig.gradle'
@@ -69,3 +70,21 @@ tasks.withType(Test) { testTask ->
     testTask.useJUnitPlatform()
     check.dependsOn testTask
 }
+
+jacoco {
+    toolVersion = '0.8.8'
+}
+
+jacocoTestReport {
+    dependsOn test, integrationTest, functionalTest
+    reports {
+        xml.enabled = true
+        html.enabled = true
+    }
+}
+
+jacocoTestCoverageVerification {
+    dependsOn jacocoTestReport
+}
+
+check.dependsOn jacocoTestCoverageVerification
