@@ -28,8 +28,10 @@ import org.gradle.api.tasks.TaskContainer;
 
 import javax.inject.Inject;
 import java.io.IOException;
+import java.io.UncheckedIOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.StandardOpenOption;
 import java.util.Objects;
 
 /**
@@ -95,9 +97,13 @@ public class GenerateSpringBannerTask extends DefaultTask {
                 ? banner
                 : banner + separator + caption;
         try {
-            Files.writeString(path, result + separator);
+            Path dir = path.getParent();
+            if (!Files.exists(dir)) {
+                Files.createDirectories(dir);
+            }
+            Files.write(path, (result + separator).getBytes(), StandardOpenOption.CREATE);
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            throw new UncheckedIOException(e);
         }
     }
 

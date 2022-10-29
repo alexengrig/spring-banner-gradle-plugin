@@ -27,8 +27,11 @@ import org.junit.jupiter.api.io.TempDir;
 
 import java.io.IOException;
 import java.io.UncheckedIOException;
+import java.net.URISyntaxException;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
 import static org.assertj.core.api.Assertions.assertThat;
@@ -44,14 +47,23 @@ class SpringBannerPluginFunctionalTest {
 
     void writeString(Path file, String text) {
         try {
-            Files.write(file, text.getBytes(), StandardOpenOption.CREATE, StandardOpenOption.APPEND);
+            Files.deleteIfExists(file);
+            Files.write(file, text.getBytes(), StandardOpenOption.CREATE_NEW);
         } catch (IOException e) {
             throw new UncheckedIOException(e);
         }
     }
 
-    void writeBuild(String text) {
-        writeString(buildFile, text);
+    void appendString(Path file, String text) {
+        try {
+            Files.write(file, text.getBytes(), StandardOpenOption.APPEND);
+        } catch (IOException e) {
+            throw new UncheckedIOException(e);
+        }
+    }
+
+    void build(String text) {
+        appendString(buildFile, text);
     }
 
     GradleRunner gradleRunner() {
@@ -66,7 +78,7 @@ class SpringBannerPluginFunctionalTest {
         writeString(settingsFile, "rootProject.name = '" + projectName + "'");
         buildFile = projectDir.resolve("build.gradle");
         // language=groovy
-        writeBuild("""
+        writeString(buildFile, """
                 plugins {
                     id 'java'
                     id 'io.github.alexengrig.spring-banner'
@@ -103,7 +115,7 @@ class SpringBannerPluginFunctionalTest {
     @Test
     void should_showBanner_custom() {
         // language=groovy
-        writeBuild("""
+        build("""
                 springBanner {
                     text = 'foo'
                     separator = '::'
@@ -133,6 +145,38 @@ class SpringBannerPluginFunctionalTest {
                             "  ░██  ░░██████ ░░██████ " +
                             "  ░░    ░░░░░░   ░░░░░░  ::bar"
                     );
+        });
+    }
+
+    @Test
+    void should_generateBanner_custom() throws URISyntaxException {
+        URL resource = SpringBannerPluginFunctionalTest.class.getClassLoader().getResource("gen.txt");
+        assertThat(resource)
+                .as("gen.txt")
+                .isNotNull();
+        Path expectedBanner = Paths.get(resource.toURI());
+        // language=groovy
+        build("""
+                springBanner {
+                    text = 'gen'
+                }
+                """);
+        BuildResult result = gradleRunner()
+                .withArguments("generateBanner")
+                .withDebug(true)
+                .build();
+        SoftAssertions.assertSoftly(softly -> {
+            assertThat(result.task(":generateBanner"))
+                    .as("task :generateBanner")
+                    .isNotNull()
+                    .extracting(BuildTask::getOutcome)
+                    .as("task outcome")
+                    .isEqualTo(TaskOutcome.SUCCESS);
+            Path banner = projectDir.resolve("build/resources/main/banner.txt");
+            softly.assertThat(banner)
+                    .as("build/resources/main/banner.txt")
+                    .exists()
+                    .hasSameBinaryContentAs(expectedBanner);
         });
     }
 
