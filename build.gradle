@@ -100,7 +100,7 @@ gradlePlugin {
     plugins {
         springBannerPlugin {
             id = 'io.github.alexengrig.spring-banner'
-            displayName = 'Spring Banner Gradle Plugin'
+            displayName = "${projectName}"
             description = "Generating Spring Boot 'banner.txt'."
             implementationClass = 'io.github.alexengrig.gradle.spring.banner.SpringBannerPlugin'
         }
@@ -109,7 +109,52 @@ gradlePlugin {
 }
 
 pluginBundle {
-    website = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
-    vcsUrl = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
+    website = "${projectGithubUrl}"
+    vcsUrl = "${projectGithubUrl}"
     tags = ['spring', 'spring-framework', 'spring-boot', 'banner']
+}
+
+// PUBLISH
+
+publishing {
+    publications.withType(MavenPublication) {
+        pom {
+            name = "${projectName}"
+            url = "${projectGithubUrl}"
+            licenses {
+                license {
+                    name = 'Apache License, Version 2.0'
+                    url = 'https://www.apache.org/licenses/LICENSE-2.0'
+                    distribution = 'repo'
+                }
+            }
+            developers {
+                developer {
+                    id = 'alexengrig'
+                    name = 'Grig Alex'
+                    email = 'alexengrigdev@gmail.com'
+                }
+            }
+            issueManagement {
+                url = "${projectGithubUrl}/issues"
+                system = 'GitHub Issues'
+            }
+            ciManagement {
+                url = "${projectGithubUrl}/actions"
+                system = 'GitHub Actions'
+            }
+            scm {
+                connection = "scm:git:${projectGithubUrl}.git"
+                developerConnection = "scm:git:${projectGithubUrl}.git"
+                url = "${projectGithubUrl}"
+            }
+        }
+    }
+    afterEvaluate {
+        publications.named('pluginMaven') {
+            pom {
+                description = project.description
+            }
+        }
+    }
 }
