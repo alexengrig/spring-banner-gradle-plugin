@@ -75,6 +75,16 @@ jacocoTestReport.dependsOn test
 jacocoIntegrationTestReport.dependsOn integrationTest
 jacocoFunctionalTestReport.dependsOn functionalTest
 
+tasks.register('jacocoAllTestsReport', JacocoReport) {
+    group = JavaBasePlugin.VERIFICATION_GROUP
+    description = 'Generates code coverage report for the all tests.'
+    sourceSets(project.sourceSets[SourceSet.MAIN_SOURCE_SET_NAME])
+    final def testTasks = tasks.withType(Test).toArray(Task[]::new)
+    executionData(testTasks)
+    dependsOn testTasks
+    jacocoTestCoverageVerification.dependsOn it
+}
+
 tasks.withType(JacocoReport) {
     reports {
         xml.enabled = true
