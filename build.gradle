@@ -4,26 +4,13 @@ plugins {
     id 'jacoco'
 }
 
+// PROJECT
+
 group = 'io.github.alexengrig.gradle'
 version = "${projectVersion}"
 description = 'Spring Banner Gradle Plugin for generating banners.'
 
-gradlePlugin {
-    plugins {
-        springBannerPlugin {
-            id = 'io.github.alexengrig.spring-banner'
-            displayName = 'Spring Banner Gradle Plugin'
-            description = "Generating Spring Boot 'banner.txt'."
-            implementationClass = 'io.github.alexengrig.gradle.spring.banner.SpringBannerPlugin'
-        }
-    }
-}
-
-pluginBundle {
-    website = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
-    vcsUrl = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
-    tags = ['spring', 'spring-framework', 'spring-boot', 'banner']
-}
+// JAVA
 
 java {
     sourceCompatibility = JavaVersion.VERSION_17
@@ -45,6 +32,8 @@ jar {
     }
 }
 
+// DEPENDENCY
+
 repositories { mavenCentral() }
 
 dependencies {
@@ -58,6 +47,8 @@ dependencies {
     testImplementation "org.mockito:mockito-core:${mockitoVersion}"
     testImplementation "org.mockito:mockito-junit-jupiter:${mockitoVersion}"
 }
+
+// TEST
 
 testSets {
     functionalTest
@@ -101,4 +92,24 @@ jacocoTestCoverageVerification {
         }
     }
     check.dependsOn it
+}
+
+// PLUGIN
+
+gradlePlugin {
+    plugins {
+        springBannerPlugin {
+            id = 'io.github.alexengrig.spring-banner'
+            displayName = 'Spring Banner Gradle Plugin'
+            description = "Generating Spring Boot 'banner.txt'."
+            implementationClass = 'io.github.alexengrig.gradle.spring.banner.SpringBannerPlugin'
+        }
+    }
+    testSourceSets(sourceSets.functionalTest, sourceSets.integrationTest)
+}
+
+pluginBundle {
+    website = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
+    vcsUrl = 'https://github.com/alexengrig/spring-banner-gradle-plugin'
+    tags = ['spring', 'spring-framework', 'spring-boot', 'banner']
 }
