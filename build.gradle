@@ -5,7 +5,7 @@ plugins {
 }
 
 group = 'io.github.alexengrig.gradle'
-version = "${springBannerPluginVersion}"
+version = "${projectVersion}"
 description = 'Spring Banner Gradle Plugin for generating banners.'
 
 gradlePlugin {
@@ -60,8 +60,8 @@ dependencies {
 }
 
 testSets {
-    integrationTest
     functionalTest
+    integrationTest
 }
 
 tasks.withType(Test) {
@@ -69,19 +69,18 @@ tasks.withType(Test) {
     check.dependsOn it
 }
 
-jacoco { toolVersion = '0.8.8' }
+jacoco { toolVersion = "${jacocoToolVersion}" }
+
+jacocoTestReport.dependsOn test
+jacocoIntegrationTestReport.dependsOn integrationTest
+jacocoFunctionalTestReport.dependsOn functionalTest
 
 tasks.withType(JacocoReport) {
     reports {
         xml.enabled = true
         html.enabled = true
     }
-    jacocoTestCoverageVerification.dependsOn it
 }
-
-jacocoTestReport.dependsOn test
-jacocoIntegrationTestReport.dependsOn integrationTest
-jacocoFunctionalTestReport.dependsOn functionalTest
 
 jacocoTestCoverageVerification {
     violationRules {
