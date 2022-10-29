@@ -1,17 +1,13 @@
-name: CI
+name: CD
 
-on:
-  push:
-    branches: [ 'main' ]
-  pull_request:
-    branches: [ 'main' ]
+on: release
 
 permissions:
   contents: read
 
 jobs:
   job:
-    name: Build & Test
+    name: Release
     runs-on: ubuntu-latest
     env:
       CI: true
@@ -25,11 +21,14 @@ jobs:
           distribution: 'temurin'
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
-      - name: Execute Gradle 'assemble'
+      - name: Execute Gradle 'build'
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: assemble
-      - name: Execute Gradle 'check'
+          arguments: build
+      - name: Execute Gradle 'publishPlugins'
         uses: gradle/gradle-build-action@v2
         with:
-          arguments: check
+          arguments: |
+            publishPlugins 
+            -Pgradle.publish.key=${{ secrets.GRADLE_PUBLISH_KEY }} 
+            -Pgradle.publish.secret=${{ secrets.GRADLE_PUBLISH_SECRET }}
