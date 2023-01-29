@@ -7,6 +7,9 @@
 
 Spring Banner Gradle Plugin for generating `banner.txt`.
 
+> [See customizing the Spring Banner](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.spring-application.banner)
+> .
+
 ```text
                     _                   __                               
    _________  _____(_)___  ____ _      / /_  ____ _____  ____  ___  _____
@@ -20,9 +23,6 @@ Spring Banner Gradle Plugin for generating `banner.txt`.
         \__, /_/   \__,_/\__,_/_/\___/     / .___/_/\__,_/\__, /_/_/ /_/ 
        /____/                             /_/            /____/          
 ```
-
-> [See customizing the Spring Banner](https://docs.spring.io/spring-boot/docs/current/reference/html/features.html#features.spring-application.banner)
-> .
 
 ## Usage
 
